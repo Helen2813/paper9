@@ -1,0 +1,76 @@
+# ---- Data (never committed; re-downloadable or referenced from other projects)
+data/raw/**
+data/external/**
+data/interim/**
+data/processed/**
+!data/**/.gitkeep
+!data/README.md
+
+# ---- Results and logs (keep only small summaries)
+results/**
+!results/**/
+!results/.gitkeep
+!results/**/*_summary.json
+logs/**
+!logs/.gitkeep
+
+# ---- Third-party tools and references (MAGMA, LDSC, 1000G, PredictDB models)
+tools/**
+!tools/.gitkeep
+!tools/README.md
+
+# ---- Large / binary bio formats anywhere
+*.gz
+*.bgz
+*.tbi
+*.zip
+*.tar
+*.h5
+*.h5ad
+*.hdf5
+*.loom
+*.rds
+*.RData
+*.rda
+*.mtx
+*.bed
+*.bim
+*.fam
+*.pgen
+*.pvar
+*.psam
+*.parquet
+*.feather
+*.npy
+*.npz
+*.db
+*.sqlite
+
+# ---- Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.ipynb_checkpoints/
+.pytest_cache/
+
+# ---- R
+.Rhistory
+.Rproj.user/
+
+# ---- LaTeX build files (manuscript sources are committed)
+manuscript/**/*.aux
+manuscript/**/*.log
+manuscript/**/*.out
+manuscript/**/*.bbl
+manuscript/**/*.blg
+manuscript/**/*.synctex.gz
+manuscript/**/*.fdb_latexmk
+manuscript/**/*.fls
+
+# ---- OS / editors
+.DS_Store
+.idea/
+.vscode/
+*.swp
