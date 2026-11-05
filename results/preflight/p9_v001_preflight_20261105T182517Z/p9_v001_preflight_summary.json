@@ -1,0 +1,752 @@
+{
+  "task": "PAPER9_V001_PREFLIGHT",
+  "timestamp_utc": "20261105T182517Z",
+  "sources": [
+    {
+      "source_id": "GCST90205183",
+      "kind": "gwas_file",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90205001-GCST90206000/GCST90205183/GCST90205183_buildGRCh37.tsv.gz",
+      "status": "HTTP_200",
+      "detail": "137.9 MB"
+    },
+    {
+      "source_id": "GCST90205183",
+      "kind": "gwas_file",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90205001-GCST90206000/GCST90205183/GCST90205183_buildGRCh37.tsv.gz-meta.yaml",
+      "status": "HTTP_200",
+      "detail": "1.3 KB"
+    },
+    {
+      "source_id": "GCST90205183",
+      "kind": "gwas_file",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90205001-GCST90206000/GCST90205183/README.txt",
+      "status": "HTTP_200",
+      "detail": "529.0 B"
+    },
+    {
+      "source_id": "GCST90205183",
+      "kind": "gwas_file",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90205001-GCST90206000/GCST90205183/harmonised/GCST90205183.h.tsv.gz",
+      "status": "HTTP_200",
+      "detail": "158.1 MB"
+    },
+    {
+      "source_id": "GCST90205183",
+      "kind": "gwas_file",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90205001-GCST90206000/GCST90205183/harmonised/GCST90205183.h.tsv.gz-meta.yaml",
+      "status": "HTTP_200",
+      "detail": "1.4 KB"
+    },
+    {
+      "source_id": "GCST90205183",
+      "kind": "gwas_file",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90205001-GCST90206000/GCST90205183/harmonised/GCST90205183.h.tsv.gz.tbi",
+      "status": "HTTP_200",
+      "detail": "1.4 MB"
+    },
+    {
+      "source_id": "GCST90205183",
+      "kind": "gwas_file",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90205001-GCST90206000/GCST90205183/harmonised/GCST90205183.running.log",
+      "status": "HTTP_200",
+      "detail": "2.1 KB"
+    },
+    {
+      "source_id": "GCST90205183",
+      "kind": "gwas_file",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90205001-GCST90206000/GCST90205183/harmonised/md5sum.txt",
+      "status": "HTTP_200",
+      "detail": "281.0 B"
+    },
+    {
+      "source_id": "GCST90205183",
+      "kind": "gwas_file",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90205001-GCST90206000/GCST90205183/md5sum.txt",
+      "status": "HTTP_200",
+      "detail": "140.0 B"
+    },
+    {
+      "source_id": "FinnGen_R13_manifest",
+      "kind": "manifest",
+      "url": "https://storage.googleapis.com/finngen-public-data-r13/summary_stats/finngen_R13_manifest.tsv",
+      "status": "OK",
+      "detail": ""
+    },
+    {
+      "source_id": "FinnGen_N14_ENDOMETRIOSIS",
+      "kind": "gwas_file",
+      "url": "https://storage.googleapis.com/finngen-public-data-r13/summary_stats/finngen_R13_N14_ENDOMETRIOSIS.gz",
+      "status": "HTTP_200",
+      "detail": "766.3 MB"
+    },
+    {
+      "source_id": "FinnGen_N14_ENDOMETRIOSIS_OVARY",
+      "kind": "gwas_file",
+      "url": "https://storage.googleapis.com/finngen-public-data-r13/summary_stats/finngen_R13_N14_ENDOMETRIOSIS_OVARY.gz",
+      "status": "HTTP_200",
+      "detail": "765.3 MB"
+    },
+    {
+      "source_id": "FinnGen_N14_ENDOMETRIOSIS_PELVICPERITONEUM",
+      "kind": "gwas_file",
+      "url": "https://storage.googleapis.com/finngen-public-data-r13/summary_stats/finngen_R13_N14_ENDOMETRIOSIS_PELVICPERITONEUM.gz",
+      "status": "HTTP_200",
+      "detail": "765.0 MB"
+    },
+    {
+      "source_id": "FinnGen_N14_ENDOMETRIOSIS_DEEP",
+      "kind": "gwas_file",
+      "url": "https://storage.googleapis.com/finngen-public-data-r13/summary_stats/finngen_R13_N14_ENDOMETRIOSIS_DEEP.gz",
+      "status": "HTTP_200",
+      "detail": "764.5 MB"
+    },
+    {
+      "source_id": "GSE213216_suppl",
+      "kind": "geo_file",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE213nnn/GSE213216/suppl/GSE213216_RAW.tar",
+      "status": "HTTP_200",
+      "detail": "15.7 GB"
+    },
+    {
+      "source_id": "GSE213216_suppl",
+      "kind": "geo_file",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE213nnn/GSE213216/suppl/filelist.txt",
+      "status": "HTTP_200",
+      "detail": "4.3 KB"
+    },
+    {
+      "source_id": "GSE213216_matrix",
+      "kind": "geo_file",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE213nnn/GSE213216/matrix/GSE213216_series_matrix.txt.gz",
+      "status": "HTTP_200",
+      "detail": "5.3 KB"
+    },
+    {
+      "source_id": "GSE141549_suppl",
+      "kind": "geo_file",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE141nnn/GSE141549/suppl/GSE141549_Illumina_HumanHT-12_V4.0_expression_beadchip_normalized.xlsx",
+      "status": "HTTP_200",
+      "detail": "45.7 MB"
+    },
+    {
+      "source_id": "GSE141549_suppl",
+      "kind": "geo_file",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE141nnn/GSE141549/suppl/GSE141549_Illumina_HumanWG-6_v2.0_expression_beadchip_normalized.xlsx",
+      "status": "HTTP_200",
+      "detail": "206.5 MB"
+    },
+    {
+      "source_id": "GSE141549_suppl",
+      "kind": "geo_file",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE141nnn/GSE141549/suppl/GSE141549_Non-normalized_data_GA_illumina_expression_HumanWG-6.xls.gz",
+      "status": "HTTP_200",
+      "detail": "249.4 MB"
+    },
+    {
+      "source_id": "GSE141549_suppl",
+      "kind": "geo_file",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE141nnn/GSE141549/suppl/GSE141549_Non-normalized_data_GA_illumina_expression_platform_HumanHT-12.xls.gz",
+      "status": "HTTP_200",
+      "detail": "25.4 MB"
+    },
+    {
+      "source_id": "GSE141549_suppl",
+      "kind": "geo_file",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE141nnn/GSE141549/suppl/GSE141549_RAW.tar",
+      "status": "HTTP_200",
+      "detail": "38.2 MB"
+    },
+    {
+      "source_id": "GSE141549_suppl",
+      "kind": "geo_file",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE141nnn/GSE141549/suppl/GSE141549_Sample_link.xlsx",
+      "status": "HTTP_200",
+      "detail": "18.7 KB"
+    },
+    {
+      "source_id": "GSE141549_suppl",
+      "kind": "geo_file",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE141nnn/GSE141549/suppl/GSE141549_batchCorrectednormalizedArrayscombined.xlsx",
+      "status": "HTTP_200",
+      "detail": "146.5 MB"
+    },
+    {
+      "source_id": "GSE141549_suppl",
+      "kind": "geo_file",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE141nnn/GSE141549/suppl/filelist.txt",
+      "status": "HTTP_200",
+      "detail": "344.0 B"
+    },
+    {
+      "source_id": "GSE141549_matrix",
+      "kind": "geo_file",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE141nnn/GSE141549/matrix/GSE141549-GPL10558_series_matrix.txt.gz",
+      "status": "HTTP_200",
+      "detail": "4.5 KB"
+    },
+    {
+      "source_id": "GSE141549_matrix",
+      "kind": "geo_file",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE141nnn/GSE141549/matrix/GSE141549-GPL13376_series_matrix.txt.gz",
+      "status": "HTTP_200",
+      "detail": "9.8 KB"
+    },
+    {
+      "source_id": "GSE266265_suppl",
+      "kind": "geo_file",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE266nnn/GSE266265/suppl/GSE266265_EndoAtlas.rds",
+      "status": "HTTP_200",
+      "detail": "38.9 GB"
+    },
+    {
+      "source_id": "GSE266265_suppl",
+      "kind": "geo_file",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE266nnn/GSE266265/suppl/GSE266265_epithelial_cells_monocle3.rds",
+      "status": "HTTP_200",
+      "detail": "190.7 MB"
+    },
+    {
+      "source_id": "GSE266265_matrix",
+      "kind": "geo_file",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE266nnn/GSE266265/matrix/GSE266265_series_matrix.txt.gz",
+      "status": "HTTP_200",
+      "detail": "7.4 KB"
+    },
+    {
+      "source_id": "GSE51981_suppl",
+      "kind": "geo_file",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE51nnn/GSE51981/suppl/GSE51981_RAW.tar",
+      "status": "HTTP_200",
+      "detail": "711.8 MB"
+    },
+    {
+      "source_id": "GSE51981_suppl",
+      "kind": "geo_file",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE51nnn/GSE51981/suppl/filelist.txt",
+      "status": "HTTP_200",
+      "detail": "8.5 KB"
+    },
+    {
+      "source_id": "GSE51981_matrix",
+      "kind": "geo_file",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE51nnn/GSE51981/matrix/GSE51981_series_matrix.txt.gz",
+      "status": "HTTP_200",
+      "detail": "25.8 MB"
+    },
+    {
+      "source_id": "zenodo_3518299",
+      "kind": "zenodo",
+      "url": "https://zenodo.org/api/records/3518299",
+      "status": "OK",
+      "detail": "GWAS and GTEx QTL integration"
+    },
+    {
+      "source_id": "zenodo_3519321",
+      "kind": "zenodo",
+      "url": "https://zenodo.org/api/records/3519321",
+      "status": "OK",
+      "detail": "GTEx v8 Elastic Net prediction models"
+    },
+    {
+      "source_id": "zenodo_3569954",
+      "kind": "zenodo",
+      "url": "https://zenodo.org/api/records/3569954",
+      "status": "OK",
+      "detail": "GWAS summary statistics imputation support data and integration with PrediXcan M"
+    },
+    {
+      "source_id": "zenodo_10515792",
+      "kind": "zenodo",
+      "url": "https://zenodo.org/api/records/10515792",
+      "status": "OK",
+      "detail": "S-LDSC reference files"
+    },
+    {
+      "source_id": "MAGMA",
+      "kind": "web",
+      "url": "https://cncr.nl/research/magma/",
+      "status": "HTTP_200",
+      "detail": ""
+    },
+    {
+      "source_id": "HECA_portal",
+      "kind": "web",
+      "url": "https://www.reproductivecellatlas.org/",
+      "status": "HTTP_200",
+      "detail": ""
+    },
+    {
+      "source_id": "Mortlock_endometrial_eQTL",
+      "kind": "web",
+      "url": "http://reproductivegenomics.com.au/shiny/endo_eqtl_rna/",
+      "status": "HTTP_NA",
+      "detail": ""
+    }
+  ],
+  "gates": {
+    "G1": {
+      "status": "READY_DATA",
+      "notes": "GWAS=True GSE213216_matrix=True"
+    },
+    "G2": {
+      "status": "READY_DATA",
+      "notes": "PredictDB=True GSE141549_matrix=True"
+    },
+    "G3": {
+      "status": "READY_DATA",
+      "notes": "subtype_endpoints=C3_OVARY_ENDOMETROID,C3_OVARY_ENDOMETROID_WIDE,N14_ENDOMETRIOSIS_DEEP,N14_ENDOMETRIOSIS_INTESTINE,N14_ENDOMETRIOSIS_OVARY,N14_ENDOMETRIOSIS_PELVICPERITONEUM,N14_ENDOMETRIOSIS_RECTPVAGSEPT_VAGINA"
+    },
+    "G4": {
+      "status": "READY_DATA",
+      "notes": "P8_v232_export=True GSE266265_remote=True"
+    },
+    "G5": {
+      "status": "READY_DATA",
+      "notes": "fibroid=CD2_BENIGN_LEIOMYOMA_UTERI uterus/adenomyosis=N14_ENDOMETRIOSIS_UTERUS"
+    }
+  },
+  "env": {
+    "python": "3.9.6",
+    "machine": "arm64",
+    "ram_bytes": 25769803776,
+    "disk_free_bytes": 344795316224
+  },
+  "tools": {
+    "git": "/usr/bin/git",
+    "curl": "/usr/bin/curl",
+    "magma": null,
+    "ldsc.py": null,
+    "munge_sumstats.py": null,
+    "plink": null,
+    "plink2": null,
+    "R": null,
+    "Rscript": null,
+    "conda": null,
+    "mamba": null,
+    "micromamba": null,
+    "brew": null
+  },
+  "gwas_catalog_ok": true,
+  "finngen_endpoints": [
+    {
+      "phenocode": "C3_OVARY_ENDOMETROID",
+      "name": "Endometroid carcinoma of ovary",
+      "n_cases": "208",
+      "n_controls": "218713",
+      "url": "https://storage.googleapis.com/finngen-public-data-r13/summary_stats/finngen_R13_C3_OVARY_ENDOMETROID.gz"
+    },
+    {
+      "phenocode": "C3_OVARY_ENDOMETROID_WIDE",
+      "name": "Endometroid carcinoma of ovary, including Hilmo",
+      "n_cases": "305",
+      "n_controls": "218713",
+      "url": "https://storage.googleapis.com/finngen-public-data-r13/summary_stats/finngen_R13_C3_OVARY_ENDOMETROID_WIDE.gz"
+    },
+    {
+      "phenocode": "CD2_BENIGN_LEIOMYOMA_UTERI",
+      "name": "Leiomyoma of uterus",
+      "n_cases": "42816",
+      "n_controls": "239093",
+      "url": "https://storage.googleapis.com/finngen-public-data-r13/summary_stats/finngen_R13_CD2_BENIGN_LEIOMYOMA_UTERI.gz"
+    },
+    {
+      "phenocode": "CD2_INSITU_ENDOMETRIUM",
+      "name": "Carcinoma in situ of endometrium",
+      "n_cases": "162",
+      "n_controls": "281747",
+      "url": "https://storage.googleapis.com/finngen-public-data-r13/summary_stats/finngen_R13_CD2_INSITU_ENDOMETRIUM.gz"
+    },
+    {
+      "phenocode": "E4_ENDOMETPOSTOP",
+      "name": "Postprocedural endocrine and metabolic disorders, not elsewhere classified",
+      "n_cases": "5464",
+      "n_controls": "411530",
+      "url": "https://storage.googleapis.com/finngen-public-data-r13/summary_stats/finngen_R13_E4_ENDOMETPOSTOP.gz"
+    },
+    {
+      "phenocode": "N14_ENDOMETRIOSIS",
+      "name": "Endometriosis",
+      "n_cases": "20534",
+      "n_controls": "122622",
+      "url": "https://storage.googleapis.com/finngen-public-data-r13/summary_stats/finngen_R13_N14_ENDOMETRIOSIS.gz"
+    },
+    {
+      "phenocode": "N14_ENDOMETRIOSIS_ASRM_STAGE3_4",
+      "name": "Endometriosis ASRM stages 3,4",
+      "n_cases": "10284",
+      "n_controls": "271625",
+      "url": "https://storage.googleapis.com/finngen-public-data-r13/summary_stats/finngen_R13_N14_ENDOMETRIOSIS_ASRM_STAGE3_4.gz"
+    },
+    {
+      "phenocode": "N14_ENDOMETRIOSIS_DEEP",
+      "name": "Deep endometriosis",
+      "n_cases": "3890",
+      "n_controls": "271625",
+      "url": "https://storage.googleapis.com/finngen-public-data-r13/summary_stats/finngen_R13_N14_ENDOMETRIOSIS_DEEP.gz"
+    },
+    {
+      "phenocode": "N14_ENDOMETRIOSIS_FALLOPIAN_TUBE",
+      "name": "Endometriosis of fallopian tube",
+      "n_cases": "284",
+      "n_controls": "122622",
+      "url": "https://storage.googleapis.com/finngen-public-data-r13/summary_stats/finngen_R13_N14_ENDOMETRIOSIS_FALLOPIAN_TUBE.gz"
+    },
+    {
+      "phenocode": "N14_ENDOMETRIOSIS_INTESTINE",
+      "name": "Endometriosis of intestine",
+      "n_cases": "650",
+      "n_controls": "122622",
+      "url": "https://storage.googleapis.com/finngen-public-data-r13/summary_stats/finngen_R13_N14_ENDOMETRIOSIS_INTESTINE.gz"
+    },
+    {
+      "phenocode": "N14_ENDOMETRIOSIS_NOS",
+      "name": "Unspecified/other endometriosis",
+      "n_cases": "4301",
+      "n_controls": "122622",
+      "url": "https://storage.googleapis.com/finngen-public-data-r13/summary_stats/finngen_R13_N14_ENDOMETRIOSIS_NOS.gz"
+    },
+    {
+      "phenocode": "N14_ENDOMETRIOSIS_OVARY",
+      "name": "Endometriosis of ovary",
+      "n_cases": "8002",
+      "n_controls": "122622",
+      "url": "https://storage.googleapis.com/finngen-public-data-r13/summary_stats/finngen_R13_N14_ENDOMETRIOSIS_OVARY.gz"
+    },
+    {
+      "phenocode": "N14_ENDOMETRIOSIS_PELVICPERITONEUM",
+      "name": "Endometriosis of pelvic peritoneum",
+      "n_cases": "7758",
+      "n_controls": "122622",
+      "url": "https://storage.googleapis.com/finngen-public-data-r13/summary_stats/finngen_R13_N14_ENDOMETRIOSIS_PELVICPERITONEUM.gz"
+    },
+    {
+      "phenocode": "N14_ENDOMETRIOSIS_RECTPVAGSEPT_VAGINA",
+      "name": "Endometriosis of rectovaginal septum and vagina",
+      "n_cases": "3263",
+      "n_controls": "122622",
+      "url": "https://storage.googleapis.com/finngen-public-data-r13/summary_stats/finngen_R13_N14_ENDOMETRIOSIS_RECTPVAGSEPT_VAGINA.gz"
+    },
+    {
+      "phenocode": "N14_ENDOMETRIOSIS_SKIN_SCAR",
+      "name": "Endometriosis in cutaneous scar",
+      "n_cases": "125",
+      "n_controls": "122622",
+      "url": "https://storage.googleapis.com/finngen-public-data-r13/summary_stats/finngen_R13_N14_ENDOMETRIOSIS_SKIN_SCAR.gz"
+    },
+    {
+      "phenocode": "N14_ENDOMETRIOSIS_UTERUS",
+      "name": "Adenomyosis (Endometriosis of uterus)",
+      "n_cases": "5864",
+      "n_controls": "122622",
+      "url": "https://storage.googleapis.com/finngen-public-data-r13/summary_stats/finngen_R13_N14_ENDOMETRIOSIS_UTERUS.gz"
+    },
+    {
+      "phenocode": "N14_ENDOMET_INFERT",
+      "name": "Endometriosis diagnosis and infertility diagnosis occurring together",
+      "n_cases": "4527",
+      "n_controls": "268177",
+      "url": "https://storage.googleapis.com/finngen-public-data-r13/summary_stats/finngen_R13_N14_ENDOMET_INFERT.gz"
+    }
+  ],
+  "finngen_release": "R13",
+  "finngen_ok": true,
+  "geo": {
+    "GSE213216": {
+      "suppl": [
+        {
+          "name": "GSE213216_RAW.tar",
+          "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE213nnn/GSE213216/suppl/GSE213216_RAW.tar",
+          "bytes": 16836065280
+        },
+        {
+          "name": "filelist.txt",
+          "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE213nnn/GSE213216/suppl/filelist.txt",
+          "bytes": 4354
+        }
+      ],
+      "matrix": [
+        {
+          "name": "GSE213216_series_matrix.txt.gz",
+          "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE213nnn/GSE213216/matrix/GSE213216_series_matrix.txt.gz",
+          "bytes": 5423
+        }
+      ]
+    },
+    "GSE141549": {
+      "suppl": [
+        {
+          "name": "GSE141549_Illumina_HumanHT-12_V4.0_expression_beadchip_normalized.xlsx",
+          "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE141nnn/GSE141549/suppl/GSE141549_Illumina_HumanHT-12_V4.0_expression_beadchip_normalized.xlsx",
+          "bytes": 47897831
+        },
+        {
+          "name": "GSE141549_Illumina_HumanWG-6_v2.0_expression_beadchip_normalized.xlsx",
+          "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE141nnn/GSE141549/suppl/GSE141549_Illumina_HumanWG-6_v2.0_expression_beadchip_normalized.xlsx",
+          "bytes": 216488862
+        },
+        {
+          "name": "GSE141549_Non-normalized_data_GA_illumina_expression_HumanWG-6.xls.gz",
+          "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE141nnn/GSE141549/suppl/GSE141549_Non-normalized_data_GA_illumina_expression_HumanWG-6.xls.gz",
+          "bytes": 261472599
+        },
+        {
+          "name": "GSE141549_Non-normalized_data_GA_illumina_expression_platform_HumanHT-12.xls.gz",
+          "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE141nnn/GSE141549/suppl/GSE141549_Non-normalized_data_GA_illumina_expression_platform_HumanHT-12.xls.gz",
+          "bytes": 26637463
+        },
+        {
+          "name": "GSE141549_RAW.tar",
+          "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE141nnn/GSE141549/suppl/GSE141549_RAW.tar",
+          "bytes": 40058880
+        },
+        {
+          "name": "GSE141549_Sample_link.xlsx",
+          "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE141nnn/GSE141549/suppl/GSE141549_Sample_link.xlsx",
+          "bytes": 19153
+        },
+        {
+          "name": "GSE141549_batchCorrectednormalizedArrayscombined.xlsx",
+          "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE141nnn/GSE141549/suppl/GSE141549_batchCorrectednormalizedArrayscombined.xlsx",
+          "bytes": 153632401
+        },
+        {
+          "name": "filelist.txt",
+          "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE141nnn/GSE141549/suppl/filelist.txt",
+          "bytes": 344
+        }
+      ],
+      "matrix": [
+        {
+          "name": "GSE141549-GPL10558_series_matrix.txt.gz",
+          "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE141nnn/GSE141549/matrix/GSE141549-GPL10558_series_matrix.txt.gz",
+          "bytes": 4559
+        },
+        {
+          "name": "GSE141549-GPL13376_series_matrix.txt.gz",
+          "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE141nnn/GSE141549/matrix/GSE141549-GPL13376_series_matrix.txt.gz",
+          "bytes": 10002
+        }
+      ]
+    },
+    "GSE266265": {
+      "suppl": [
+        {
+          "name": "GSE266265_EndoAtlas.rds",
+          "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE266nnn/GSE266265/suppl/GSE266265_EndoAtlas.rds",
+          "bytes": 41729517596
+        },
+        {
+          "name": "GSE266265_epithelial_cells_monocle3.rds",
+          "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE266nnn/GSE266265/suppl/GSE266265_epithelial_cells_monocle3.rds",
+          "bytes": 199996542
+        }
+      ],
+      "matrix": [
+        {
+          "name": "GSE266265_series_matrix.txt.gz",
+          "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE266nnn/GSE266265/matrix/GSE266265_series_matrix.txt.gz",
+          "bytes": 7570
+        }
+      ]
+    },
+    "GSE51981": {
+      "suppl": [
+        {
+          "name": "GSE51981_RAW.tar",
+          "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE51nnn/GSE51981/suppl/GSE51981_RAW.tar",
+          "bytes": 746424320
+        },
+        {
+          "name": "filelist.txt",
+          "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE51nnn/GSE51981/suppl/filelist.txt",
+          "bytes": 8717
+        }
+      ],
+      "matrix": [
+        {
+          "name": "GSE51981_series_matrix.txt.gz",
+          "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE51nnn/GSE51981/matrix/GSE51981_series_matrix.txt.gz",
+          "bytes": 27099296
+        }
+      ]
+    }
+  },
+  "zenodo": {
+    "3518299": [
+      {
+        "key": "spredixcan_eqtl.tar.gz",
+        "bytes": 4253551993
+      },
+      {
+        "key": "SMR_gtex_v8_README.txt",
+        "bytes": 3452
+      },
+      {
+        "key": "mashr_eqtl.tar",
+        "bytes": 262092800
+      },
+      {
+        "key": "smultixcan_sqtl.tar.gz",
+        "bytes": 1290688752
+      },
+      {
+        "key": "eur_ld.bed.gz",
+        "bytes": 13251
+      },
+      {
+        "key": "gtex_v8_expression_mashr_snp_smultixcan_covariance.txt.gz",
+        "bytes": 34851462
+      },
+      {
+        "key": "spredixcan_sqtl.tar.gz",
+        "bytes": 10793783819
+      },
+      {
+        "key": "coloc_enloc_priors_eqtl.tar.gz",
+        "bytes": 6903951305
+      },
+      {
+        "key": "README.md",
+        "bytes": 7479
+      },
+      {
+        "key": "gtex_v8_splicing_mashr_snp_smultixcan_covariance.txt.gz",
+        "bytes": 12221486
+      },
+      {
+        "key": "enloc_eqtl_eur.tar.gz",
+        "bytes": 191294150
+      },
+      {
+        "key": "mashr_sqtl.tar",
+        "bytes": 668825600
+      },
+      {
+        "key": "smultixcan_eqtl.tar.gz",
+        "bytes": 280309893
+      },
+      {
+        "key": "enloc_sqtl_eur.tar.gz",
+        "bytes": 1015891613
+      }
+    ],
+    "3519321": [
+      {
+        "key": "elastic_net_sqtl.tar",
+        "bytes": 4779325440
+      },
+      {
+        "key": "elastic_net_eqtl.tar",
+        "bytes": 2916188160
+      },
+      {
+        "key": "gtex_v8_expression_elastic_net_snp_smultixcan_covariance.txt.gz",
+        "bytes": 10040905980
+      },
+      {
+        "key": "gtex_v8_splicing_elastic_net_snp_smultixcan_covariance.txt.gz",
+        "bytes": 8863453780
+      }
+    ],
+    "3569954": [
+      {
+        "key": "sample_data.tar",
+        "bytes": 13968179200
+      }
+    ],
+    "10515792": [
+      {
+        "key": "sumstats_indep107.tgz",
+        "bytes": 1147827340
+      },
+      {
+        "key": "readme_baseline_versions.txt",
+        "bytes": 3775
+      },
+      {
+        "key": "sumstats.tgz",
+        "bytes": 2229052948
+      },
+      {
+        "key": "1000G_Phase3_baseline_v1.2_ldscores.tgz",
+        "bytes": 636152310
+      },
+      {
+        "key": "1000G_Phase3_EAS_baseline_v1.2_ldscores.tgz",
+        "bytes": 280270765
+      },
+      {
+        "key": "1000G_Phase3_EAS_plinkfiles.tgz",
+        "bytes": 322780480
+      },
+      {
+        "key": "1000G_Phase3_weights_hm3_no_MHC.tgz",
+        "bytes": 12757654
+      },
+      {
+        "key": "GRCh38.tgz",
+        "bytes": 1380438878
+      },
+      {
+        "key": "1000G_Phase3_EAS_baselineLD_v2.2_ldscores.tgz",
+        "bytes": 568735046
+      },
+      {
+        "key": "hm3_no_MHC.list.txt",
+        "bytes": 12395058
+      },
+      {
+        "key": "1000G_Phase3_frq.tgz",
+        "bytes": 85939688
+      },
+      {
+        "key": "baselineLD_v2.3.zip",
+        "bytes": 781956468
+      },
+      {
+        "key": "1000G_Phase3_baselineLD_v2.3_ldscores.zip",
+        "bytes": 781956468
+      },
+      {
+        "key": "baselineLD_v2.2_bedfiles.tgz",
+        "bytes": 1206700301
+      },
+      {
+        "key": "1000G_Phase3_ldscores.tgz",
+        "bytes": 13362450
+      },
+      {
+        "key": "1000G_Phase3_plinkfiles.tgz",
+        "bytes": 288277344
+      },
+      {
+        "key": "1000G_Phase3_baselineLD_v2.2_ldscores.tgz",
+        "bytes": 675845447
+      },
+      {
+        "key": "1000G_Phase3_EAS_weights_hm3_no_MHC.tgz",
+        "bytes": 11470436
+      }
+    ]
+  },
+  "local_assets_count": 224,
+  "local_v232_dirs": [
+    "/Users/elena/Desktop/paper8/endo-research/results/paper8_v232c_full_rna_disk_export_20261103T230602Z",
+    "/Users/elena/Desktop/paper8/endo-research/results/paper8_v232b_full_rna_disk_export_20261103T225758Z",
+    "/Users/elena/Desktop/paper8/endo-research/results/paper8_v232_full_rna_disk_export_20261103T225200Z"
+  ],
+  "local_by_id": {
+    "GSE266265": 24,
+    "GSE51981": 41,
+    "GSE246591": 3,
+    "GSE141549": 29,
+    "GSE213216": 8,
+    "GSE6364": 7
+  },
+  "tools_missing": [
+    "magma",
+    "ldsc.py",
+    "munge_sumstats.py",
+    "plink"
+  ]
+}
