@@ -1,0 +1,17 @@
+{
+  "task": "PAPER9_V019_TISSUE_G1S",
+  "timestamp_utc": "20261106T201024Z",
+  "gates": {
+    "T2D_GENES_RAW": true,
+    "GTEX": true,
+    "LOEUF": true
+  },
+  "results": {
+    "G6": {
+      "G6": "REPRODUCTIVE: Uterus, Fallopian Tube, Cervix - Ectocervix, Cervix - Endocervix, Ovary, Vagina",
+      "PC_LEIOMYOMA_uterus_top3": true,
+      "PC_HYPERTENSION_artery_top3": false
+    },
+    "G1S_S2": "NOT SUPPORTED"
+  }
+}

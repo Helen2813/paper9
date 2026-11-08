@@ -1,0 +1,8 @@
+{
+  "task": "PAPER9_V007_LDSC_SEG",
+  "timestamp_utc": "20261105T221707Z",
+  "gates": {
+    "MAGMA": "NOT_LINKED",
+    "LDSCORES": false
+  }
+}

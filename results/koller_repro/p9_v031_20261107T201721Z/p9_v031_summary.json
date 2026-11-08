@@ -1,0 +1,161 @@
+{
+  "task": "PAPER9_V031_KOLLER_RESOLUTION",
+  "timestamp_utc": "20261107T201721Z",
+  "gates": {
+    "M_CHECK": true,
+    "LDSCORES_P_UP": true,
+    "LDSCORES_P_DOWN": true,
+    "LDSCORES_H_ABS": true,
+    "LDSCORES_N_ABS": true
+  },
+  "results": {
+    "k1_cohort": [
+      {
+        "scope": "Mareckova",
+        "hormones_included": false,
+        "ENDO_donors": 7,
+        "ENDO_samples": 12,
+        "ENDO_cells": 38464,
+        "CTL_donors": 7,
+        "CTL_samples": 13,
+        "CTL_cells": 26327,
+        "diff_to_koller": 10
+      },
+      {
+        "scope": "Mareckova",
+        "hormones_included": true,
+        "ENDO_donors": 9,
+        "ENDO_samples": 14,
+        "ENDO_cells": 50240,
+        "CTL_donors": 7,
+        "CTL_samples": 13,
+        "CTL_cells": 26327,
+        "diff_to_koller": 8
+      },
+      {
+        "scope": "all HECA",
+        "hormones_included": false,
+        "ENDO_donors": 19,
+        "ENDO_samples": 24,
+        "ENDO_cells": 100672,
+        "CTL_donors": 30,
+        "CTL_samples": 41,
+        "CTL_cells": 159904,
+        "diff_to_koller": 30
+      },
+      {
+        "scope": "all HECA",
+        "hormones_included": true,
+        "ENDO_donors": 31,
+        "ENDO_samples": 36,
+        "ENDO_cells": 145093,
+        "CTL_donors": 32,
+        "CTL_samples": 43,
+        "CTL_cells": 168434,
+        "diff_to_koller": 44
+      }
+    ],
+    "k2": {
+      "endothelial_down_share": {
+        "Arterial/CTL": 0.609,
+        "Venous/CTL": 0.573,
+        "Arterial/ENDO": 0.268,
+        "Venous/ENDO": 0.614
+      },
+      "all_endothelial_down_gt_half": false
+    },
+    "h_abs": {
+      "c1": false,
+      "c2": true,
+      "c3": true,
+      "supported": false
+    },
+    "k4_P_ABS_KOLLER_EUR": {
+      "eligible": 24,
+      "outcomes": {
+        "other only": 22,
+        "neither": 2
+      },
+      "focus_surviving": [],
+      "others_surviving": [
+        "Arterial/CTL",
+        "Gland_sec/ENDO",
+        "Venous/CTL",
+        "Venous/ENDO",
+        "ePV_1a/CTL"
+      ]
+    },
+    "k4_P_ABS_GCST90205183": {
+      "eligible": 15,
+      "outcomes": {
+        "other only": 9,
+        "both": 3,
+        "neither": 2,
+        "focus only": 1
+      },
+      "focus_surviving": [],
+      "others_surviving": [
+        "Arterial/CTL",
+        "Gland_sec/ENDO",
+        "Venous/CTL",
+        "Venous/ENDO"
+      ]
+    },
+    "k4_P_UP_KOLLER_EUR": {
+      "eligible": 16,
+      "outcomes": {
+        "both": 6,
+        "focus only": 6,
+        "neither": 4
+      },
+      "focus_surviving": [
+        "dS_mid/CTL",
+        "dS_mid/ENDO"
+      ],
+      "others_surviving": [
+        "eHormones/CTL"
+      ]
+    },
+    "k4_P_UP_GCST90205183": {
+      "eligible": 4,
+      "outcomes": {
+        "both": 4
+      },
+      "focus_surviving": [
+        "dS_early/CTL",
+        "dS_early/ENDO",
+        "dS_mid/CTL",
+        "dS_mid/ENDO"
+      ],
+      "others_surviving": [
+        "eHormones/CTL"
+      ]
+    },
+    "k6": {
+      "endo_all_null": false,
+      "positive_controls": {
+        "HYPERTENSION_ABS": false,
+        "LEIOMYOMA_ABS": false,
+        "HYPERTENSION_UP": false,
+        "LEIOMYOMA_UP": false,
+        "HYPERTENSION_DOWN": false,
+        "LEIOMYOMA_DOWN": false
+      },
+      "informative": false
+    },
+    "k5": {
+      "P": [
+        true,
+        false
+      ],
+      "H": [
+        true,
+        true
+      ],
+      "N": [
+        true,
+        false
+      ]
+    }
+  }
+}

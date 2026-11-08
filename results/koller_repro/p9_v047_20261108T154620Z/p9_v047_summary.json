@@ -1,0 +1,157 @@
+{
+  "task": "PAPER9_V047_KOLLER_EXACT",
+  "timestamp_utc": "20261108T154620Z",
+  "gates": {
+    "M_CHECK": true,
+    "LDSCORES_H_UP": true,
+    "LDSCORES_H_DOWN": true
+  },
+  "results": {
+    "h_exact": {
+      "abs_first_endothelial": true,
+      "up_first_dstromal": true,
+      "leiomyoma_up_not_abs": true,
+      "first": {
+        "KOLLER_EUR_ABS": "Venous/ENDO",
+        "KOLLER_EUR_UP": "dStromal_mid/ENDO",
+        "KOLLER_EUR_DOWN": "Venous/ENDO",
+        "GCST90205183_ABS": "Venous/ENDO",
+        "GCST90205183_UP": "dStromal_mid/ENDO",
+        "GCST90205183_DOWN": "Venous/ENDO",
+        "ENDO_ALL_ABS": "Venous/CTL",
+        "ENDO_ALL_UP": "sHormones/ENDO",
+        "ENDO_ALL_DOWN": "Venous/ENDO",
+        "LEIOMYOMA_ABS": "preLuminal/CTL",
+        "LEIOMYOMA_UP": "uSMCs/CTL",
+        "LEIOMYOMA_DOWN": "Arterial/ENDO",
+        "HYPERTENSION_ABS": "Arterial/ENDO",
+        "HYPERTENSION_UP": "ePV_1b/ENDO",
+        "HYPERTENSION_DOWN": "Fibroblast_basalis/CTL"
+      },
+      "ranks": {
+        "LEIOMYOMA_ABS": 8,
+        "LEIOMYOMA_UP": 1,
+        "LEIOMYOMA_DOWN": 32,
+        "HYPERTENSION_ABS": 1,
+        "HYPERTENSION_UP": 1,
+        "HYPERTENSION_DOWN": 8
+      }
+    },
+    "k2": {
+      "endothelial_down_share": {
+        "Arterial/CTL": 0.609,
+        "Venous/CTL": 0.573,
+        "Arterial/ENDO": 0.356,
+        "Venous/ENDO": 0.618
+      },
+      "all_endothelial_down_gt_half": false
+    },
+    "h_abs": {
+      "c1": false,
+      "c2": true,
+      "c3": true,
+      "supported": false
+    },
+    "k4_H_ABS_KOLLER_EUR": {
+      "eligible": 36,
+      "outcomes": {
+        "other only": 33,
+        "both": 3
+      },
+      "focus_surviving": [],
+      "others_surviving": [
+        "Arterial/CTL",
+        "Gland_sec/ENDO",
+        "Venous/CTL",
+        "Venous/ENDO",
+        "ePV_1a/CTL",
+        "sHormones/ENDO"
+      ]
+    },
+    "k4_H_ABS_GCST90205183": {
+      "eligible": 20,
+      "outcomes": {
+        "other only": 17,
+        "both": 3
+      },
+      "focus_surviving": [],
+      "others_surviving": [
+        "Arterial/CTL",
+        "Gland_sec/ENDO",
+        "Venous/CTL",
+        "Venous/ENDO",
+        "sHormones/ENDO"
+      ]
+    },
+    "k4_H_UP_KOLLER_EUR": {
+      "eligible": 24,
+      "outcomes": {
+        "both": 15,
+        "focus only": 4,
+        "neither": 3,
+        "other only": 2
+      },
+      "focus_surviving": [
+        "dS_mid/CTL",
+        "dS_mid/ENDO"
+      ],
+      "others_surviving": [
+        "Arterial/ENDO",
+        "dHormones/ENDO",
+        "eHormones/CTL",
+        "sHormones/ENDO"
+      ]
+    },
+    "k4_H_UP_GCST90205183": {
+      "eligible": 15,
+      "outcomes": {
+        "both": 10,
+        "focus only": 2,
+        "other only": 2,
+        "neither": 1
+      },
+      "focus_surviving": [
+        "dS_early/ENDO",
+        "dS_mid/CTL",
+        "dS_mid/ENDO"
+      ],
+      "others_surviving": [
+        "eHormones/CTL"
+      ]
+    },
+    "k6": {
+      "endo_all_null": false,
+      "positive_controls": {
+        "HYPERTENSION_ABS": false,
+        "LEIOMYOMA_ABS": false,
+        "HYPERTENSION_UP": false,
+        "LEIOMYOMA_UP": false,
+        "HYPERTENSION_DOWN": false,
+        "LEIOMYOMA_DOWN": false
+      },
+      "informative": false
+    },
+    "h_sign": {
+      "endothelial_down": false,
+      "dstromal_up": false
+    },
+    "k7_KOLLER_EUR": {
+      "DOWN-carried": 19,
+      "UP-carried": 8,
+      "neither": 6,
+      "both": 1
+    },
+    "k7_GCST90205183": {
+      "DOWN-carried": 12,
+      "UP-carried": 6,
+      "neither": 4,
+      "both": 1
+    },
+    "k8_KOLLER_EUR": {
+      "dsmid_separable_from_epv2": true
+    },
+    "k8_GCST90205183": {
+      "dsmid_separable_from_epv2": true
+    }
+  }
+}

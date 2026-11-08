@@ -1,0 +1,129 @@
+{
+  "task": "PAPER9_V040_LOCUS_ATLAS",
+  "timestamp_utc": "20261108T015742Z",
+  "results": {
+    "l1_enrichment": {
+      "stroma": {
+        "obs": 9,
+        "n": 52,
+        "genome_share": 0.08482018399776972,
+        "p_greater": 0.02961140304733793
+      },
+      "epithelium": {
+        "obs": 5,
+        "n": 52,
+        "genome_share": 0.09855032060217452,
+        "p_greater": 0.5911245767334702
+      },
+      "endothelium": {
+        "obs": 8,
+        "n": 52,
+        "genome_share": 0.08433231112350154,
+        "p_greater": 0.06856277623154014
+      },
+      "perivascular/SM": {
+        "obs": 4,
+        "n": 52,
+        "genome_share": 0.07840814050738779,
+        "p_greater": 0.5899228738063746
+      },
+      "immune": {
+        "obs": 6,
+        "n": 52,
+        "genome_share": 0.08572623362141064,
+        "p_greater": 0.2855218536148652
+      },
+      "broad": {
+        "obs": 20,
+        "n": 52,
+        "genome_share": 0.5681628101477558,
+        "p_greater": 0.9974403255213411
+      }
+    },
+    "h_multi": {
+      "assigned": 32,
+      "n_ge10": 5,
+      "top_share": 0.28125,
+      "supported": true,
+      "leiomyoma_top_share": 0.25
+    },
+    "l2_drivers": {
+      "Venous/CTL": [],
+      "Arterial/CTL": [],
+      "Venous/ENDO": [],
+      "dStromal_mid/ENDO": [],
+      "dStromal_early/ENDO": [],
+      "sHormones/CTL": [],
+      "Luminal/ENDO": [],
+      "Ciliated/CTL": [],
+      "Ciliated/ENDO": []
+    },
+    "l2_all_gws": {
+      "Venous/CTL": {
+        "base": 3.1628e-05,
+        "without_gws": 0.14478
+      },
+      "Arterial/CTL": {
+        "base": 8.6899e-05,
+        "without_gws": 0.17895
+      },
+      "Venous/ENDO": {
+        "base": 0.00012639,
+        "without_gws": 0.17396
+      },
+      "dStromal_mid/ENDO": {
+        "base": 0.00013794,
+        "without_gws": 0.02112
+      },
+      "dStromal_early/ENDO": {
+        "base": 0.00025662,
+        "without_gws": 0.086183
+      },
+      "sHormones/CTL": {
+        "base": 0.00090472,
+        "without_gws": 0.16168
+      },
+      "Luminal/ENDO": {
+        "base": 5.3184e-05,
+        "without_gws": 0.055517
+      },
+      "Ciliated/CTL": {
+        "base": 0.00048258,
+        "without_gws": 0.017322
+      },
+      "Ciliated/ENDO": {
+        "base": 0.00050903,
+        "without_gws": 0.027584
+      }
+    },
+    "l3": [
+      {
+        "trait": "LEIOMYOMA",
+        "loci_shared": 26,
+        "loci": 57,
+        "random_shared": 30,
+        "random": 382,
+        "odds_ratio": 9.840860215053764,
+        "p_fisher": 1.3414922477725078e-11
+      },
+      {
+        "trait": "T2D",
+        "loci_shared": 24,
+        "loci": 57,
+        "random_shared": 103,
+        "random": 382,
+        "odds_ratio": 1.969991173874669,
+        "p_fisher": 0.015886970476157163
+      },
+      {
+        "trait": "HYPERTENSION",
+        "loci_shared": 28,
+        "loci": 57,
+        "random_shared": 111,
+        "random": 382,
+        "odds_ratio": 2.3572538055296675,
+        "p_fisher": 0.002445342167061692
+      }
+    ]
+  }
+}

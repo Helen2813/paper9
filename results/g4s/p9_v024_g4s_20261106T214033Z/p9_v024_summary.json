@@ -1,0 +1,28 @@
+{
+  "task": "PAPER9_V024_G4S",
+  "timestamp_utc": "20261106T214033Z",
+  "results": {
+    "S5_KOLLER_EUR": {
+      "generic": true,
+      "vascular": "False",
+      "mull": "True"
+    },
+    "S5_GCST90205183": {
+      "generic": false,
+      "vascular": "False",
+      "mull": "True"
+    },
+    "G1E_perm_KOLLER_EUR": {
+      "t_obs": -3.625010414063151,
+      "p_perm": 0.06930693069306931
+    },
+    "G1E_perm_GCST90205183": {
+      "t_obs": -2.151872709394833,
+      "p_perm": 0.10891089108910891
+    },
+    "G1E_perm_T2D": {
+      "t_obs": -3.554693787956391,
+      "p_perm": 0.039603960396039604
+    }
+  }
+}

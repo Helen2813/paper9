@@ -1,0 +1,20 @@
+{
+  "task": "PAPER9_V043_REAL_FAMILIES",
+  "timestamp_utc": "20261108T043912Z",
+  "gates": {},
+  "results": {
+    "e2_LEIOMYOMA": [
+      "UP",
+      "ABSN",
+      "UPN",
+      "SPEC"
+    ],
+    "e2_HYPERTENSION": [
+      "ABS",
+      "UP",
+      "ABSN",
+      "UPN",
+      "SPEC"
+    ]
+  }
+}

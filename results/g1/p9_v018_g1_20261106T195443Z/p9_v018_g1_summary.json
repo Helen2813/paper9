@@ -1,0 +1,83 @@
+{
+  "task": "PAPER9_V018_G1",
+  "timestamp_utc": "20261106T195443Z",
+  "gates": {
+    "LINEAGE_AGREEMENT_PCT": 90.6,
+    "SAMPLES_PROCESSED": 46
+  },
+  "results": {
+    "G1_verdict": "G1 ALTERNATIVE (source-defect: eutopic-upregulated programs enriched): lymphocyte",
+    "G1_primary": [
+      {
+        "trait": "GCST90205183",
+        "contrast": "LES_vs_EU",
+        "lineage": "stromal",
+        "n_a": 12,
+        "n_b": 9,
+        "genes": 12293,
+        "beta": -0.023242,
+        "se": 0.013023,
+        "p_greater": 0.96282,
+        "p_less": 0.037178,
+        "holm_greater": 1.0,
+        "holm_less": 0.101241
+      },
+      {
+        "trait": "GCST90205183",
+        "contrast": "LES_vs_EU",
+        "lineage": "epithelial",
+        "n_a": 5,
+        "n_b": 9,
+        "genes": 12630,
+        "beta": -0.024073,
+        "se": 0.011187,
+        "p_greater": 0.98429,
+        "p_less": 0.015711,
+        "holm_greater": 1.0,
+        "holm_less": 0.062844
+      },
+      {
+        "trait": "GCST90205183",
+        "contrast": "LES_vs_EU",
+        "lineage": "endothelial",
+        "n_a": 10,
+        "n_b": 6,
+        "genes": 11910,
+        "beta": 0.00014139,
+        "se": 0.015237,
+        "p_greater": 0.4963,
+        "p_less": 0.5037,
+        "holm_greater": 1.0,
+        "holm_less": 0.5037
+      },
+      {
+        "trait": "GCST90205183",
+        "contrast": "LES_vs_EU",
+        "lineage": "myeloid",
+        "n_a": 10,
+        "n_b": 8,
+        "genes": 11458,
+        "beta": -0.028935,
+        "se": 0.015824,
+        "p_greater": 0.96625,
+        "p_less": 0.033747,
+        "holm_greater": 1.0,
+        "holm_less": 0.101241
+      },
+      {
+        "trait": "GCST90205183",
+        "contrast": "LES_vs_EU",
+        "lineage": "lymphocyte",
+        "n_a": 10,
+        "n_b": 5,
+        "genes": 11246,
+        "beta": -0.054975,
+        "se": 0.020379,
+        "p_greater": 0.9965,
+        "p_less": 0.0034981,
+        "holm_greater": 1.0,
+        "holm_less": 0.0174905
+      }
+    ]
+  }
+}

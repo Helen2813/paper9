@@ -1,0 +1,36 @@
+{
+  "task": "PAPER9_V034_KOLLER_SIGN",
+  "timestamp_utc": "20261107T224006Z",
+  "gates": {},
+  "results": {
+    "h_sign": {
+      "endothelial_down": false,
+      "dstromal_up": true
+    },
+    "k7_KOLLER_EUR": {
+      "DOWN-carried": 15,
+      "neither": 7,
+      "UP-carried": 7
+    },
+    "k7_GCST90205183": {
+      "DOWN-carried": 11,
+      "neither": 4,
+      "UP-carried": 3,
+      "both": 1
+    },
+    "k7_ENDO_ALL": {
+      "DOWN-carried": 15,
+      "UP-carried": 6,
+      "neither": 2
+    },
+    "k8_KOLLER_EUR": {
+      "dsmid_separable_from_epv2": true
+    },
+    "k8_GCST90205183": {
+      "dsmid_separable_from_epv2": true
+    },
+    "k8_ENDO_ALL": {
+      "dsmid_separable_from_epv2": true
+    }
+  }
+}

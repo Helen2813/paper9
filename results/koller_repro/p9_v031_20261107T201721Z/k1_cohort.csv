@@ -1,0 +1,5 @@
+scope,hormones_included,ENDO_donors,ENDO_samples,ENDO_cells,CTL_donors,CTL_samples,CTL_cells,diff_to_koller
+Mareckova,False,7,12,38464,7,13,26327,10
+Mareckova,True,9,14,50240,7,13,26327,8
+all HECA,False,19,24,100672,30,41,159904,30
+all HECA,True,31,36,145093,32,43,168434,44

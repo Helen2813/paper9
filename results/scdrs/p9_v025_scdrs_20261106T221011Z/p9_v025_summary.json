@@ -1,0 +1,17 @@
+{
+  "task": "PAPER9_V025_SCDRS",
+  "timestamp_utc": "20261106T221011Z",
+  "gates": {},
+  "results": {
+    "lesion_GCST90205183_macro_minHolm": 0.6653346653346653,
+    "lesion_KOLLER_EUR_macro_minHolm": 0.977022977022977,
+    "lesion_HYPERTENSION_macro_minHolm": 0.008991008991008992,
+    "lesion_T2D_macro_minHolm": 0.15284715284715286,
+    "lesion_LEIOMYOMA_macro_minHolm": 1.0,
+    "eutopic_GCST90205183_macro_minHolm": 1.0,
+    "eutopic_KOLLER_EUR_macro_minHolm": 1.0,
+    "eutopic_HYPERTENSION_macro_minHolm": 0.07592407592407592,
+    "eutopic_T2D_macro_minHolm": 0.3596403596403596,
+    "eutopic_LEIOMYOMA_macro_minHolm": 1.0
+  }
+}

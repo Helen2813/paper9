@@ -1,0 +1,42 @@
+{
+  "task": "PAPER9_V013_MAGMA_PROPERTY",
+  "timestamp_utc": "20261106T162822Z",
+  "gates": {
+    "POSITIVE_CONTROL_VASCULAR_TOP5": 4
+  },
+  "results": {
+    "G4_check2": {
+      "verdict": "DECIDUAL ENRICHMENT NOT REPLICATED by MAGMA (check 2 failed)",
+      "rows": [
+        {
+          "label": "dS3",
+          "BETA": 0.82347,
+          "SE": 0.50102,
+          "P": 0.050145,
+          "holm": 0.20058
+        },
+        {
+          "label": "dS1-myofibroblast",
+          "BETA": 0.68318,
+          "SE": 0.5598,
+          "P": 0.11117,
+          "holm": 0.33351000000000003
+        },
+        {
+          "label": "dS4",
+          "BETA": 0.38156,
+          "SE": 0.40082,
+          "P": 0.17057,
+          "holm": 0.34114
+        },
+        {
+          "label": "dS2",
+          "BETA": 0.18541,
+          "SE": 0.52669,
+          "P": 0.36241,
+          "holm": 0.36241
+        }
+      ]
+    }
+  }
+}

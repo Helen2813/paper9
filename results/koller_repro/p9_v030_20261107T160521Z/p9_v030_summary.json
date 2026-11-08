@@ -1,0 +1,15 @@
+{
+  "task": "PAPER9_V030_KOLLER_REPRO",
+  "timestamp_utc": "20261107T160521Z",
+  "gates": {
+    "M_CHECK": true,
+    "LDSCORES": true
+  },
+  "results": {
+    "koller_repro": {
+      "nominal": "True",
+      "bh": "False",
+      "specific": true
+    }
+  }
+}

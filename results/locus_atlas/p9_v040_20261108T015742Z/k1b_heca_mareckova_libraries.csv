@@ -1,0 +1,23 @@
+library,pathology,stage,donor,in_sdrf
+HCA_A_RepT_RNA13247830,C,Proliferative,A70,True
+UA_Endo9426399,C,Proliferative,FX1146,True
+UA_Endo9426400,C,Proliferative,FX1146,True
+FRZFRESH_GX25,C,Secretory,ES345,True
+FRZFRESH_GX26,C,Secretory,ES345,True
+FRZFRESH_GX27,C,Secretory,ES345,True
+FRZFRESH_GX28,C,Secretory,ES345,True
+UA_Endo10298210,E,Proliferative,FX1125,True
+UA_Endo10298211,E,Proliferative,FX1176,True
+UA_Endo10298212,E,Secretory,FX9006,True
+UA_Endo10298213,E + F,Secretory,FX1156,True
+UA_Endo12680031,E,Proliferative,FX1259,True
+UA_Endo9426401,E,Secretory,FX9006,True
+UA_Endo9426402,E + F,Secretory,FX1156,True
+UA_Endo12680032,E,Proliferative,FX1259,True
+UA_Endo12680033,E,Hormones,FX1254,True
+UA_Endo12680034,E,Hormones,FX1254,True
+UA_Endo12961679,E,Proliferative,FX1285,True
+UA_Endo12961680,C,Proliferative,SE02,True
+UA_Endo12961681,C,Proliferative,SE03,True
+UA_Endo12961682,E,Proliferative,FX1289,True
+UA_Endo13646709,C,Menstrual,SE06,True

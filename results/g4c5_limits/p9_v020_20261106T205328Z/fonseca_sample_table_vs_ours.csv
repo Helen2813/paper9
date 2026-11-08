@@ -1,0 +1,47 @@
+gsm,patient,context,Patient,ID,Major Class,Anatomic annotation
+GSM6574509,1.0,endometrioma,1,Sample1,Endometrioma,Ovarian cyst (L)
+GSM6574510,4.0,peritoneal_lesion,4,Sample5,Endometriosis,Anterior cul de sac
+GSM6574511,5.0,peritoneal_lesion,5,Sample7,Endometriosis,Posterior cul de sac
+GSM6574512,6.0,eutopic,6,Sample8,Eutopic Endometrium,Endometrium
+GSM6574513,6.0,ovary_unaffected,6,Sample9,Ovary,Ovary
+GSM6574514,7.0,peritoneal_lesion,7,Sample10,Endometriosis,Pelvic side wall (R & L)
+GSM6574515,7.0,peritoneal_lesion,7,Sample11,Endometriosis,Anterior cul de sac
+GSM6574516,7.0,endometrioma,7,Sample12,Endometrioma,Ovarian cyst (R)
+GSM6574517,7.0,peritoneal_lesion,7,Sample13,Endometriosis,Uterosacral ligament (L & R)
+GSM6574518,8.0,peritoneum_unaffected,8,Sample14,No endometriosis detected,Anterior cul de sac & Pelvic side wall (R)
+GSM6574519,8.0,endometrioma,8,Sample15,Endometrioma,Ovarian cyst (L)
+GSM6574520,8.0,peritoneal_lesion,8,Sample16,Endometriosis,Uterosacral ligament (L)
+GSM6574521,8.0,peritoneum_unaffected,8,Sample17,No endometriosis detected,Rectal Serosa
+GSM6574522,9.0,peritoneal_lesion,9,Sample18,Endometriosis,Pelvic side wall (R & L)
+GSM6574523,9.0,peritoneal_lesion,9,Sample19,Endometriosis,Ovarian fossa (L)
+GSM6574524,9.0,peritoneal_lesion,9,Sample20,Endometriosis,Alterior abdominal wall & Anterior pelvic cul de sac
+GSM6574525,9.0,endometrioma,9,Sample21,Endometrioma,Ovarian cyst (R)
+GSM6574526,9.0,peritoneal_lesion,9,Sample22,Endometriosis,Perimetrium (R)
+GSM6574527,9.0,peritoneal_lesion,9,Sample23,Endometriosis,Perirectal fat
+GSM6574528,10.0,eutopic,10,Sample24,Eutopic Endometrium,Endometrium
+GSM6574529,10.0,peritoneum_unaffected,10,Sample25,No endometriosis detected,Uterosacral ligament (L)
+GSM6574530,10.0,peritoneal_lesion,10,Sample26,Endometriosis,Uterosacral ligament (R)
+GSM6574531,10.0,peritoneum_unaffected,10,Sample27,No endometriosis detected,Bladder
+GSM6574532,11.0,peritoneal_lesion,11,Sample28,Endometriosis,Pelvic side wall (L)
+GSM6574533,11.0,endometrioma,11,Sample29,Endometrioma,Ovarian cyst (L)
+GSM6574534,11.0,eutopic,11,Sample30,Eutopic Endometrium,Endometrium
+GSM6574535,12.0,eutopic,12,Sample31,Eutopic Endometrium,Endometrium
+GSM6574536,13.0,eutopic,13,Sample32,Eutopic Endometrium,Endometrium
+GSM6574537,14.0,peritoneal_lesion,14,Sample33,Endometriosis,Endometriosis (R)
+GSM6574538,14.0,ovary_unaffected,14,Sample34,Ovary,Ovary (L)
+GSM6574539,14.0,eutopic,14,Sample35,Eutopic Endometrium,Endometrium
+GSM6574540,15.0,ovary_unaffected,15,Sample36,Ovary,Ovary (R)
+GSM6574541,16.0,peritoneal_lesion,16,Sample37,Endometriosis,Ovarian fossa (L)
+GSM6574542,16.0,eutopic,16,Sample38,Eutopic Endometrium,Endometrium
+GSM6574543,17.0,eutopic,17,Sample39,Eutopic Endometrium,Endometrium
+GSM6574544,18.0,eutopic,18,Sample40,Eutopic Endometrium,Endometrium
+GSM6574545,18.0,ovary_unaffected,18,Sample41,Ovary,Ovary
+GSM6574546,19.0,endometrioma,19,Sample42,Endometrioma,Ovarian cyst (L)
+GSM6574547,19.0,peritoneal_lesion,19,Sample43,Endometriosis,Ovarian fossa (R)
+GSM6574548,20.0,peritoneal_lesion,20,Sample44,Endometriosis,Uterosacral ligament (L)
+GSM6574549,21.0,peritoneal_lesion,21,Sample45,Endometriosis,Rectal Serosa
+GSM6574550,21.0,peritoneal_lesion,21,Sample46,Endometriosis,Ovarian fossa (L)
+GSM6574551,21.0,peritoneal_lesion,21,Sample47,Endometriosis,Uterosacral ligament (R)
+GSM6574552,21.0,peritoneal_lesion,21,Sample48,Endometriosis,Anterior cul de sac
+GSM6574553,21.0,peritoneal_lesion,21,Sample49,Endometriosis,Posterior uterus
+GSM6690474,4.0,peritoneal_lesion,4,Sample6,Endometriosis,Posterior cul de sac

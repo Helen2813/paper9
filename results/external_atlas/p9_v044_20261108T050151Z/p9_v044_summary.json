@@ -1,0 +1,31 @@
+{
+  "task": "PAPER9_V044_EXTERNAL",
+  "timestamp_utc": "20261108T050151Z",
+  "results": {
+    "h_strven": {
+      "supported": true,
+      "set": "Venous/CTL",
+      "family": "ABS",
+      "p_base": 3.1628e-05,
+      "p_no_stroma": 0.00070572,
+      "p_no_endothelium": 0.00024275,
+      "delta_stroma": 1.3485606953241982,
+      "delta_endothelium": 0.8850875084545784,
+      "null_median": 0.6895706471408745,
+      "null_p95": 1.1924270049054437,
+      "p_perm": 0.01990049751243781
+    },
+    "b_LEIOMYOMA": [
+      "UP",
+      "UPN",
+      "SPEC"
+    ],
+    "b_HYPERTENSION": [
+      "SPEC"
+    ],
+    "b_T2D": [
+      "UP",
+      "UPN"
+    ]
+  }
+}

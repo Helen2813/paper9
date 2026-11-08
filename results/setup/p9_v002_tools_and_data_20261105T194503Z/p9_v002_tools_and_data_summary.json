@@ -1,0 +1,384 @@
+{
+  "task": "PAPER9_V002_TOOLS_AND_DATA",
+  "timestamp_utc": "20261105T194503Z",
+  "downloads": [
+    {
+      "label": "ldsc source (GitHub tarball)",
+      "path": "/Users/elena/Desktop/paper9/tools/ldsc_master.tar.gz",
+      "bytes": 5277052,
+      "status": "OK",
+      "seconds": 1
+    },
+    {
+      "label": "MetaXcan source (GitHub tarball)",
+      "path": "/Users/elena/Desktop/paper9/tools/MetaXcan_master.tar.gz",
+      "bytes": 5804666,
+      "status": "OK",
+      "seconds": 1
+    },
+    {
+      "label": "GSE141549/GSE141549-GPL13376_series_matrix.txt.gz",
+      "path": "/Users/elena/Desktop/paper9/data/raw/geo/GSE141549/GSE141549-GPL13376_series_matrix.txt.gz",
+      "bytes": 10002,
+      "status": "OK",
+      "seconds": 0
+    },
+    {
+      "label": "GSE141549/GSE141549-GPL10558_series_matrix.txt.gz",
+      "path": "/Users/elena/Desktop/paper9/data/raw/geo/GSE141549/GSE141549-GPL10558_series_matrix.txt.gz",
+      "bytes": 4559,
+      "status": "OK",
+      "seconds": 0
+    },
+    {
+      "label": "GCST90205183/GCST90205183_buildGRCh37.tsv.gz",
+      "path": "/Users/elena/Desktop/paper9/data/raw/gwas/GCST90205183/GCST90205183_buildGRCh37.tsv.gz",
+      "status": "FAILED",
+      "error": "curl: (7) Failed to connect to ftp.ebi.ac.uk port 443 after 168 ms: Couldn't connect to server"
+    },
+    {
+      "label": "GCST90205183/GCST90205183_buildGRCh37.tsv.gz-meta.yaml",
+      "path": "/Users/elena/Desktop/paper9/data/raw/gwas/GCST90205183/GCST90205183_buildGRCh37.tsv.gz-meta.yaml",
+      "status": "FAILED",
+      "error": "curl: (7) Failed to connect to ftp.ebi.ac.uk port 443 after 182 ms: Couldn't connect to server"
+    },
+    {
+      "label": "GCST90205183/README.txt",
+      "path": "/Users/elena/Desktop/paper9/data/raw/gwas/GCST90205183/README.txt",
+      "status": "FAILED",
+      "error": "curl: (7) Failed to connect to ftp.ebi.ac.uk port 443 after 208 ms: Couldn't connect to server"
+    },
+    {
+      "label": "GCST90205183/md5sum.txt",
+      "path": "/Users/elena/Desktop/paper9/data/raw/gwas/GCST90205183/md5sum.txt",
+      "status": "FAILED",
+      "error": "curl: (7) Failed to connect to ftp.ebi.ac.uk port 443 after 180 ms: Couldn't connect to server"
+    },
+    {
+      "label": "GCST90205183/harmonised/GCST90205183.h.tsv.gz",
+      "path": "/Users/elena/Desktop/paper9/data/raw/gwas/GCST90205183/harmonised/GCST90205183.h.tsv.gz",
+      "status": "FAILED",
+      "error": "curl: (7) Failed to connect to ftp.ebi.ac.uk port 443 after 146 ms: Couldn't connect to server"
+    },
+    {
+      "label": "GCST90205183/harmonised/GCST90205183.h.tsv.gz-meta.yaml",
+      "path": "/Users/elena/Desktop/paper9/data/raw/gwas/GCST90205183/harmonised/GCST90205183.h.tsv.gz-meta.yaml",
+      "status": "FAILED",
+      "error": "curl: (7) Failed to connect to ftp.ebi.ac.uk port 443 after 181 ms: Couldn't connect to server"
+    },
+    {
+      "label": "GCST90205183/harmonised/md5sum.txt",
+      "path": "/Users/elena/Desktop/paper9/data/raw/gwas/GCST90205183/harmonised/md5sum.txt",
+      "status": "FAILED",
+      "error": "curl: (7) Failed to connect to ftp.ebi.ac.uk port 443 after 174 ms: Couldn't connect to server"
+    },
+    {
+      "label": "LDSC_REF/readme_baseline_versions.txt",
+      "path": "/Users/elena/Desktop/paper9/data/raw/ldsc_ref/readme_baseline_versions.txt",
+      "bytes": 3775,
+      "status": "OK",
+      "seconds": 1
+    },
+    {
+      "label": "LDSC_REF/1000G_Phase3_baseline_v1.2_ldscores.tgz",
+      "path": "/Users/elena/Desktop/paper9/data/raw/ldsc_ref/1000G_Phase3_baseline_v1.2_ldscores.tgz",
+      "bytes": 636152310,
+      "status": "OK",
+      "seconds": 137
+    },
+    {
+      "label": "LDSC_REF/1000G_Phase3_baselineLD_v2.2_ldscores.tgz",
+      "path": "/Users/elena/Desktop/paper9/data/raw/ldsc_ref/1000G_Phase3_baselineLD_v2.2_ldscores.tgz",
+      "bytes": 675845447,
+      "status": "OK",
+      "seconds": 163
+    },
+    {
+      "label": "LDSC_REF/1000G_Phase3_weights_hm3_no_MHC.tgz",
+      "path": "/Users/elena/Desktop/paper9/data/raw/ldsc_ref/1000G_Phase3_weights_hm3_no_MHC.tgz",
+      "bytes": 12757654,
+      "status": "OK",
+      "seconds": 8
+    },
+    {
+      "label": "LDSC_REF/1000G_Phase3_plinkfiles.tgz",
+      "path": "/Users/elena/Desktop/paper9/data/raw/ldsc_ref/1000G_Phase3_plinkfiles.tgz",
+      "bytes": 288277344,
+      "status": "OK",
+      "seconds": 458
+    },
+    {
+      "label": "LDSC_REF/1000G_Phase3_frq.tgz",
+      "path": "/Users/elena/Desktop/paper9/data/raw/ldsc_ref/1000G_Phase3_frq.tgz",
+      "bytes": 85939688,
+      "status": "OK",
+      "seconds": 32
+    },
+    {
+      "label": "LDSC_REF/hm3_no_MHC.list.txt",
+      "path": "/Users/elena/Desktop/paper9/data/raw/ldsc_ref/hm3_no_MHC.list.txt",
+      "bytes": 12395058,
+      "status": "OK",
+      "seconds": 22
+    },
+    {
+      "label": "LDSC_REF/1000G_Phase3_ldscores.tgz",
+      "path": "/Users/elena/Desktop/paper9/data/raw/ldsc_ref/1000G_Phase3_ldscores.tgz",
+      "bytes": 13362450,
+      "status": "OK",
+      "seconds": 23
+    },
+    {
+      "label": "PREDICTDB/mashr_eqtl.tar",
+      "path": "/Users/elena/Desktop/paper9/data/raw/predictdb/mashr_eqtl.tar",
+      "bytes": 262092800,
+      "status": "OK",
+      "seconds": 80
+    },
+    {
+      "label": "PREDICTDB/gtex_v8_expression_mashr_snp_smultixcan_covariance.txt.gz",
+      "path": "/Users/elena/Desktop/paper9/data/raw/predictdb/gtex_v8_expression_mashr_snp_smultixcan_covariance.txt.gz",
+      "bytes": 34851462,
+      "status": "OK",
+      "seconds": 65
+    },
+    {
+      "label": "PREDICTDB/eur_ld.bed.gz",
+      "path": "/Users/elena/Desktop/paper9/data/raw/predictdb/eur_ld.bed.gz",
+      "bytes": 13251,
+      "status": "OK",
+      "seconds": 1
+    },
+    {
+      "label": "PREDICTDB/README.md",
+      "path": "/Users/elena/Desktop/paper9/data/raw/predictdb/README.md",
+      "bytes": 7479,
+      "status": "OK",
+      "seconds": 1
+    },
+    {
+      "label": "FinnGen N14_ENDOMETRIOSIS",
+      "path": "/Users/elena/Desktop/paper9/data/raw/finngen/finngen_R13_N14_ENDOMETRIOSIS.gz",
+      "bytes": 803485081,
+      "status": "OK",
+      "seconds": 35
+    },
+    {
+      "label": "FinnGen N14_ENDOMETRIOSIS_OVARY",
+      "path": "/Users/elena/Desktop/paper9/data/raw/finngen/finngen_R13_N14_ENDOMETRIOSIS_OVARY.gz",
+      "bytes": 802510648,
+      "status": "OK",
+      "seconds": 35
+    },
+    {
+      "label": "FinnGen N14_ENDOMETRIOSIS_PELVICPERITONEUM",
+      "path": "/Users/elena/Desktop/paper9/data/raw/finngen/finngen_R13_N14_ENDOMETRIOSIS_PELVICPERITONEUM.gz",
+      "bytes": 802192901,
+      "status": "OK",
+      "seconds": 34
+    },
+    {
+      "label": "FinnGen N14_ENDOMETRIOSIS_DEEP",
+      "path": "/Users/elena/Desktop/paper9/data/raw/finngen/finngen_R13_N14_ENDOMETRIOSIS_DEEP.gz",
+      "bytes": 801629185,
+      "status": "OK",
+      "seconds": 34
+    },
+    {
+      "label": "FinnGen N14_ENDOMETRIOSIS_RECTPVAGSEPT_VAGINA",
+      "path": "/Users/elena/Desktop/paper9/data/raw/finngen/finngen_R13_N14_ENDOMETRIOSIS_RECTPVAGSEPT_VAGINA.gz",
+      "bytes": 799733256,
+      "status": "OK",
+      "seconds": 34
+    },
+    {
+      "label": "FinnGen N14_ENDOMETRIOSIS_ASRM_STAGE3_4",
+      "path": "/Users/elena/Desktop/paper9/data/raw/finngen/finngen_R13_N14_ENDOMETRIOSIS_ASRM_STAGE3_4.gz",
+      "bytes": 804378731,
+      "status": "OK",
+      "seconds": 35
+    },
+    {
+      "label": "FinnGen N14_ENDOMETRIOSIS_UTERUS",
+      "path": "/Users/elena/Desktop/paper9/data/raw/finngen/finngen_R13_N14_ENDOMETRIOSIS_UTERUS.gz",
+      "bytes": 802062513,
+      "status": "OK",
+      "seconds": 35
+    },
+    {
+      "label": "FinnGen CD2_BENIGN_LEIOMYOMA_UTERI",
+      "path": "/Users/elena/Desktop/paper9/data/raw/finngen/finngen_R13_CD2_BENIGN_LEIOMYOMA_UTERI.gz",
+      "bytes": 808245182,
+      "status": "OK",
+      "seconds": 35
+    },
+    {
+      "label": "FinnGen I9_HYPTENS",
+      "path": "/Users/elena/Desktop/paper9/data/raw/finngen/finngen_R13_I9_HYPTENS.gz",
+      "bytes": 811069016,
+      "status": "OK",
+      "seconds": 35
+    },
+    {
+      "label": "FinnGen T2D",
+      "path": "/Users/elena/Desktop/paper9/data/raw/finngen/finngen_R13_T2D.gz",
+      "bytes": 811044867,
+      "status": "OK",
+      "seconds": 35
+    },
+    {
+      "label": "GSE213216/filelist.txt",
+      "path": "/Users/elena/Desktop/paper9/data/raw/geo/GSE213216/filelist.txt",
+      "bytes": 4354,
+      "status": "OK",
+      "seconds": 0
+    },
+    {
+      "label": "GSE213216_RAW.tar",
+      "path": "/Users/elena/Desktop/paper9/data/raw/geo/GSE213216/GSE213216_RAW.tar",
+      "bytes": 16836065280,
+      "status": "OK",
+      "seconds": 1336
+    }
+  ],
+  "tools": {
+    "venv_main": "/Users/elena/Desktop/paper9/.venv/bin/python",
+    "venv_ldsc": "/Users/elena/Desktop/paper9/tools/ldsc_venv/bin/python",
+    "ldsc_ok": false,
+    "spredixcan_ok": true,
+    "magma_status": "NOT_INSTALLED",
+    "magma_binary": null
+  },
+  "links": {
+    "p8_GSE141549": "/Users/elena/Desktop/paper8/endo-research/data/p8_multicohort_full_sources/GSE141549",
+    "p8_GSE51981_series_matrix.txt.gz": "/Users/elena/Desktop/paper8/endo-research/data/p8_multicohort_full_sources/GSE51981/GSE51981_series_matrix.txt.gz",
+    "p8_GSE266265_v232c_export": "/Users/elena/Desktop/paper8/endo-research/results/paper8_v232c_full_rna_disk_export_20261103T230602Z",
+    "p8_GSE213216_sample_metadata.tsv": "/Users/elena/Desktop/paper8/endo-research/research/p8_01_sources/gse213216_sample_metadata.tsv",
+    "p8_GSE213216_family.soft": "/Users/elena/Desktop/paper8/endo-research/research/p8_01_sources/gse213216_family.soft",
+    "p7_GSE246591_verified_sample_manifest.csv": "/Users/elena/Desktop/paper7/publication/recomb2027_paper7/evidence/GSE246591_verified_sample_manifest.csv"
+  },
+  "heca_links": [
+    "https://cellgeni.cog.sanger.ac.uk/vento/reproductivecellatlas/endometriumAtlasV2_cells_immune.h5ad",
+    "https://cellgeni.cog.sanger.ac.uk/vento/reproductivecellatlas/endometriumAtlasV2_cells_with_counts.h5ad",
+    "https://cellgeni.cog.sanger.ac.uk/vento/reproductivecellatlas/endometriumAtlasV2_nuclei.h5ad",
+    "https://cellgeni.cog.sanger.ac.uk/vento/reproductivecellatlas/endometriumAtlasV2_nuclei_immune.h5ad"
+  ],
+  "gwascat_ok": false,
+  "ldsc_ref_dirs": [
+    "1000G_EUR_Phase3_plink",
+    "1000G_Phase3_frq",
+    "1000G_Phase3_weights_hm3_no_MHC",
+    "LDscore",
+    "baseline_v1.2"
+  ],
+  "predictdb_models": 49,
+  "predictdb_selected": [
+    "mashr_Adipose_Subcutaneous.db",
+    "mashr_Adipose_Visceral_Omentum.db",
+    "mashr_Colon_Sigmoid.db",
+    "mashr_Colon_Transverse.db",
+    "mashr_Ovary.db",
+    "mashr_Small_Intestine_Terminal_Ileum.db",
+    "mashr_Spleen.db",
+    "mashr_Uterus.db",
+    "mashr_Vagina.db",
+    "mashr_Whole_Blood.db"
+  ],
+  "finngen_endpoints": [
+    {
+      "code": "N14_ENDOMETRIOSIS",
+      "role": "all",
+      "cases": "20534",
+      "controls": "122622",
+      "url": "https://storage.googleapis.com/finngen-public-data-r13/summary_stats/finngen_R13_N14_ENDOMETRIOSIS.gz",
+      "gzip_ok": true
+    },
+    {
+      "code": "N14_ENDOMETRIOSIS_OVARY",
+      "role": "G3 subtype",
+      "cases": "8002",
+      "controls": "122622",
+      "url": "https://storage.googleapis.com/finngen-public-data-r13/summary_stats/finngen_R13_N14_ENDOMETRIOSIS_OVARY.gz",
+      "gzip_ok": true
+    },
+    {
+      "code": "N14_ENDOMETRIOSIS_PELVICPERITONEUM",
+      "role": "G3 subtype",
+      "cases": "7758",
+      "controls": "122622",
+      "url": "https://storage.googleapis.com/finngen-public-data-r13/summary_stats/finngen_R13_N14_ENDOMETRIOSIS_PELVICPERITONEUM.gz",
+      "gzip_ok": true
+    },
+    {
+      "code": "N14_ENDOMETRIOSIS_DEEP",
+      "role": "G3 subtype",
+      "cases": "3890",
+      "controls": "271625",
+      "url": "https://storage.googleapis.com/finngen-public-data-r13/summary_stats/finngen_R13_N14_ENDOMETRIOSIS_DEEP.gz",
+      "gzip_ok": true
+    },
+    {
+      "code": "N14_ENDOMETRIOSIS_RECTPVAGSEPT_VAGINA",
+      "role": "G3 subtype",
+      "cases": "3263",
+      "controls": "122622",
+      "url": "https://storage.googleapis.com/finngen-public-data-r13/summary_stats/finngen_R13_N14_ENDOMETRIOSIS_RECTPVAGSEPT_VAGINA.gz",
+      "gzip_ok": true
+    },
+    {
+      "code": "N14_ENDOMETRIOSIS_ASRM_STAGE3_4",
+      "role": "G3 severity",
+      "cases": "10284",
+      "controls": "271625",
+      "url": "https://storage.googleapis.com/finngen-public-data-r13/summary_stats/finngen_R13_N14_ENDOMETRIOSIS_ASRM_STAGE3_4.gz",
+      "gzip_ok": true
+    },
+    {
+      "code": "N14_ENDOMETRIOSIS_UTERUS",
+      "role": "G5 adenomyosis",
+      "cases": "5864",
+      "controls": "122622",
+      "url": "https://storage.googleapis.com/finngen-public-data-r13/summary_stats/finngen_R13_N14_ENDOMETRIOSIS_UTERUS.gz",
+      "gzip_ok": true
+    },
+    {
+      "code": "CD2_BENIGN_LEIOMYOMA_UTERI",
+      "role": "G5 fibroid",
+      "cases": "42816",
+      "controls": "239093",
+      "url": "https://storage.googleapis.com/finngen-public-data-r13/summary_stats/finngen_R13_CD2_BENIGN_LEIOMYOMA_UTERI.gz",
+      "gzip_ok": true
+    },
+    {
+      "code": "I9_HYPTENS",
+      "role": "G5 non-reproductive control",
+      "cases": "162639",
+      "controls": "337464",
+      "url": "https://storage.googleapis.com/finngen-public-data-r13/summary_stats/finngen_R13_I9_HYPTENS.gz",
+      "gzip_ok": true
+    },
+    {
+      "code": "T2D",
+      "role": "G5 non-reproductive control",
+      "cases": "89727",
+      "controls": "396292",
+      "url": "https://storage.googleapis.com/finngen-public-data-r13/summary_stats/finngen_R13_T2D.gz",
+      "gzip_ok": true
+    }
+  ],
+  "finngen_ok": 10,
+  "gse213216_annotation_files": 0,
+  "gse213216_tar_entries": 62,
+  "gse213216_raw_ok": true,
+  "gates": {
+    "TOOLS_LDSC": false,
+    "TOOLS_MAGMA": false,
+    "TOOLS_SPREDIXCAN": true,
+    "DATA_GWASCAT": false,
+    "DATA_FINNGEN": true,
+    "DATA_LDSC_REF": true,
+    "DATA_PREDICTDB": true,
+    "DATA_GSE213216_RAW": true,
+    "LINKS_P7_P8": true
+  }
+}

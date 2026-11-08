@@ -1,0 +1,8 @@
+{
+  "task": "PAPER9_V005_MAGMA_ATLAS_INSPECT",
+  "timestamp_utc": "20261105T212250Z",
+  "gates": {
+    "MAGMA": "NOT_INSTALLED",
+    "HECA_DOWNLOAD": false
+  }
+}

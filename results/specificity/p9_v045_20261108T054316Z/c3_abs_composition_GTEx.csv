@@ -1,0 +1,46 @@
+group,frac_down,n
+B cell,0.5995475113122172,442
+Schwann cell,0.4151898734177215,395
+T cell,0.6696562032884903,669
+alveolar macrophage,0.16341463414634147,820
+basal cell,0.14710252600297177,1346
+basal cell of epidermis,0.46709470304975925,623
+basal epithelial cell of prostatic duct,0.260233918128655,342
+basal epithelial cell of tracheobronchial tree,0.26204238921001927,519
+basal-myoepithelial cell of mammary gland,0.08282208588957055,326
+bronchial epithelial cell,0.3036144578313253,415
+cardiac endothelial cell,0.14921465968586387,382
+cardiac muscle cell,0.058231488138030196,1391
+contractile cell,0.3684210526315789,323
+dendritic cell,0.4092827004219409,711
+endothelial cell of lymphatic vessel,0.3805970149253731,536
+endothelial cell of vascular tree,0.2966507177033493,418
+enteric smooth muscle cell,0.34460887949260044,473
+epidermal cell,0.44609164420485176,742
+epithelial cell of prostate,0.1421232876712329,584
+epithelial cell of sweat gland,0.4491525423728814,354
+fast muscle cell,0.6170212765957447,987
+fibroblast,0.276536312849162,358
+fibroblast of cardiac tissue,0.6693333333333333,1125
+interstitial cell of Cajal,0.18529411764705883,340
+luminal cell of prostate epithelium,0.1844311377245509,835
+luminal epithelial cell of mammary gland,0.4722222222222222,324
+macrophage,0.431438127090301,598
+mast cell,0.6352657004830918,414
+mature NK T cell,0.625,728
+myeloid dendritic cell,0.08611599297012303,569
+neuroendocrine cell,0.04918032786885246,244
+neutrophil,0.41333333333333333,450
+professional antigen presenting cell,0.415014164305949,706
+pulmonary alveolar epithelial cell,0.2646048109965636,582
+respiratory basal cell,0.12366737739872068,938
+sebaceous gland cell,0.2674825174825175,572
+skeletal muscle fiber,0.47678018575851394,969
+skeletal muscle fibroblast,0.44422700587084146,511
+skeletal muscle satellite cell,0.7139588100686499,437
+skin fibroblast,0.18457300275482094,363
+slow muscle cell,0.42724014336917565,1395
+smooth muscle cell,0.3112107623318386,1115
+smooth muscle cell of prostate,0.05807622504537205,551
+squamous epithelial cell,0.32885514018691586,1712
+subcutaneous adipocyte,0.3175591531755915,803

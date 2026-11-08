@@ -1,0 +1,11 @@
+{
+  "task": "PAPER9_V023_KOLLER",
+  "timestamp_utc": "20261106T211301Z",
+  "gates": {
+    "KOLLER_SNPS": 8779723,
+    "KOLLER_GENES_RAW": true
+  },
+  "results": {
+    "G4_M1_koller_dS_holm_min": 0.036834000000000006
+  }
+}

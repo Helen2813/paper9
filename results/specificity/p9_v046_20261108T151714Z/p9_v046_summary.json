@@ -1,0 +1,47 @@
+{
+  "task": "PAPER9_V046_SIGN",
+  "timestamp_utc": "20261108T151714Z",
+  "results": {
+    "d1_HECA": {
+      "KOLLER_EUR": 0.033994334351392166,
+      "GCST90205183": 0.09842545643600754,
+      "ENDO_ALL": 0.18815468780537992,
+      "LEIOMYOMA": 0.18578299005993393,
+      "HYPERTENSION": 0.27103234791013053,
+      "T2D": 0.19342512723970426
+    },
+    "d1_GTEx": {
+      "KOLLER_EUR": 0.37127799736495387,
+      "GCST90205183": 0.28761528326745717,
+      "ENDO_ALL": 0.33530961791831354,
+      "LEIOMYOMA": 0.40764163372859025,
+      "HYPERTENSION": 0.5111989459815547,
+      "T2D": 0.3440052700922266
+    },
+    "d2_GTEx": {
+      "share_down": 0.3333333333333333,
+      "counts": {
+        "both": 17,
+        "DOWN-carried": 10,
+        "UP-carried": 3
+      },
+      "n": 30
+    },
+    "d2_HECA": {
+      "share_down": 0.37037037037037035,
+      "counts": {
+        "DOWN-carried": 10,
+        "UP-carried": 9,
+        "both": 7,
+        "neither": 1
+      },
+      "n": 27
+    },
+    "h_k7rep": false,
+    "h_mask": {
+      "supported": false,
+      "GTEx": false,
+      "HECA": true
+    }
+  }
+}

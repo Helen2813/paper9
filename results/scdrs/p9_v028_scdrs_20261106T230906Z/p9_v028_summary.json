@@ -1,0 +1,129 @@
+{
+  "task": "PAPER9_V028_SCDRS",
+  "timestamp_utc": "20261106T230906Z",
+  "gates": {},
+  "results": {
+    "lesion_ochoa_GCST90205183_macro_hits": [],
+    "lesion_ochoa_GCST90205183_macro_holm": {
+      "lineage:myeloid": 0.3646353646353646,
+      "label:M$\\Phi$4-infiltrated": 0.3646353646353646,
+      "label:M$\\Phi$5-activated": 0.3646353646353646,
+      "set:MACRO_ALL": 0.3646353646353646,
+      "set:M2like": 0.3646353646353646
+    },
+    "lesion_ochoa_KOLLER_EUR_macro_hits": [],
+    "lesion_ochoa_KOLLER_EUR_macro_holm": {
+      "lineage:myeloid": 0.7392607392607392,
+      "label:M$\\Phi$4-infiltrated": 0.7392607392607392,
+      "label:M$\\Phi$5-activated": 0.7392607392607392,
+      "set:MACRO_ALL": 0.7392607392607392,
+      "set:M2like": 0.7392607392607392
+    },
+    "lesion_ochoa_HYPERTENSION_macro_hits": [],
+    "lesion_ochoa_HYPERTENSION_macro_holm": {
+      "lineage:myeloid": 0.05494505494505495,
+      "label:M$\\Phi$4-infiltrated": 0.1038961038961039,
+      "label:M$\\Phi$5-activated": 0.1038961038961039,
+      "set:MACRO_ALL": 0.1038961038961039,
+      "set:M2like": 0.1038961038961039
+    },
+    "lesion_ochoa_T2D_macro_hits": [],
+    "lesion_ochoa_T2D_macro_holm": {
+      "lineage:myeloid": 0.5954045954045954,
+      "label:M$\\Phi$4-infiltrated": 0.5954045954045954,
+      "label:M$\\Phi$5-activated": 0.1898101898101898,
+      "set:MACRO_ALL": 0.5954045954045954,
+      "set:M2like": 0.5954045954045954
+    },
+    "lesion_ochoa_LEIOMYOMA_macro_hits": [],
+    "lesion_ochoa_LEIOMYOMA_macro_holm": {
+      "lineage:myeloid": 1.0,
+      "label:M$\\Phi$4-infiltrated": 1.0,
+      "label:M$\\Phi$5-activated": 1.0,
+      "set:MACRO_ALL": 1.0,
+      "set:M2like": 1.0
+    },
+    "lesion_ours_GCST90205183_macro_hits": [],
+    "lesion_ours_GCST90205183_macro_holm": {
+      "lineage:myeloid": 0.40459540459540455,
+      "label:M$\\Phi$4-infiltrated": 0.40459540459540455,
+      "label:M$\\Phi$5-activated": 0.40459540459540455,
+      "set:MACRO_ALL": 0.40459540459540455,
+      "set:M2like": 0.40459540459540455
+    },
+    "lesion_ours_KOLLER_EUR_macro_hits": [],
+    "lesion_ours_KOLLER_EUR_macro_holm": {
+      "lineage:myeloid": 0.7792207792207793,
+      "label:M$\\Phi$4-infiltrated": 0.8991008991008991,
+      "label:M$\\Phi$5-activated": 0.8991008991008991,
+      "set:MACRO_ALL": 0.8991008991008991,
+      "set:M2like": 0.8991008991008991
+    },
+    "lesion_ours_HYPERTENSION_macro_hits": [
+      "lineage:myeloid"
+    ],
+    "lesion_ours_HYPERTENSION_macro_holm": {
+      "lineage:myeloid": 0.024975024975024976,
+      "label:M$\\Phi$4-infiltrated": 0.0979020979020979,
+      "label:M$\\Phi$5-activated": 0.0959040959040959,
+      "set:MACRO_ALL": 0.0979020979020979,
+      "set:M2like": 0.0959040959040959
+    },
+    "lesion_ours_T2D_macro_hits": [],
+    "lesion_ours_T2D_macro_holm": {
+      "lineage:myeloid": 0.7712287712287712,
+      "label:M$\\Phi$4-infiltrated": 0.7712287712287712,
+      "label:M$\\Phi$5-activated": 0.2097902097902098,
+      "set:MACRO_ALL": 0.7712287712287712,
+      "set:M2like": 0.7712287712287712
+    },
+    "lesion_ours_LEIOMYOMA_macro_hits": [],
+    "lesion_ours_LEIOMYOMA_macro_holm": {
+      "lineage:myeloid": 1.0,
+      "label:M$\\Phi$4-infiltrated": 1.0,
+      "label:M$\\Phi$5-activated": 1.0,
+      "set:MACRO_ALL": 1.0,
+      "set:M2like": 1.0
+    },
+    "eutopic_GCST90205183_macro_hits": [],
+    "eutopic_GCST90205183_macro_holm": {
+      "lineage:myeloid": 1.0,
+      "label:M$\\Phi$4-infiltrated": 1.0,
+      "set:MACRO_ALL": 1.0,
+      "set:M2like": 1.0
+    },
+    "eutopic_KOLLER_EUR_macro_hits": [],
+    "eutopic_KOLLER_EUR_macro_holm": {
+      "lineage:myeloid": 1.0,
+      "label:M$\\Phi$4-infiltrated": 1.0,
+      "set:MACRO_ALL": 1.0,
+      "set:M2like": 1.0
+    },
+    "eutopic_HYPERTENSION_macro_hits": [
+      "lineage:myeloid",
+      "label:M$\\Phi$4-infiltrated",
+      "set:MACRO_ALL",
+      "set:M2like"
+    ],
+    "eutopic_HYPERTENSION_macro_holm": {
+      "lineage:myeloid": 0.04395604395604396,
+      "label:M$\\Phi$4-infiltrated": 0.04395604395604396,
+      "set:MACRO_ALL": 0.04395604395604396,
+      "set:M2like": 0.04395604395604396
+    },
+    "eutopic_T2D_macro_hits": [],
+    "eutopic_T2D_macro_holm": {
+      "lineage:myeloid": 0.6473526473526473,
+      "label:M$\\Phi$4-infiltrated": 0.6473526473526473,
+      "set:MACRO_ALL": 0.6473526473526473,
+      "set:M2like": 0.5314685314685315
+    },
+    "eutopic_LEIOMYOMA_macro_hits": [],
+    "eutopic_LEIOMYOMA_macro_holm": {
+      "lineage:myeloid": 1.0,
+      "label:M$\\Phi$4-infiltrated": 1.0,
+      "set:MACRO_ALL": 1.0,
+      "set:M2like": 1.0
+    }
+  }
+}

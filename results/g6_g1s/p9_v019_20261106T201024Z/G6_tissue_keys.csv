@@ -1,0 +1,53 @@
+key,tissue
+T01,Adipose - Subcutaneous
+T02,Adipose - Visceral (Omentum)
+T03,Adrenal Gland
+T04,Artery - Aorta
+T05,Artery - Coronary
+T06,Artery - Tibial
+T07,Bladder
+T08,Brain - Amygdala
+T09,Brain - Anterior cingulate cortex (BA24)
+T10,Brain - Caudate (basal ganglia)
+T11,Brain - Cerebellar Hemisphere
+T12,Brain - Cerebellum
+T13,Brain - Cortex
+T14,Brain - Frontal Cortex (BA9)
+T15,Brain - Hippocampus
+T16,Brain - Hypothalamus
+T17,Brain - Nucleus accumbens (basal ganglia)
+T18,Brain - Putamen (basal ganglia)
+T19,Brain - Spinal cord (cervical c-1)
+T20,Brain - Substantia nigra
+T21,Breast - Mammary Tissue
+T22,Cervix - Ectocervix
+T23,Cervix - Endocervix
+T24,Colon - Sigmoid
+T25,Colon - Transverse
+T26,Esophagus - Gastroesophageal Junction
+T27,Esophagus - Mucosa
+T28,Esophagus - Muscularis
+T29,Fallopian Tube
+T30,Heart - Atrial Appendage
+T31,Heart - Left Ventricle
+T32,Kidney - Cortex
+T33,Kidney - Medulla
+T34,Liver
+T35,Lung
+T36,Minor Salivary Gland
+T37,Muscle - Skeletal
+T38,Nerve - Tibial
+T39,Ovary
+T40,Pancreas
+T41,Pituitary
+T42,Prostate
+T43,Skin - Not Sun Exposed (Suprapubic)
+T44,Skin - Sun Exposed (Lower leg)
+T45,Small Intestine - Terminal Ileum
+T46,Spleen
+T47,Stomach
+T48,Testis
+T49,Thyroid
+T50,Uterus
+T51,Vagina
+T52,Whole Blood

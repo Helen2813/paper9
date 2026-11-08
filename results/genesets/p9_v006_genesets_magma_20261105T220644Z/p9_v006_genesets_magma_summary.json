@@ -1,0 +1,8 @@
+{
+  "task": "PAPER9_V006_GENESETS_MAGMA",
+  "timestamp_utc": "20261105T220644Z",
+  "gates": {
+    "MAGMA": "NOT_INSTALLED",
+    "HECA_DOWNLOAD": true
+  }
+}

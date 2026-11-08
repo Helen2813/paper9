@@ -1,0 +1,9 @@
+truth,group,rule,n,top_correct,top_correct_null,detected_any_q05,detected_null
+decidual stroma x2,dStromal,ABS,60,0.016666666666666666,,0.016666666666666666,
+decidual stroma x2,dStromal,UP,60,0.36666666666666664,,0.2833333333333333,
+decidual stroma x4,dStromal,ABS,60,0.0,,0.2833333333333333,
+decidual stroma x4,dStromal,UP,60,0.31666666666666665,,0.9666666666666667,
+venous endothelium x2,endothelial,ABS,60,0.7166666666666667,,0.06666666666666667,
+venous endothelium x2,endothelial,UP,60,0.95,,0.5333333333333333,
+perivascular ePV_2 x2,perivascular/SM,ABS,60,0.15,,0.03333333333333333,
+perivascular ePV_2 x2,perivascular/SM,UP,60,0.6666666666666666,,0.2,

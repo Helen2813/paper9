@@ -1,0 +1,41 @@
+{
+  "task": "PAPER9_V012_LDSC_SEG",
+  "timestamp_utc": "20261106T154700Z",
+  "gates": {
+    "MAGMA": "OK",
+    "M_CHECK": true,
+    "LDSCORES": true,
+    "MAGMA_SANITY": "PASS"
+  },
+  "G4_primary": [
+    {
+      "label": "dS4",
+      "Coefficient": 1.710756714858562e-09,
+      "Coefficient_std_error": 7.895566722926396e-10,
+      "Coefficient_P_value": 0.0151276955160714,
+      "holm": 0.0605107820642856
+    },
+    {
+      "label": "dS3",
+      "Coefficient": 1.278409911377437e-09,
+      "Coefficient_std_error": 6.714424961433547e-10,
+      "Coefficient_P_value": 0.0284567021710526,
+      "holm": 0.0853701065131578
+    },
+    {
+      "label": "dS2",
+      "Coefficient": -1.905845536077241e-10,
+      "Coefficient_std_error": 6.005261556524628e-10,
+      "Coefficient_P_value": 0.6245157660691582,
+      "holm": 1.0
+    },
+    {
+      "label": "dS1-myofibroblast",
+      "Coefficient": -1.0235360466788443e-09,
+      "Coefficient_std_error": 5.763099498109024e-10,
+      "Coefficient_P_value": 0.9621349107398496,
+      "holm": 1.0
+    }
+  ],
+  "G4_verdict": "DECIDUAL ENRICHMENT NOT REPLICATED (check 1 failed; supports G4)"
+}

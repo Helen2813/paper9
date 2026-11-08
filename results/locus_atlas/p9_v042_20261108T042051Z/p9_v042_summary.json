@@ -1,0 +1,232 @@
+{
+  "task": "PAPER9_V042_LOCUS_ATLAS",
+  "timestamp_utc": "20261108T042051Z",
+  "results": {
+    "l1_enrichment": {
+      "stroma": {
+        "obs": 9,
+        "n": 52,
+        "genome_share": 0.08482018399776972,
+        "p_greater": 0.02961140304733793
+      },
+      "epithelium": {
+        "obs": 5,
+        "n": 52,
+        "genome_share": 0.09855032060217452,
+        "p_greater": 0.5911245767334702
+      },
+      "endothelium": {
+        "obs": 8,
+        "n": 52,
+        "genome_share": 0.08433231112350154,
+        "p_greater": 0.06856277623154014
+      },
+      "perivascular/SM": {
+        "obs": 4,
+        "n": 52,
+        "genome_share": 0.07840814050738779,
+        "p_greater": 0.5899228738063746
+      },
+      "immune": {
+        "obs": 6,
+        "n": 52,
+        "genome_share": 0.08572623362141064,
+        "p_greater": 0.2855218536148652
+      },
+      "broad": {
+        "obs": 20,
+        "n": 52,
+        "genome_share": 0.5681628101477558,
+        "p_greater": 0.9974403255213411
+      }
+    },
+    "h_multi": {
+      "assigned": 32,
+      "n_ge10": 5,
+      "top_share": 0.28125,
+      "supported": true,
+      "leiomyoma_top_share": 0.25
+    },
+    "l2_drivers": {
+      "Venous/CTL": [],
+      "Arterial/CTL": [],
+      "Venous/ENDO": [],
+      "dStromal_mid/ENDO": [],
+      "dStromal_early/ENDO": [],
+      "sHormones/CTL": [],
+      "Luminal/ENDO": [],
+      "Ciliated/CTL": [],
+      "Ciliated/ENDO": []
+    },
+    "l2_all_gws": {
+      "Venous/CTL": {
+        "base": 3.1628e-05,
+        "without_gws": 0.14478
+      },
+      "Arterial/CTL": {
+        "base": 8.6899e-05,
+        "without_gws": 0.17895
+      },
+      "Venous/ENDO": {
+        "base": 0.00012639,
+        "without_gws": 0.17396
+      },
+      "dStromal_mid/ENDO": {
+        "base": 0.00013794,
+        "without_gws": 0.02112
+      },
+      "dStromal_early/ENDO": {
+        "base": 0.00025662,
+        "without_gws": 0.086183
+      },
+      "sHormones/CTL": {
+        "base": 0.00090472,
+        "without_gws": 0.16168
+      },
+      "Luminal/ENDO": {
+        "base": 5.3184e-05,
+        "without_gws": 0.055517
+      },
+      "Ciliated/CTL": {
+        "base": 0.00048258,
+        "without_gws": 0.017322
+      },
+      "Ciliated/ENDO": {
+        "base": 0.00050903,
+        "without_gws": 0.027584
+      }
+    },
+    "l2c_endothelium": {
+      "set": "Venous/CTL",
+      "delta_log10": 0.8850875084545784,
+      "null_median": 0.6788611251636902,
+      "p_perm": 0.27450980392156865
+    },
+    "l2c_stroma": {
+      "set": "dStromal_mid/ENDO",
+      "delta_log10": 1.572437339519337,
+      "null_median": 0.08022077155907925,
+      "p_perm": 0.0196078431372549
+    },
+    "l2c": {
+      "broad": {
+        "Venous/CTL": 0.0014166,
+        "Arterial/CTL": 0.0024514,
+        "Venous/ENDO": 0.0026386,
+        "dStromal_mid/ENDO": 0.00035028,
+        "dStromal_early/ENDO": 0.00088697,
+        "sHormones/CTL": 0.0022421,
+        "Luminal/ENDO": 0.00071491,
+        "Ciliated/CTL": 0.00074251,
+        "Ciliated/ENDO": 0.0010702
+      },
+      "endothelium": {
+        "Venous/CTL": 0.00024275,
+        "Arterial/CTL": 0.00054216,
+        "Venous/ENDO": 0.00091762,
+        "dStromal_mid/ENDO": 0.00041582,
+        "dStromal_early/ENDO": 0.00025662,
+        "sHormones/CTL": 0.00090472,
+        "Luminal/ENDO": 0.00010138,
+        "Ciliated/CTL": 0.00097926,
+        "Ciliated/ENDO": 0.00071746
+      },
+      "epithelium": {
+        "Venous/CTL": 6.7206e-05,
+        "Arterial/CTL": 0.0002537,
+        "Venous/ENDO": 0.00035169,
+        "dStromal_mid/ENDO": 0.00015732,
+        "dStromal_early/ENDO": 0.00029159,
+        "sHormones/CTL": 0.00083915,
+        "Luminal/ENDO": 8.8355e-05,
+        "Ciliated/CTL": 0.00052954,
+        "Ciliated/ENDO": 0.00055322
+      },
+      "immune": {
+        "Venous/CTL": 0.00014201,
+        "Arterial/CTL": 0.00034746,
+        "Venous/ENDO": 0.00074347,
+        "dStromal_mid/ENDO": 0.000128,
+        "dStromal_early/ENDO": 0.00023875,
+        "sHormones/CTL": 0.00090472,
+        "Luminal/ENDO": 5.604e-05,
+        "Ciliated/CTL": 0.0005782,
+        "Ciliated/ENDO": 0.0005151
+      },
+      "no expression": {
+        "Venous/CTL": 3.1628e-05,
+        "Arterial/CTL": 9.708e-05,
+        "Venous/ENDO": 0.00012639,
+        "dStromal_mid/ENDO": 0.0001141,
+        "dStromal_early/ENDO": 0.00025662,
+        "sHormones/CTL": 0.00090472,
+        "Luminal/ENDO": 5.3184e-05,
+        "Ciliated/CTL": 0.00048258,
+        "Ciliated/ENDO": 0.00050903
+      },
+      "perivascular/SM": {
+        "Venous/CTL": 5.6388e-05,
+        "Arterial/CTL": 0.00012085,
+        "Venous/ENDO": 0.00021214,
+        "dStromal_mid/ENDO": 0.00013794,
+        "dStromal_early/ENDO": 0.00072742,
+        "sHormones/CTL": 0.00090472,
+        "Luminal/ENDO": 0.000223,
+        "Ciliated/CTL": 0.00048258,
+        "Ciliated/ENDO": 0.00050903
+      },
+      "stroma": {
+        "Venous/CTL": 0.00070572,
+        "Arterial/CTL": 0.0012789,
+        "Venous/ENDO": 0.00080782,
+        "dStromal_mid/ENDO": 0.0051538,
+        "dStromal_early/ENDO": 0.019833,
+        "sHormones/CTL": 0.0997,
+        "Luminal/ENDO": 0.0026053,
+        "Ciliated/CTL": 0.005702,
+        "Ciliated/ENDO": 0.011515
+      }
+    },
+    "l3": [
+      {
+        "trait": "LEIOMYOMA",
+        "loci_shared": 26,
+        "loci": 57,
+        "matched_shared": 39,
+        "matched": 399,
+        "or_matched": 7.741935483870968,
+        "p_matched": 4.01432817474798e-10,
+        "pool_shared": 59,
+        "pool": 763,
+        "or_pool": 10.007654455986877,
+        "p_pool": 6.203407149581036e-13
+      },
+      {
+        "trait": "T2D",
+        "loci_shared": 24,
+        "loci": 57,
+        "matched_shared": 111,
+        "matched": 399,
+        "or_matched": 1.886977886977887,
+        "p_matched": 0.021945890256038856,
+        "pool_shared": 209,
+        "pool": 763,
+        "or_pool": 1.9277946933449326,
+        "p_pool": 0.015141270024715157
+      },
+      {
+        "trait": "HYPERTENSION",
+        "loci_shared": 28,
+        "loci": 57,
+        "matched_shared": 119,
+        "matched": 399,
+        "or_matched": 2.2718052738336714,
+        "p_matched": 0.0034546112430320582,
+        "pool_shared": 209,
+        "pool": 763,
+        "or_pool": 2.5593136446131,
+        "p_pool": 0.0006594240968408094
+      }
+    ]
+  }
+}

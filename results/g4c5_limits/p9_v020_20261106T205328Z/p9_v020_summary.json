@@ -1,0 +1,14 @@
+{
+  "task": "PAPER9_V020_G4C5_LIMITS",
+  "timestamp_utc": "20261106T205328Z",
+  "gates": {},
+  "results": {
+    "G4_check5": {
+      "verdict": "NOT SUPPORTED",
+      "M1_dS_sig": false,
+      "M3_dS_sig": true,
+      "M3_top3_shared_with_HTN": 0
+    },
+    "limits_rows": 10
+  }
+}

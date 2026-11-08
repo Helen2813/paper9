@@ -1,0 +1,41 @@
+source_id,kind,url,status,detail
+GCST90205183,gwas_file,https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90205001-GCST90206000/GCST90205183/GCST90205183_buildGRCh37.tsv.gz,HTTP_200,137.9 MB
+GCST90205183,gwas_file,https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90205001-GCST90206000/GCST90205183/GCST90205183_buildGRCh37.tsv.gz-meta.yaml,HTTP_200,1.3 KB
+GCST90205183,gwas_file,https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90205001-GCST90206000/GCST90205183/README.txt,HTTP_200,529.0 B
+GCST90205183,gwas_file,https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90205001-GCST90206000/GCST90205183/harmonised/GCST90205183.h.tsv.gz,HTTP_200,158.1 MB
+GCST90205183,gwas_file,https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90205001-GCST90206000/GCST90205183/harmonised/GCST90205183.h.tsv.gz-meta.yaml,HTTP_200,1.4 KB
+GCST90205183,gwas_file,https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90205001-GCST90206000/GCST90205183/harmonised/GCST90205183.h.tsv.gz.tbi,HTTP_200,1.4 MB
+GCST90205183,gwas_file,https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90205001-GCST90206000/GCST90205183/harmonised/GCST90205183.running.log,HTTP_200,2.1 KB
+GCST90205183,gwas_file,https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90205001-GCST90206000/GCST90205183/harmonised/md5sum.txt,HTTP_200,281.0 B
+GCST90205183,gwas_file,https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90205001-GCST90206000/GCST90205183/md5sum.txt,HTTP_200,140.0 B
+FinnGen_R13_manifest,manifest,https://storage.googleapis.com/finngen-public-data-r13/summary_stats/finngen_R13_manifest.tsv,OK,
+FinnGen_N14_ENDOMETRIOSIS,gwas_file,https://storage.googleapis.com/finngen-public-data-r13/summary_stats/finngen_R13_N14_ENDOMETRIOSIS.gz,HTTP_200,766.3 MB
+FinnGen_N14_ENDOMETRIOSIS_OVARY,gwas_file,https://storage.googleapis.com/finngen-public-data-r13/summary_stats/finngen_R13_N14_ENDOMETRIOSIS_OVARY.gz,HTTP_200,765.3 MB
+FinnGen_N14_ENDOMETRIOSIS_PELVICPERITONEUM,gwas_file,https://storage.googleapis.com/finngen-public-data-r13/summary_stats/finngen_R13_N14_ENDOMETRIOSIS_PELVICPERITONEUM.gz,HTTP_200,765.0 MB
+FinnGen_N14_ENDOMETRIOSIS_DEEP,gwas_file,https://storage.googleapis.com/finngen-public-data-r13/summary_stats/finngen_R13_N14_ENDOMETRIOSIS_DEEP.gz,HTTP_200,764.5 MB
+GSE213216_suppl,geo_file,https://ftp.ncbi.nlm.nih.gov/geo/series/GSE213nnn/GSE213216/suppl/GSE213216_RAW.tar,HTTP_200,15.7 GB
+GSE213216_suppl,geo_file,https://ftp.ncbi.nlm.nih.gov/geo/series/GSE213nnn/GSE213216/suppl/filelist.txt,HTTP_200,4.3 KB
+GSE213216_matrix,geo_file,https://ftp.ncbi.nlm.nih.gov/geo/series/GSE213nnn/GSE213216/matrix/GSE213216_series_matrix.txt.gz,HTTP_200,5.3 KB
+GSE141549_suppl,geo_file,https://ftp.ncbi.nlm.nih.gov/geo/series/GSE141nnn/GSE141549/suppl/GSE141549_Illumina_HumanHT-12_V4.0_expression_beadchip_normalized.xlsx,HTTP_200,45.7 MB
+GSE141549_suppl,geo_file,https://ftp.ncbi.nlm.nih.gov/geo/series/GSE141nnn/GSE141549/suppl/GSE141549_Illumina_HumanWG-6_v2.0_expression_beadchip_normalized.xlsx,HTTP_200,206.5 MB
+GSE141549_suppl,geo_file,https://ftp.ncbi.nlm.nih.gov/geo/series/GSE141nnn/GSE141549/suppl/GSE141549_Non-normalized_data_GA_illumina_expression_HumanWG-6.xls.gz,HTTP_200,249.4 MB
+GSE141549_suppl,geo_file,https://ftp.ncbi.nlm.nih.gov/geo/series/GSE141nnn/GSE141549/suppl/GSE141549_Non-normalized_data_GA_illumina_expression_platform_HumanHT-12.xls.gz,HTTP_200,25.4 MB
+GSE141549_suppl,geo_file,https://ftp.ncbi.nlm.nih.gov/geo/series/GSE141nnn/GSE141549/suppl/GSE141549_RAW.tar,HTTP_200,38.2 MB
+GSE141549_suppl,geo_file,https://ftp.ncbi.nlm.nih.gov/geo/series/GSE141nnn/GSE141549/suppl/GSE141549_Sample_link.xlsx,HTTP_200,18.7 KB
+GSE141549_suppl,geo_file,https://ftp.ncbi.nlm.nih.gov/geo/series/GSE141nnn/GSE141549/suppl/GSE141549_batchCorrectednormalizedArrayscombined.xlsx,HTTP_200,146.5 MB
+GSE141549_suppl,geo_file,https://ftp.ncbi.nlm.nih.gov/geo/series/GSE141nnn/GSE141549/suppl/filelist.txt,HTTP_200,344.0 B
+GSE141549_matrix,geo_file,https://ftp.ncbi.nlm.nih.gov/geo/series/GSE141nnn/GSE141549/matrix/GSE141549-GPL10558_series_matrix.txt.gz,HTTP_200,4.5 KB
+GSE141549_matrix,geo_file,https://ftp.ncbi.nlm.nih.gov/geo/series/GSE141nnn/GSE141549/matrix/GSE141549-GPL13376_series_matrix.txt.gz,HTTP_200,9.8 KB
+GSE266265_suppl,geo_file,https://ftp.ncbi.nlm.nih.gov/geo/series/GSE266nnn/GSE266265/suppl/GSE266265_EndoAtlas.rds,HTTP_200,38.9 GB
+GSE266265_suppl,geo_file,https://ftp.ncbi.nlm.nih.gov/geo/series/GSE266nnn/GSE266265/suppl/GSE266265_epithelial_cells_monocle3.rds,HTTP_200,190.7 MB
+GSE266265_matrix,geo_file,https://ftp.ncbi.nlm.nih.gov/geo/series/GSE266nnn/GSE266265/matrix/GSE266265_series_matrix.txt.gz,HTTP_200,7.4 KB
+GSE51981_suppl,geo_file,https://ftp.ncbi.nlm.nih.gov/geo/series/GSE51nnn/GSE51981/suppl/GSE51981_RAW.tar,HTTP_200,711.8 MB
+GSE51981_suppl,geo_file,https://ftp.ncbi.nlm.nih.gov/geo/series/GSE51nnn/GSE51981/suppl/filelist.txt,HTTP_200,8.5 KB
+GSE51981_matrix,geo_file,https://ftp.ncbi.nlm.nih.gov/geo/series/GSE51nnn/GSE51981/matrix/GSE51981_series_matrix.txt.gz,HTTP_200,25.8 MB
+zenodo_3518299,zenodo,https://zenodo.org/api/records/3518299,OK,GWAS and GTEx QTL integration
+zenodo_3519321,zenodo,https://zenodo.org/api/records/3519321,OK,GTEx v8 Elastic Net prediction models
+zenodo_3569954,zenodo,https://zenodo.org/api/records/3569954,OK,GWAS summary statistics imputation support data and integration with PrediXcan M
+zenodo_10515792,zenodo,https://zenodo.org/api/records/10515792,OK,S-LDSC reference files
+MAGMA,web,https://cncr.nl/research/magma/,HTTP_200,
+HECA_portal,web,https://www.reproductivecellatlas.org/,HTTP_200,
+Mortlock_endometrial_eQTL,web,http://reproductivegenomics.com.au/shiny/endo_eqtl_rna/,HTTP_NA,

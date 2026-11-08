@@ -1,0 +1,52 @@
+gsm,title,source,patient id,tissue,cell line,cell type,anatomic location,menstrual cycle_phase,tissue type,library_strategy,description,molecule_ch1
+GSM6574509,Sample 1,"Endometrioma, scRNAseq",1,Endometrioma,tissue,,Left ovary,,,RNA-Seq,10x Genomics,total RNA
+GSM6574510,Sample 5,"Endometriosis, scRNAseq",4,Endometriosis,tissue,,Anterior cul-de-sac,,,RNA-Seq,10x Genomics,total RNA
+GSM6574511,Sample 7,"Endometriosis, scRNAseq",5,Endometriosis,tissue,,Posterior cul-de-sac,,,RNA-Seq,10x Genomics,total RNA
+GSM6574512,Sample 8,"Eutopic Endometrium, scRNAseq",6,Eutopic Endometrium,tissue,,Endometrium,,,RNA-Seq,10x Genomics,total RNA
+GSM6574513,Sample 9,"Ovary, scRNAseq",6,Ovary,tissue,,Right ovary,,,RNA-Seq,10x Genomics,total RNA
+GSM6574514,Sample 10,"Endometriosis, scRNAseq",7,Endometriosis,tissue,,Right and left pelvic side wall†,,,RNA-Seq,10x Genomics,total RNA
+GSM6574515,Sample 11,"Endometriosis, scRNAseq",7,Endometriosis,tissue,,Anterior cul-de-sac,,,RNA-Seq,10x Genomics,total RNA
+GSM6574516,Sample 12,"Endometrioma, scRNAseq",7,Endometrioma,tissue,,Right ovary,,,RNA-Seq,10x Genomics,total RNA
+GSM6574517,Sample 13,"Endometriosis, scRNAseq",7,Endometriosis,tissue,,Right and left uterosacral ligament,,,RNA-Seq,10x Genomics,total RNA
+GSM6574518,Sample 14,"No endometriosis detected, scRNAseq",8,No endometriosis detected,tissue,,Anterior cul-de-sac and right pelvic side wall†,,,RNA-Seq,10x Genomics,total RNA
+GSM6574519,Sample 15,"Endometrioma, scRNAseq",8,Endometrioma,tissue,,Left ovary,,,RNA-Seq,10x Genomics,total RNA
+GSM6574520,Sample 16,"Endometriosis, scRNAseq",8,Endometriosis,tissue,,Left uterosacral ligament,,,RNA-Seq,10x Genomics,total RNA
+GSM6574521,Sample 17,"No endometriosis detected, scRNAseq",8,No endometriosis detected,tissue,,Rectal serosa,,,RNA-Seq,10x Genomics,total RNA
+GSM6574522,Sample 18,"Endometriosis, scRNAseq",9,Endometriosis,tissue,,Right and left pelvic side wall,,,RNA-Seq,10x Genomics,total RNA
+GSM6574523,Sample 19,"Endometriosis, scRNAseq",9,Endometriosis,tissue,,Left ovarian fossa,,,RNA-Seq,10x Genomics,total RNA
+GSM6574524,Sample 20,"Endometriosis, scRNAseq",9,Endometriosis,tissue,,Anterior abdominal wall and cul-de-sac†,,,RNA-Seq,10x Genomics,total RNA
+GSM6574525,Sample 21,"Endometrioma, scRNAseq",9,Endometrioma,tissue,,Right ovary,,,RNA-Seq,10x Genomics,total RNA
+GSM6574526,Sample 22,"Endometriosis, scRNAseq",9,Endometriosis,tissue,,Right parametrium,,,RNA-Seq,10x Genomics,total RNA
+GSM6574527,Sample 23,"Endometriosis, scRNAseq",9,Endometriosis,tissue,,Perirectal fat,,,RNA-Seq,10x Genomics,total RNA
+GSM6574528,Sample 24,"Eutopic Endometrium, scRNAseq",10,Eutopic Endometrium,tissue,,Endometrium,,,RNA-Seq,10x Genomics,total RNA
+GSM6574529,Sample 25,"No endometriosis detected, scRNAseq",10,No endometriosis detected,tissue,,Left uterosacral ligament,,,RNA-Seq,10x Genomics,total RNA
+GSM6574530,Sample 26,"Endometriosis, scRNAseq",10,Endometriosis,tissue,,Right uterosacral ligament,,,RNA-Seq,10x Genomics,total RNA
+GSM6574531,Sample 27,"No endometriosis detected, scRNAseq",10,No endometriosis detected,tissue,,Bladder endometriosis,,,RNA-Seq,10x Genomics,total RNA
+GSM6574532,Sample 28,"Endometriosis, scRNAseq",11,Endometriosis,tissue,,Left pelvic side wall,,,RNA-Seq,10x Genomics,total RNA
+GSM6574533,Sample 29,"Endometrioma, scRNAseq",11,Endometrioma,tissue,,Left ovarian cyst,,,RNA-Seq,10x Genomics,total RNA
+GSM6574534,Sample 30,"Eutopic Endometrium, scRNAseq",11,Eutopic Endometrium,tissue,,Endometrium,,,RNA-Seq,10x Genomics,total RNA
+GSM6574535,Sample 31,"Eutopic Endometrium, scRNAseq",12,Eutopic Endometrium,tissue,,Endometrium,,,RNA-Seq,10x Genomics,total RNA
+GSM6574536,Sample 32,"Eutopic Endometrium, scRNAseq",13,Eutopic Endometrium,tissue,,Endometrium,,,RNA-Seq,10x Genomics,total RNA
+GSM6574537,Sample 33,"Endometriosis, scRNAseq",14,Endometriosis,tissue,,Right ovary,,,RNA-Seq,10x Genomics,total RNA
+GSM6574538,Sample 34,"Ovary, scRNAseq",14,Ovary,tissue,,Left ovary,,,RNA-Seq,10x Genomics,total RNA
+GSM6574539,Sample 35,"Eutopic Endometrium, scRNAseq",14,Eutopic Endometrium,tissue,,Endometrium,,,RNA-Seq,10x Genomics,total RNA
+GSM6574540,Sample 36,"Ovary, scRNAseq",15,Ovary,tissue,,Right ovary,,,RNA-Seq,10x Genomics,total RNA
+GSM6574541,Sample 37,"Endometriosis, scRNAseq",16,Endometriosis,tissue,,Left ovarian fossa,,,RNA-Seq,10x Genomics,total RNA
+GSM6574542,Sample 38,"Eutopic Endometrium, scRNAseq",16,Eutopic Endometrium,tissue,,Endometrium,,,RNA-Seq,10x Genomics,total RNA
+GSM6574543,Sample 39,"Eutopic Endometrium, scRNAseq",17,Eutopic Endometrium,tissue,,Endometrium,,,RNA-Seq,10x Genomics,total RNA
+GSM6574544,Sample 40,"Eutopic Endometrium, scRNAseq",18,Eutopic Endometrium,tissue,,Endometrium,,,RNA-Seq,10x Genomics,total RNA
+GSM6574545,Sample 41,"Ovary, scRNAseq",18,Ovary,tissue,,Ovary,,,RNA-Seq,10x Genomics,total RNA
+GSM6574546,Sample 42,"Endometrioma, scRNAseq",19,Endometrioma,tissue,,Left ovarian cyst,,,RNA-Seq,10x Genomics,total RNA
+GSM6574547,Sample 43,"Endometriosis, scRNAseq",19,Endometriosis,tissue,,Right ovarian fossa,,,RNA-Seq,10x Genomics,total RNA
+GSM6574548,Sample 44,"Endometriosis, scRNAseq",20,Endometriosis,tissue,,Left uterosacral ligament,,,RNA-Seq,10x Genomics,total RNA
+GSM6574549,Sample 45,"Endometriosis, scRNAseq",21,Endometriosis,tissue,,Rectum,,,RNA-Seq,10x Genomics,total RNA
+GSM6574550,Sample 46,"Endometriosis, scRNAseq",21,Endometriosis,tissue,,Left ovarian fossa,,,RNA-Seq,10x Genomics,total RNA
+GSM6574551,Sample 47,"Endometriosis, scRNAseq",21,Endometriosis,tissue,,Right uterosacral ligament,,,RNA-Seq,10x Genomics,total RNA
+GSM6574552,Sample 48,"Endometriosis, scRNAseq",21,Endometriosis,tissue,,Anterior cul-de-sac,,,RNA-Seq,10x Genomics,total RNA
+GSM6574553,Sample 49,"Endometriosis, scRNAseq",21,Endometriosis,tissue,,Posterior uterus,,,RNA-Seq,10x Genomics,total RNA
+GSM6634272,sample3,Endometrioma,2,Endometrioma,tissue,,Right ovary,,,RNA-Seq,10x Genomics,total RNA
+GSM6634273,sample2,Endometriosis,2,Endometrioma,tissue,,Left ovary,,,RNA-Seq,10x Genomics,total RNA
+GSM6634274,Sample 4,Eutopic Endometrium,3,Eutopic Endometrium,tissue,,Endometrium,,,RNA-Seq,10x Genomics,total RNA
+GSM6690474,"Patient 4, Endometriosis",Endometriosis,4,Endometriosis,tissue,,Posterior cul-de-sac,,fresh,RNA-Seq,10X 3' scRNA-seq,polyA RNA
+GSM6690475,"BEME_346, Endometriosis",Endometriosis,,Endometriosis,tissue,"keratin-positive, mesenchymal and endothelial",,Luteal,frozen,OTHER,10X Visium spatial gene expression,polyA RNA
+GSM6690476,"BEME_355G, Endometriosis",Endometriosis,,Endometriosis,tissue,"keratin-positive, mesenchymal and endothelial",,,frozen,OTHER,10X Visium spatial gene expression,polyA RNA

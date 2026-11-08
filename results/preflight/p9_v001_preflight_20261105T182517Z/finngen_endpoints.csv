@@ -1,0 +1,18 @@
+phenocode,name,n_cases,n_controls,url
+C3_OVARY_ENDOMETROID,Endometroid carcinoma of ovary,208,218713,https://storage.googleapis.com/finngen-public-data-r13/summary_stats/finngen_R13_C3_OVARY_ENDOMETROID.gz
+C3_OVARY_ENDOMETROID_WIDE,"Endometroid carcinoma of ovary, including Hilmo",305,218713,https://storage.googleapis.com/finngen-public-data-r13/summary_stats/finngen_R13_C3_OVARY_ENDOMETROID_WIDE.gz
+CD2_BENIGN_LEIOMYOMA_UTERI,Leiomyoma of uterus,42816,239093,https://storage.googleapis.com/finngen-public-data-r13/summary_stats/finngen_R13_CD2_BENIGN_LEIOMYOMA_UTERI.gz
+CD2_INSITU_ENDOMETRIUM,Carcinoma in situ of endometrium,162,281747,https://storage.googleapis.com/finngen-public-data-r13/summary_stats/finngen_R13_CD2_INSITU_ENDOMETRIUM.gz
+E4_ENDOMETPOSTOP,"Postprocedural endocrine and metabolic disorders, not elsewhere classified",5464,411530,https://storage.googleapis.com/finngen-public-data-r13/summary_stats/finngen_R13_E4_ENDOMETPOSTOP.gz
+N14_ENDOMETRIOSIS,Endometriosis,20534,122622,https://storage.googleapis.com/finngen-public-data-r13/summary_stats/finngen_R13_N14_ENDOMETRIOSIS.gz
+N14_ENDOMETRIOSIS_ASRM_STAGE3_4,"Endometriosis ASRM stages 3,4",10284,271625,https://storage.googleapis.com/finngen-public-data-r13/summary_stats/finngen_R13_N14_ENDOMETRIOSIS_ASRM_STAGE3_4.gz
+N14_ENDOMETRIOSIS_DEEP,Deep endometriosis,3890,271625,https://storage.googleapis.com/finngen-public-data-r13/summary_stats/finngen_R13_N14_ENDOMETRIOSIS_DEEP.gz
+N14_ENDOMETRIOSIS_FALLOPIAN_TUBE,Endometriosis of fallopian tube,284,122622,https://storage.googleapis.com/finngen-public-data-r13/summary_stats/finngen_R13_N14_ENDOMETRIOSIS_FALLOPIAN_TUBE.gz
+N14_ENDOMETRIOSIS_INTESTINE,Endometriosis of intestine,650,122622,https://storage.googleapis.com/finngen-public-data-r13/summary_stats/finngen_R13_N14_ENDOMETRIOSIS_INTESTINE.gz
+N14_ENDOMETRIOSIS_NOS,Unspecified/other endometriosis,4301,122622,https://storage.googleapis.com/finngen-public-data-r13/summary_stats/finngen_R13_N14_ENDOMETRIOSIS_NOS.gz
+N14_ENDOMETRIOSIS_OVARY,Endometriosis of ovary,8002,122622,https://storage.googleapis.com/finngen-public-data-r13/summary_stats/finngen_R13_N14_ENDOMETRIOSIS_OVARY.gz
+N14_ENDOMETRIOSIS_PELVICPERITONEUM,Endometriosis of pelvic peritoneum,7758,122622,https://storage.googleapis.com/finngen-public-data-r13/summary_stats/finngen_R13_N14_ENDOMETRIOSIS_PELVICPERITONEUM.gz
+N14_ENDOMETRIOSIS_RECTPVAGSEPT_VAGINA,Endometriosis of rectovaginal septum and vagina,3263,122622,https://storage.googleapis.com/finngen-public-data-r13/summary_stats/finngen_R13_N14_ENDOMETRIOSIS_RECTPVAGSEPT_VAGINA.gz
+N14_ENDOMETRIOSIS_SKIN_SCAR,Endometriosis in cutaneous scar,125,122622,https://storage.googleapis.com/finngen-public-data-r13/summary_stats/finngen_R13_N14_ENDOMETRIOSIS_SKIN_SCAR.gz
+N14_ENDOMETRIOSIS_UTERUS,Adenomyosis (Endometriosis of uterus),5864,122622,https://storage.googleapis.com/finngen-public-data-r13/summary_stats/finngen_R13_N14_ENDOMETRIOSIS_UTERUS.gz
+N14_ENDOMET_INFERT,Endometriosis diagnosis and infertility diagnosis occurring together,4527,268177,https://storage.googleapis.com/finngen-public-data-r13/summary_stats/finngen_R13_N14_ENDOMET_INFERT.gz

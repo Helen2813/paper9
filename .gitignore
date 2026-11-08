@@ -11,6 +11,7 @@ results/**
 !results/**/
 !results/.gitkeep
 !results/**/*_summary.json
+!results/**/*.csv
 logs/**
 !logs/.gitkeep
 
@@ -50,6 +51,7 @@ tools/**
 __pycache__/
 *.py[cod]
 .venv/
+.venv_*/
 venv/
 .env
 .ipynb_checkpoints/
@@ -74,3 +76,13 @@ manuscript/**/*.fls
 .idea/
 .vscode/
 *.swp
+
+# ---- Downloaded publications and supplementary files (copyright; keep local only)
+references/**
+*.pdf
+*.xlsx
+*.docx
+
+.envs/
+.mamba/
+logs/

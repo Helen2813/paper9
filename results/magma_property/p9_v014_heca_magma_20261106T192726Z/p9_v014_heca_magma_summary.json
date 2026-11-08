@@ -1,0 +1,36 @@
+{
+  "task": "PAPER9_V014_HECA_MAGMA",
+  "timestamp_utc": "20261106T192726Z",
+  "gates": {
+    "PC_LEIOMYOMA_uSMC_rank": 1,
+    "PC_HTN_TOP5": 5
+  },
+  "results": {
+    "G4_check3": {
+      "verdict": "HECA dStromal ENRICHMENT NOT REPRODUCED (check 3 failed)",
+      "rows": [
+        {
+          "label": "dStromal_mid",
+          "BETA": 0.57983,
+          "SE": 0.41614,
+          "P": 0.081773,
+          "holm": 0.245319
+        },
+        {
+          "label": "dStromal_late",
+          "BETA": 0.4909,
+          "SE": 0.40511,
+          "P": 0.11282,
+          "holm": 0.245319
+        },
+        {
+          "label": "dStromal_early",
+          "BETA": 0.44639,
+          "SE": 0.36929,
+          "P": 0.11338,
+          "holm": 0.245319
+        }
+      ]
+    }
+  }
+}

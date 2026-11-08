@@ -1,0 +1,8 @@
+{
+  "task": "PAPER9_V008_LDSC_SEG",
+  "timestamp_utc": "20261105T222349Z",
+  "gates": {
+    "MAGMA": "OK MacOSX26.sdk",
+    "LDSCORES": false
+  }
+}

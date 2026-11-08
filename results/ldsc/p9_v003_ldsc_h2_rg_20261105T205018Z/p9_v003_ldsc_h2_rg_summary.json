@@ -1,0 +1,13 @@
+{
+  "task": "PAPER9_V003_LDSC_H2_RG",
+  "timestamp_utc": "20261105T205018Z",
+  "gates": {
+    "LDSC_TESTS": "PASS",
+    "MAGMA": "NOT_INSTALLED",
+    "GWASCAT": true
+  },
+  "ldsc_tests": "PASS",
+  "G3_primary": [],
+  "h2": [],
+  "rg_pairs": 0
+}

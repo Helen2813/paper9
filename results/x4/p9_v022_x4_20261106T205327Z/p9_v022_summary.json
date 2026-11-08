@@ -1,0 +1,11 @@
+{
+  "task": "PAPER9_V022_X4",
+  "timestamp_utc": "20261106T205327Z",
+  "results": {
+    "X4": {
+      "mullerian": true,
+      "specific": false,
+      "organ_identity": false
+    }
+  }
+}

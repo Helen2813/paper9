@@ -1,0 +1,11 @@
+{
+  "task": "PAPER9_V027_RESOLUTION",
+  "timestamp_utc": "20261106T222520Z",
+  "results": {
+    "R1": {
+      "vif_vasc3": 1.1889931858890352,
+      "r2_vasc3": 0.15895228680198115,
+      "vif_all_nondecidual": 8.49454983223255
+    }
+  }
+}
