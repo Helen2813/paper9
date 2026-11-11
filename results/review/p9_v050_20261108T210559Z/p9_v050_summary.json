@@ -1,0 +1,74 @@
+{
+  "task": "PAPER9_V050_ATLAS2_ORIGIN",
+  "timestamp_utc": "20261108T210559Z",
+  "results": {
+    "mesothelium_confirmed": true,
+    "r2": {
+      "flip": false,
+      "ctrl": true,
+      "first": {
+        "KOLLER_EUR_ABS": "cDC1",
+        "KOLLER_EUR_UP": "VSMC",
+        "KOLLER_EUR_DOWN": "cDC1",
+        "KOLLER_EUR_ABSN": "VSMC",
+        "KOLLER_EUR_UPN": "eF3",
+        "KOLLER_EUR_DOWNN": "EC-tip",
+        "KOLLER_EUR_SPEC": "mesothelial",
+        "GCST90205183_ABS": "Prv_VSMC secretory",
+        "GCST90205183_UP": "EC-artery",
+        "GCST90205183_DOWN": "Prv_VSMC secretory",
+        "GCST90205183_ABSN": "VSMC",
+        "GCST90205183_UPN": "eF3",
+        "GCST90205183_DOWNN": "EC-tip",
+        "GCST90205183_SPEC": "dS3",
+        "ENDO_ALL_ABS": "MPhi3-APOE",
+        "ENDO_ALL_UP": "Prv-CCL19",
+        "ENDO_ALL_DOWN": "MPhi3-APOE",
+        "ENDO_ALL_ABSN": "glandular",
+        "ENDO_ALL_UPN": "dS3",
+        "ENDO_ALL_DOWNN": "EC-HEV",
+        "ENDO_ALL_SPEC": "LEC",
+        "LEIOMYOMA_ABS": "EC-artery",
+        "LEIOMYOMA_UP": "dS3",
+        "LEIOMYOMA_DOWN": "lumenal 2",
+        "LEIOMYOMA_ABSN": "dS2",
+        "LEIOMYOMA_UPN": "dS3",
+        "LEIOMYOMA_DOWNN": "MPhi5-activated",
+        "LEIOMYOMA_SPEC": "eF3",
+        "HYPERTENSION_ABS": "EC-tip",
+        "HYPERTENSION_UP": "EC-artery",
+        "HYPERTENSION_DOWN": "NK1",
+        "HYPERTENSION_ABSN": "VSMC",
+        "HYPERTENSION_UPN": "EC-artery",
+        "HYPERTENSION_DOWNN": "eF2",
+        "HYPERTENSION_SPEC": "VSMC",
+        "T2D_ABS": "cDC2",
+        "T2D_UP": "eF2",
+        "T2D_DOWN": "cDC2",
+        "T2D_ABSN": "EC-HEV",
+        "T2D_UPN": "VSMC",
+        "T2D_DOWNN": "dS1-myofibroblast",
+        "T2D_SPEC": "EC-artery"
+      }
+    },
+    "o1": {
+      "supported": true,
+      "stroma_rank": 1,
+      "other_ranks": [
+        2,
+        5,
+        11
+      ],
+      "mesothelium_rank": 5
+    },
+    "o1_contrast": {
+      "label": "eF3",
+      "p": {
+        "T2D": 0.012048392799008859,
+        "HYPERTENSION": 0.03385602951121778,
+        "LEIOMYOMA": 0.0099463274751269
+      },
+      "supported": true
+    }
+  }
+}

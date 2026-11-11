@@ -1,0 +1,14 @@
+gsm,title,source,chars,description,strategy,unit
+GSM5570628,P7_182007,Endometrial cells,tissue: Endometrial cells | age: 38 | day of cycle: 7 | live births: 0 | miscarriages: 3,,ATAC-seq,P7_182007
+GSM5570629,P10_182006,Endometrial cells,tissue: Endometrial cells | age: 39 | day of cycle: 10 | live births: 1 | miscarriages: 5,,ATAC-seq,P10_182006
+GSM5570630,S18_18205,Endometrial cells,tissue: Endometrial cells | age: 33 | day of cycle: 18 | live births: 0 | miscarriages: 4,,ATAC-seq,S18_18205
+GSM5570631,S19a_18189 Run1,Endometrial cells,tissue: Endometrial cells | age: 35 | day of cycle: 19 | live births: 0 | miscarriages: 4,,ATAC-seq,S19a_18189
+GSM5570632,S19a_18189 Run2,Endometrial cells,tissue: Endometrial cells | age: 35 | day of cycle: 19 | live births: 0 | miscarriages: 4,,ATAC-seq,S19a_18189
+GSM5570633,S19_17204,Endometrial cells,tissue: Endometrial cells | age: 36 | day of cycle: 19 | live births: 0 | miscarriages: 2,,ATAC-seq,S19_17204
+GSM5570634,S20_18212,Endometrial cells,tissue: Endometrial cells | age: 32 | day of cycle: 20 | live births: 0 | miscarriages: 1,,ATAC-seq,S20_18212
+GSM5570635,S21_18272,Endometrial cells,tissue: Endometrial cells | age: 34 | day of cycle: 21 | live births: 1 | miscarriages: 0,,ATAC-seq,S21_18272
+GSM5570636,S21a_18325,Endometrial cells,tissue: Endometrial cells | age: 41 | day of cycle: 21 | live births: 0 | miscarriages: 2,,ATAC-seq,S21a_18325
+GSM5570637,S22_18061,Endometrial cells,tissue: Endometrial cells | age: 36 | day of cycle: 22 | live births: 0 | miscarriages: 4,,ATAC-seq,S22_18061
+GSM5570638,S23_18016,Endometrial cells,tissue: Endometrial cells | age: 37 | day of cycle: 23 | live births: 0 | miscarriages: 1,,ATAC-seq,S23_18016
+GSM5570639,S24_17667,Endometrial cells,tissue: Endometrial cells | age: 38 | day of cycle: 24 | live births: 0 | miscarriages: 2,,ATAC-seq,S24_17667
+GSM5570640,S25_17406,Endometrial cells,tissue: Endometrial cells | age: 41 | day of cycle: 25 | live births: 1 | miscarriages: 7,,ATAC-seq,S25_17406

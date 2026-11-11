@@ -1,0 +1,57 @@
+{
+  "task": "PAPER9_V049_REVIEW",
+  "timestamp_utc": "20261108T205814Z",
+  "results": {
+    "r1": {
+      "counts": {
+        "KOLLER_EUR": {
+          "ABS": 2,
+          "UP": 5,
+          "DOWN": 0
+        },
+        "GCST90205183": {
+          "ABS": 0,
+          "UP": 4,
+          "DOWN": 0
+        },
+        "LEIOMYOMA": {
+          "ABS": 2,
+          "UP": 8,
+          "DOWN": 0
+        },
+        "HYPERTENSION": {
+          "ABS": 6,
+          "UP": 8,
+          "DOWN": 0
+        }
+      },
+      "flip": false,
+      "ctrl": true
+    },
+    "r3": {
+      "supported": true,
+      "primary": [
+        {
+          "family": "UPN",
+          "label": "dStromal_mid/ENDO",
+          "trait_a": "KOLLER_EUR",
+          "trait_b": "T2D",
+          "beta_std_a": 0.036026,
+          "beta_std_b": 0.011674,
+          "z_diff": 1.8969059887614874,
+          "p_one_sided": 0.02892017345732785
+        },
+        {
+          "family": "UPN",
+          "label": "dStromal_mid/ENDO",
+          "trait_a": "KOLLER_EUR",
+          "trait_b": "HYPERTENSION",
+          "beta_std_a": 0.036026,
+          "beta_std_b": 0.013782,
+          "z_diff": 1.7202960908694265,
+          "p_one_sided": 0.042689316838439864
+        }
+      ]
+    }
+  }
+}

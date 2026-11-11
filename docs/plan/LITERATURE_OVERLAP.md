@@ -61,3 +61,14 @@ Erratum: PLAN_v0.2 and the v015-v018 script headers call GSE213216 "Tan 2022"; t
 ## Added 2026-11-08
 | Li et al. 2026 (medRxiv 10.1101/2025.05.24.25328275), "Benchmarking methods integrating GWAS and single-cell transcriptomic data for mapping trait-cell type associations" | 20 method configurations, simulated GWAS with known beta-cell source, FWER, misassignment to related types when the causal type is missing, CATCH | Must be cited; Paper 9 differs: directional marker selection (|log2FC| / up / down), a published endometriosis case, related endometrial states |
 | Olafsson et al. 2026 (bioRxiv 10.64898/2026.02.25.708037), endometriosis lesions oligoclonal, derived from normal endometrium (WGS of 403 microdissections) | Cell of origin by somatic genomics | Context for discussion; Paper 9 does not address lesion origin |
+
+## Added 2026-11-11 (chromatin test, v0.2.61)
+
+- Garcia-Alonso, Vento-Tormo et al. 2026, bioRxiv 10.64898/2026.06.10.731198 ("An integrated multimodal pan-organ atlas of
+  the female reproductive system across the lifespan"): CELLECT-LDSC on scRNA expression specificity -> endometriosis
+  heritability in late-secretory stromal fibroblasts and smooth muscle; scATAC (43 donors, 718,670 peaks) used for
+  peak-gene links and GWAS locus overlap, not for S-LDSC on cell-type peaks. Supports the stromal answer of Paper 9 by
+  another expression-based method; must be cited. Peaks released only as a union list (GitHub ventolab).
+- Vrljicak et al. 2023, Cell Rep ("Dynamic chromatin remodeling in cycling human endometrium at single-cell level";
+  GSE183771): scATAC of 12 timed biopsies; no GWAS analysis. Source of the v072 lineage chromatin annotations.
+- GSE246585 (EnSC decidualization ATAC time course): used only as an external check of stromal peaks (time points pooled).

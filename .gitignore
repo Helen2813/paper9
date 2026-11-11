@@ -61,15 +61,8 @@ venv/
 .Rhistory
 .Rproj.user/
 
-# ---- LaTeX build files (manuscript sources are committed)
-manuscript/**/*.aux
-manuscript/**/*.log
-manuscript/**/*.out
-manuscript/**/*.bbl
-manuscript/**/*.blg
-manuscript/**/*.synctex.gz
-manuscript/**/*.fdb_latexmk
-manuscript/**/*.fls
+# ---- Manuscript (LaTeX sources, Overleaf packages): kept local only, never pushed
+manuscript/**
 
 # ---- OS / editors
 .DS_Store
@@ -82,7 +75,3 @@ references/**
 *.pdf
 *.xlsx
 *.docx
-
-.envs/
-.mamba/
-logs/

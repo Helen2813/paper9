@@ -1,0 +1,28 @@
+trait,rank,label,p,q
+KOLLER_EUR,1,mesothelium,0.051318,0.4236705
+KOLLER_EUR,2,perivascular / smooth muscle,0.094149,0.4236705
+KOLLER_EUR,3,stroma (peritoneal_lesion),0.22357,0.605826
+KOLLER_EUR,4,stroma (endometrioma),0.28493,0.605826
+KOLLER_EUR,5,endothelium,0.33657,0.605826
+KOLLER_EUR,6,stroma (eutopic),0.53398,0.7733057142857144
+KOLLER_EUR,7,stroma (peritoneum_adjacent),0.60146,0.7733057142857144
+KOLLER_EUR,8,epithelium,0.90936,0.9228299999999999
+KOLLER_EUR,9,immune,0.92283,0.9228299999999999
+GCST90205183,1,perivascular / smooth muscle,0.15462,0.670338
+GCST90205183,2,mesothelium,0.20227,0.670338
+GCST90205183,3,stroma (peritoneal_lesion),0.30403,0.670338
+GCST90205183,4,stroma (eutopic),0.34246,0.670338
+GCST90205183,5,stroma (endometrioma),0.37241,0.670338
+GCST90205183,6,epithelium,0.54066,0.6980914285714286
+GCST90205183,7,immune,0.54296,0.6980914285714286
+GCST90205183,8,endothelium,0.67929,0.74397
+GCST90205183,9,stroma (peritoneum_adjacent),0.74397,0.74397
+ENDO_ALL,1,mesothelium,0.016006,0.144054
+ENDO_ALL,2,epithelium,0.20079,0.500004
+ENDO_ALL,3,perivascular / smooth muscle,0.25622,0.500004
+ENDO_ALL,4,endothelium,0.26042,0.500004
+ENDO_ALL,5,stroma (eutopic),0.27778,0.500004
+ENDO_ALL,6,stroma (peritoneal_lesion),0.44883,0.6436928571428572
+ENDO_ALL,7,stroma (endometrioma),0.50065,0.6436928571428572
+ENDO_ALL,8,immune,0.85873,0.87626
+ENDO_ALL,9,stroma (peritoneum_adjacent),0.87626,0.87626

@@ -1,0 +1,258 @@
+{
+ "task": "PAPER9_V054_AUDIT",
+ "timestamp_utc": "20261111T161542Z",
+ "results": {
+  "d": {
+   "fwer": {
+    "ABS": {
+     "k": 3,
+     "n": 300,
+     "rate": 0.01,
+     "cp_lo": 0.0020670072350923163,
+     "cp_hi": 0.028944511255692605
+    },
+    "UP": {
+     "k": 1,
+     "n": 300,
+     "rate": 0.0033333333333333335,
+     "cp_lo": 8.438913231780044e-05,
+     "cp_hi": 0.018431252048067885
+    },
+    "DOWN": {
+     "k": 2,
+     "n": 300,
+     "rate": 0.006666666666666667,
+     "cp_lo": 0.0008083864127997911,
+     "cp_hi": 0.02387349757217365
+    },
+    "ABSN": {
+     "k": 1,
+     "n": 300,
+     "rate": 0.0033333333333333335,
+     "cp_lo": 8.438913231780044e-05,
+     "cp_hi": 0.018431252048067885
+    },
+    "UPN": {
+     "k": 2,
+     "n": 300,
+     "rate": 0.006666666666666667,
+     "cp_lo": 0.0008083864127997911,
+     "cp_hi": 0.02387349757217365
+    },
+    "DOWNN": {
+     "k": 1,
+     "n": 300,
+     "rate": 0.0033333333333333335,
+     "cp_lo": 8.438913231780044e-05,
+     "cp_hi": 0.018431252048067885
+    },
+    "SPEC": {
+     "k": 5,
+     "n": 300,
+     "rate": 0.016666666666666666,
+     "cp_lo": 0.005433205315105251,
+     "cp_hi": 0.038463744964996424
+    }
+   },
+   "n_truth_reps": 40
+  },
+  "a1": [
+   {
+    "trait_a": "KOLLER_EUR",
+    "trait_b": "GCST90205183",
+    "n_genes": 18397,
+    "pearson": 0.5049844535025334,
+    "spearman": 0.4336512738549652
+   },
+   {
+    "trait_a": "KOLLER_EUR",
+    "trait_b": "ENDO_ALL",
+    "n_genes": 19146,
+    "pearson": 0.6223742110160241,
+    "spearman": 0.5397875560049958
+   },
+   {
+    "trait_a": "GCST90205183",
+    "trait_b": "ENDO_ALL",
+    "n_genes": 18294,
+    "pearson": 0.17860849535504866,
+    "spearman": 0.10128543444603899
+   },
+   {
+    "trait_a": "KOLLER_EUR",
+    "trait_b": "T2D",
+    "n_genes": 19146,
+    "pearson": 0.11924911603682904,
+    "spearman": 0.10688848295218012
+   },
+   {
+    "trait_a": "KOLLER_EUR",
+    "trait_b": "HYPERTENSION",
+    "n_genes": 19146,
+    "pearson": 0.18193982853705634,
+    "spearman": 0.1371484230416166
+   },
+   {
+    "trait_a": "KOLLER_EUR",
+    "trait_b": "LEIOMYOMA",
+    "n_genes": 19146,
+    "pearson": 0.2227230459000941,
+    "spearman": 0.16752390263782205
+   },
+   {
+    "trait_a": "GCST90205183",
+    "trait_b": "T2D",
+    "n_genes": 18294,
+    "pearson": 0.06839105737318273,
+    "spearman": 0.058510865700050776
+   },
+   {
+    "trait_a": "GCST90205183",
+    "trait_b": "HYPERTENSION",
+    "n_genes": 18294,
+    "pearson": 0.0858267566604725,
+    "spearman": 0.05701373014637504
+   },
+   {
+    "trait_a": "GCST90205183",
+    "trait_b": "LEIOMYOMA",
+    "n_genes": 18294,
+    "pearson": 0.10681204281014088,
+    "spearman": 0.06552607055905184
+   }
+  ],
+  "c": {
+   "kappa": 0.774792572105887,
+   "agreement": 0.8245614035087719,
+   "n_gse_stroma": 8,
+   "tests": {
+    "a": {
+     "p_base": 0.00013794,
+     "p_drop": 0.002303,
+     "p_drop_other_atlas": 0.0051538,
+     "delta": 1.2226037163113084,
+     "null_median": 0.1838940586427198,
+     "null_p95": 0.6918340263762004,
+     "n_null": 200,
+     "p_perm": 0.004975124378109453,
+     "n_loci": 8
+    },
+    "b": {
+     "p_base": 7.9695e-05,
+     "p_drop": 0.00076013,
+     "p_drop_other_atlas": 0.00029855,
+     "delta": 0.9794567981765954,
+     "null_median": 0.1341587422780388,
+     "null_p95": 0.6450221600693407,
+     "n_null": 200,
+     "p_perm": 0.004975124378109453,
+     "n_loci": 9
+    }
+   },
+   "verdict": "SUPPORTED"
+  },
+  "a2": {
+   "HECA_UPN_dStromal_mid/ENDO": {
+    "supported": true,
+    "p_conservative": {
+     "T2D": 0.026181656044301393,
+     "HYPERTENSION": 0.038623122126345145
+    }
+   },
+   "GSE_UPN_eF3": {
+    "supported": true,
+    "p_conservative": {
+     "T2D": 0.01252122899587096,
+     "HYPERTENSION": 0.029415184035553234
+    }
+   }
+  },
+  "b1": {
+   "supported": false,
+   "by_trait": {
+    "KOLLER_EUR": {
+     "n": 60,
+     "stroma_first": 48,
+     "eF3_first": 41,
+     "perivascular_above": 12
+    },
+    "GCST90205183": {
+     "n": 60,
+     "stroma_first": 60,
+     "eF3_first": 59,
+     "perivascular_above": 0
+    },
+    "ENDO_ALL": {
+     "n": 60,
+     "stroma_first": 54,
+     "eF3_first": 2,
+     "perivascular_above": 5
+    }
+   },
+   "jaccard_full_vs_cache": 1.0
+  },
+  "b2": {
+   "supported": true,
+   "pb_supported": false,
+   "by": {
+    "KOLLER_EUR_UPN": {
+     "n": 7,
+     "decidual_first": 6,
+     "dsmid_first": 5,
+     "stromal_first": 7,
+     "perivascular_above": 0
+    },
+    "KOLLER_EUR_UP": {
+     "n": 7,
+     "decidual_first": 6,
+     "dsmid_first": 5,
+     "stromal_first": 7,
+     "perivascular_above": 0
+    },
+    "KOLLER_EUR_PB": {
+     "first": "ePV_1b/ENDO",
+     "first_stromal": false,
+     "first_decidual": false
+    },
+    "GCST90205183_UPN": {
+     "n": 7,
+     "decidual_first": 0,
+     "dsmid_first": 0,
+     "stromal_first": 0,
+     "perivascular_above": 7
+    },
+    "GCST90205183_UP": {
+     "n": 7,
+     "decidual_first": 0,
+     "dsmid_first": 0,
+     "stromal_first": 0,
+     "perivascular_above": 0
+    },
+    "GCST90205183_PB": {
+     "first": "dStromal_early/CTL",
+     "first_stromal": true,
+     "first_decidual": true
+    },
+    "ENDO_ALL_UPN": {
+     "n": 7,
+     "decidual_first": 0,
+     "dsmid_first": 0,
+     "stromal_first": 7,
+     "perivascular_above": 0
+    },
+    "ENDO_ALL_UP": {
+     "n": 7,
+     "decidual_first": 1,
+     "dsmid_first": 0,
+     "stromal_first": 7,
+     "perivascular_above": 0
+    },
+    "ENDO_ALL_PB": {
+     "first": "Arterial/CTL",
+     "first_stromal": false,
+     "first_decidual": false
+    }
+   }
+  }
+ }
+}

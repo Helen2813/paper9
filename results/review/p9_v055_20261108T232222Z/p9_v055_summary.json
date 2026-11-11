@@ -1,0 +1,284 @@
+{
+ "task": "PAPER9_V055_DONORS",
+ "timestamp_utc": "20261108T232222Z",
+ "results": {
+  "e1": {
+   "P": {
+    "groups": 45,
+    "top_gt_0.8": 16,
+    "top_gt_0.5": 32,
+    "median_eff": 2.3335052654201593
+   },
+   "H": {
+    "groups": 49,
+    "top_gt_0.8": 19,
+    "top_gt_0.5": 33,
+    "median_eff": 1.9927219796215432
+   }
+  },
+  "e3": {
+   "supported": false,
+   "by": {
+    "KOLLER_EUR_UPN": {
+     "full_first": "dStromal_early",
+     "full_stromal": true,
+     "n": 14,
+     "stromal_first": 12,
+     "decidual_first": 12,
+     "perivascular_above": 2
+    },
+    "GCST90205183_UPN": {
+     "full_first": "dStromal_early",
+     "full_stromal": true,
+     "n": 14,
+     "stromal_first": 14,
+     "decidual_first": 14,
+     "perivascular_above": 0
+    },
+    "ENDO_ALL_UPN": {
+     "full_first": "dStromal_early",
+     "full_stromal": true,
+     "n": 14,
+     "stromal_first": 11,
+     "decidual_first": 11,
+     "perivascular_above": 2
+    },
+    "LEIOMYOMA_UPN": {
+     "full_first": "dStromal_mid",
+     "full_stromal": true,
+     "n": 14,
+     "stromal_first": 14,
+     "decidual_first": 13,
+     "perivascular_above": 0
+    },
+    "HYPERTENSION_UPN": {
+     "full_first": "ePV_1b",
+     "full_stromal": false,
+     "n": 14,
+     "stromal_first": 0,
+     "decidual_first": 0,
+     "perivascular_above": 14
+    }
+   }
+  },
+  "e2": {
+   "supported": true,
+   "by": {
+    "KOLLER_EUR_UPN": {
+     "full_first": "eStromal_MMPs",
+     "full_stromal": true,
+     "n": 14,
+     "stromal_first": 14,
+     "decidual_first": 2,
+     "perivascular_above": 0
+    },
+    "KOLLER_EUR_UP": {
+     "full_first": "dStromal_mid",
+     "full_stromal": true,
+     "n": 14,
+     "stromal_first": 14,
+     "decidual_first": 14,
+     "perivascular_above": 0
+    },
+    "GCST90205183_UPN": {
+     "full_first": "ePV_2",
+     "full_stromal": false,
+     "n": 14,
+     "stromal_first": 0,
+     "decidual_first": 0,
+     "perivascular_above": 12
+    },
+    "GCST90205183_UP": {
+     "full_first": "dStromal_mid",
+     "full_stromal": true,
+     "n": 14,
+     "stromal_first": 9,
+     "decidual_first": 9,
+     "perivascular_above": 1
+    },
+    "ENDO_ALL_UPN": {
+     "full_first": "dStromal_mid",
+     "full_stromal": true,
+     "n": 14,
+     "stromal_first": 10,
+     "decidual_first": 10,
+     "perivascular_above": 4
+    },
+    "ENDO_ALL_UP": {
+     "full_first": "dStromal_mid",
+     "full_stromal": true,
+     "n": 14,
+     "stromal_first": 12,
+     "decidual_first": 12,
+     "perivascular_above": 2
+    },
+    "LEIOMYOMA_UPN": {
+     "full_first": "eStromal",
+     "full_stromal": true,
+     "n": 14,
+     "stromal_first": 14,
+     "decidual_first": 0,
+     "perivascular_above": 0
+    },
+    "LEIOMYOMA_UP": {
+     "full_first": "ePV_1b",
+     "full_stromal": false,
+     "n": 14,
+     "stromal_first": 2,
+     "decidual_first": 1,
+     "perivascular_above": 12
+    },
+    "HYPERTENSION_UPN": {
+     "full_first": "Arterial",
+     "full_stromal": false,
+     "n": 14,
+     "stromal_first": 0,
+     "decidual_first": 0,
+     "perivascular_above": 14
+    },
+    "HYPERTENSION_UP": {
+     "full_first": "Venous",
+     "full_stromal": false,
+     "n": 14,
+     "stromal_first": 0,
+     "decidual_first": 0,
+     "perivascular_above": 14
+    }
+   }
+  },
+  "a3": [
+   {
+    "trait_a": "KOLLER_EUR",
+    "trait_b": "GCST90205183",
+    "rg": 0.9578,
+    "rg_se": 0.0213,
+    "rg_p": 0.0,
+    "gcov_int": 0.5254,
+    "gcov_int_se": 0.0089,
+    "h2_obs_b": 0.0121,
+    "h2_int_b": 0.9559
+   },
+   {
+    "trait_a": "KOLLER_EUR",
+    "trait_b": "ENDO_ALL",
+    "rg": 0.9573,
+    "rg_se": 0.0118,
+    "rg_p": 0.0,
+    "gcov_int": 0.6899,
+    "gcov_int_se": 0.0152,
+    "h2_obs_b": 0.0667,
+    "h2_int_b": 1.1483
+   },
+   {
+    "trait_a": "KOLLER_EUR",
+    "trait_b": "LEIOMYOMA",
+    "rg": 0.4389,
+    "rg_se": 0.0373,
+    "rg_p": 5.6852e-32,
+    "gcov_int": 0.1411,
+    "gcov_int_se": 0.0124,
+    "h2_obs_b": 0.0449,
+    "h2_int_b": 1.1819
+   },
+   {
+    "trait_a": "KOLLER_EUR",
+    "trait_b": "HYPERTENSION",
+    "rg": 0.1642,
+    "rg_se": 0.0351,
+    "rg_p": 2.8071e-06,
+    "gcov_int": 0.0214,
+    "gcov_int_se": 0.0085,
+    "h2_obs_b": 0.0718,
+    "h2_int_b": 1.5142
+   },
+   {
+    "trait_a": "KOLLER_EUR",
+    "trait_b": "T2D",
+    "rg": 0.1074,
+    "rg_se": 0.0325,
+    "rg_p": 0.00095107,
+    "gcov_int": 0.0134,
+    "gcov_int_se": 0.0065,
+    "h2_obs_b": 0.0705,
+    "h2_int_b": 1.5163
+   },
+   {
+    "trait_a": "GCST90205183",
+    "trait_b": "ENDO_ALL",
+    "rg": 0.8903,
+    "rg_se": 0.0499,
+    "rg_p": 2.7511e-71,
+    "gcov_int": 0.0505,
+    "gcov_int_se": 0.0085,
+    "h2_obs_b": 0.0671,
+    "h2_int_b": 1.1464
+   },
+   {
+    "trait_a": "GCST90205183",
+    "trait_b": "LEIOMYOMA",
+    "rg": 0.3259,
+    "rg_se": 0.0491,
+    "rg_p": 3.2813e-11,
+    "gcov_int": 0.0208,
+    "gcov_int_se": 0.0069,
+    "h2_obs_b": 0.0452,
+    "h2_int_b": 1.1807
+   },
+   {
+    "trait_a": "GCST90205183",
+    "trait_b": "HYPERTENSION",
+    "rg": 0.1702,
+    "rg_se": 0.0492,
+    "rg_p": 0.00054693,
+    "gcov_int": 0.0014,
+    "gcov_int_se": 0.008,
+    "h2_obs_b": 0.0721,
+    "h2_int_b": 1.5117
+   },
+   {
+    "trait_a": "GCST90205183",
+    "trait_b": "T2D",
+    "rg": 0.1332,
+    "rg_se": 0.0428,
+    "rg_p": 0.001844,
+    "gcov_int": 0.0031,
+    "gcov_int_se": 0.0064,
+    "h2_obs_b": 0.0705,
+    "h2_int_b": 1.5159
+   },
+   {
+    "trait_a": "ENDO_ALL",
+    "trait_b": "LEIOMYOMA",
+    "rg": 0.4946,
+    "rg_se": 0.0431,
+    "rg_p": 1.7224e-30,
+    "gcov_int": 0.2175,
+    "gcov_int_se": 0.0143,
+    "h2_obs_b": 0.0448,
+    "h2_int_b": 1.1833
+   },
+   {
+    "trait_a": "ENDO_ALL",
+    "trait_b": "HYPERTENSION",
+    "rg": 0.1626,
+    "rg_se": 0.0398,
+    "rg_p": 4.4567e-05,
+    "gcov_int": 0.0303,
+    "gcov_int_se": 0.0094,
+    "h2_obs_b": 0.0717,
+    "h2_int_b": 1.5137
+   },
+   {
+    "trait_a": "ENDO_ALL",
+    "trait_b": "T2D",
+    "rg": 0.0904,
+    "rg_se": 0.0391,
+    "rg_p": 0.020658,
+    "gcov_int": 0.0144,
+    "gcov_int_se": 0.0084,
+    "h2_obs_b": 0.0702,
+    "h2_int_b": 1.517
+   }
+  ]
+ }
+}

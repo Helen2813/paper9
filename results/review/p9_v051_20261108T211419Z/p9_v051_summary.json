@@ -1,0 +1,16 @@
+{
+  "task": "PAPER9_V051_ORIGIN2",
+  "timestamp_utc": "20261108T211419Z",
+  "results": {
+    "h_stroma_sep": {
+      "supported": true,
+      "others_surviving": [
+        "Prv-MYH11",
+        "VSMC",
+        "Prv-CCL19",
+        "Prv-STEAP4",
+        "mesothelial"
+      ]
+    }
+  }
+}

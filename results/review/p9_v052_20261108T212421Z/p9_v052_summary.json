@@ -1,0 +1,12 @@
+{
+  "task": "PAPER9_V052_MESOTHELIUM",
+  "timestamp_utc": "20261108T212421Z",
+  "results": {
+    "h_ef3_robust": true,
+    "h_meso": {
+      "supported": true,
+      "best_endometrial_stroma": "stroma (peritoneal_lesion)",
+      "mesothelium_rank": 3
+    }
+  }
+}

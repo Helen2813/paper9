@@ -1,0 +1,16 @@
+trait,set,marginal_p,conditional_p,given
+KOLLER_EUR,mesothelium,0.018246,0.022015,all stroma sets
+KOLLER_EUR,stroma (eutopic),0.18521,0.1938,mesothelium
+KOLLER_EUR,stroma (peritoneal_lesion),0.18558,0.18246,mesothelium
+KOLLER_EUR,stroma (endometrioma),0.19969,0.24587,mesothelium
+KOLLER_EUR,stroma (peritoneum_adjacent),0.68769,0.67956,mesothelium
+GCST90205183,mesothelium,0.089886,0.10199,all stroma sets
+GCST90205183,stroma (eutopic),0.18509,0.188,mesothelium
+GCST90205183,stroma (peritoneal_lesion),0.25565,0.25123,mesothelium
+GCST90205183,stroma (endometrioma),0.28298,0.30564,mesothelium
+GCST90205183,stroma (peritoneum_adjacent),0.7987,0.78883,mesothelium
+ENDO_ALL,mesothelium,0.004632,0.0063045,all stroma sets
+ENDO_ALL,stroma (eutopic),0.063987,0.075098,mesothelium
+ENDO_ALL,stroma (peritoneal_lesion),0.41285,0.40985,mesothelium
+ENDO_ALL,stroma (endometrioma),0.41026,0.48531,mesothelium
+ENDO_ALL,stroma (peritoneum_adjacent),0.91318,0.9062,mesothelium

@@ -1,0 +1,8 @@
+compartment,broad,endothelium,epithelium,immune,no expression,perivascular/SM,stroma
+broad,19,0,0,0,0,1,0
+endothelium,1,7,0,0,0,0,0
+epithelium,0,0,3,2,0,0,0
+immune,1,0,0,5,0,0,0
+no expression,0,0,0,0,5,0,0
+perivascular/SM,2,0,0,0,0,1,1
+stroma,2,0,0,0,0,0,7

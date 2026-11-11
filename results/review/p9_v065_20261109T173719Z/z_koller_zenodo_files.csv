@@ -1,0 +1,10 @@
+file,size_mb,non_eur_or_multi
+README_GWAS.txt,0.0,False
+Endometriosis_wo.23andMe_PRS_weights.txt.gz,15.7,False
+endometriosis_AMR.txt.gz,73.8,True
+README_PRS.txt,0.0,False
+endometriosis_AFR.txt.gz,164.9,True
+adenomyosis_EUR.txt.gz,156.9,False
+endometriosis_wo.adenomyosis_EUR.txt.gz,99.3,False
+endometriosis_EAS.txt.gz,112.8,True
+endometriosis_EUR_wo_23andMe.txt.gz,169.7,False

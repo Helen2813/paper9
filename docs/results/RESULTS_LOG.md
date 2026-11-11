@@ -915,3 +915,278 @@ cell type is venous endothelium and the decidual-stroma signal is explained by e
 perivascular annotations; under up-only selection decidual stroma ranks first and survives every
 vascular program; the endothelial |log2FC| hits are carried by depleted genes; and the |log2FC| rule
 ranks uterine smooth muscle 8th for leiomyoma, where up-only ranks it first (nominal in S-LDSC).
+
+## 2026-11-08 · run p9_v048_figures_20261108T204647Z · manuscript figures
+
+F1-F6 and S1 written from v041-v047 outputs (results/paper_figures/p9_v048_20261108T204647Z; PNG,
+PDF, plotted values, auto-generated legends). No new analyses.
+
+## 2026-11-08 · run p9_v049_review_20261108T205814Z · thresholds, trait contrast, locus-gene map, inventory
+
+R1 (HECA v041 DE, variant P; 1,485 indicators; MAGMA): first-ranked label per threshold setting
+(|log2FC| > 0.5 / 1.0 / 1.2 / 2.0 x adj. p < 0.05 / 0.01):
+- KOLLER_EUR up-only: dStromal_early/ENDO (0.5/0.05, 0.5/0.01, 1.0/0.01), dStromal_mid/ENDO (1.2/0.05,
+  1.2/0.01), sHormones/CTL (1.0/0.05, 2.0/0.05, 2.0/0.01) -> decidual 5/8, a stromal state 8/8.
+  |log2FC|: dStromal_early/CTL (0.5 both), Venous/CTL (1.0/0.05, 1.2 both), Arterial/CTL (1.0/0.01),
+  ePV_1b/CTL (2.0/0.05), Luminal/ENDO (2.0/0.01) -> not decidual 6/8. UPN: eStromal/CTL (N 200),
+  dStromal_mid/ENDO (400), dStromal_early/ENDO (800).
+  -> H-ROBUST-FLIP NOT SUPPORTED by the fixed rule (decidual first with up-only 5/8 < 6/8); the
+  up-only first label is a stromal state in 8/8.
+- LEIOMYOMA: uSMCs/CTL first with up-only in 8/8 (p 1e-06 to 5e-05), with |log2FC| in 2/8 (only at
+  1.2; p 0.01-0.04); ABSN / UPN uSMCs at all sizes -> H-ROBUST-CTRL SUPPORTED.
+- HYPERTENSION: Arterial/ENDO first with up-only 8/8, |log2FC| 6/8.
+- At |log2FC| > 0.5 the |log2FC| first label is dStromal_early/CTL (88% depleted genes) for
+  endometriosis, leiomyoma and hypertension alike.
+R3 (standardized MAGMA coefficients; one-sided contrasts):
+- UPN dStromal_mid/ENDO: KOLLER 0.036 (p 8e-06), GCST 0.017, leiomyoma 0.020, hypertension 0.014,
+  T2D 0.012; KOLLER > T2D p 0.029, > hypertension p 0.043, > leiomyoma p 0.092
+  -> H-DS-SPECIFIC SUPPORTED.
+- UPN dStromal_early/ENDO: KOLLER > T2D 0.018, > HTN 0.013, > leiomyoma 0.039. UP dStromal_mid/ENDO:
+  > T2D 0.026, > HTN 0.24. GCST contrasts not significant (smaller coefficients).
+- SPEC dStromal_mid/ENDO: T2D 0.037 > KOLLER 0.018 (specificity-based decidual signal is not
+  endometriosis-specific).
+- ABS Venous/CTL: KOLLER 0.035, hypertension 0.032 (KOLLER > HTN p 0.43), T2D -0.004 -> the |log2FC|
+  venous hit is equally strong for hypertension.
+O2: genes at the 9 stromal loci peak in proliferative / hormone-responsive endometrial stroma
+(eStromal, sHormones, eStromal_cycling) and decidual stroma (WNT4 eStromal_MMPs / sHormones /
+dStromal_mid; WT1 eStromal / eStromal_cycling / dStromal_early; HOXA9 eStromal / dStromal_early;
+SFRP1 eStromal 2,023 CPM; TBX3 sHormones; GREB1 uSMCs then eStromal). Figure F7 (51 genes x 27 states).
+I0: GSE266265 pseudobulk 2,700 sample x type rows, 63 refined types, 60 donors (25 CTL, 35 Endo),
+mesothelial 1,167 cells in 56 donors. GSE213216 v028 cell cache (96,994 cells; peritoneal lesion,
+eutopic, endometrioma, unaffected peritoneum) has no mesothelial label (the lineage-agreement filter
+removed them) -> the origin comparison uses GSE266265.
+
+## 2026-11-08 · run p9_v050_atlas2_origin_20261108T210559Z · independent atlas GSE266265; candidate origin groups
+
+Donor-paired pseudobulk DE: 34 of 63 refined types eligible (>= 10 donors with >= 10 cells; median
+38 donors). Mesothelial check: MSLN 14, UPK3B 2, CALB2 27 mean CPM vs median 0.8 in other types ->
+passes the fixed 5x rule, but absolute levels are low for mesothelium (likely a small or impure
+mesothelial-like population; interpreted cautiously).
+R2 KOLLER_EUR first per family: ABS cDC1 4e-03 (q 0.12); UP VSMC 1e-03 (q 0.03); DOWN cDC1;
+ABSN VSMC 5e-04; UPN eF3 7e-05 (q < 0.01), then Prv-MYH11 3e-04, VSMC 5e-04; DOWNN EC-tip; SPEC
+mesothelial 2e-03 (q 0.08), fib C7 secretory, dS3. GCST90205183: UPN eF3 1e-04 (q < 0.01); other
+families q >= 0.27. ENDO_ALL: UPN dS3 8e-03 (q 0.08). Hypertension: EC-artery / VSMC first with UP
+(2e-05), UPN (1e-05), SPEC (4e-04), ABSN, ABS (EC-tip, weak); not with DOWN / DOWNN. T2D: nothing
+at q < 0.10.
+-> H-REPL-FLIP NOT SUPPORTED (thresholded up-only first = VSMC, perivascular; |log2FC| first =
+cDC1, weak). H-REPL-CTRL SUPPORTED.
+O1 (UPN, best rank per group): KOLLER stroma 1 (eF3), perivascular 2 (Prv-MYH11), mesothelium 5,
+epithelium 11, endothelium 13; GCST stroma 1 (eF3), perivascular 2, mesothelium 26, epithelium 21;
+ENDO_ALL stroma 1 (dS3), perivascular 3, mesothelium 7, epithelium 8. Hypertension: endothelium 1,
+perivascular 2, stroma 11. -> H-ORIGIN SUPPORTED. Trait contrast UPN eF3: KOLLER > T2D p 0.012,
+> hypertension p 0.034, > leiomyoma p 0.010 -> H-ORIGIN-SPECIFIC SUPPORTED.
+Reading: in an atlas independent of HECA, size-matched up-only marker sets place the endometriosis
+signal in endometrial stromal fibroblasts (eF3; dS3 for FinnGen) for all three endometriosis GWAS,
+above perivascular, mesothelial-like and epithelial candidates, and more strongly than for T2D,
+hypertension or leiomyoma. Perivascular cells are a close second; the thresholded up-only rule
+ranks VSMC first, so stroma vs perivascular is rule-sensitive here (joint test in v051). Consistent
+with the marker-free scDRS result in lesions and eutopic tissue (v028: eF2, eF3, dS2, dS4).
+
+## 2026-11-08 · run p9_v051_origin2_20261108T211419Z · stromal identity, stroma vs perivascular, mesothelium feasibility
+
+O3 identity (GSE266265 donor-paired DE): eF3 (54 donors) top up genes C11orf96, GEM, MEG3, FUS,
+PLEKHH2, COL6A3, PDGFRB, MALAT1, KCNQ1OT1, XIST ... PRLR (t <= 11; many nuclear / lncRNA transcripts);
+panel: IGFBP1 405 CPM (eF1 43, eF2 158), PGR 464, ESR1 243, MKI67 155, SUSD2 4, MCAM 31 -> a
+hormone-receptor-positive endometrial fibroblast state with early decidualization features, not
+perivascular / MSC. dS3 (26 donors): VASN, PLCL1, PTGDS, FBLN2, LPAR1, GPNMB, APOD, CRISPLD2, GJA1;
+IGFBP1 1,222 -> decidualized stroma. Stromal-locus genes are stromal rather than perivascular
+(WT1 160-200 vs 26-39 CPM; IGF1 1,256-2,449 vs 283-722; HOXA10 / HOXA11 highest in dS1, dS2, eF2).
+The "mesothelial" label is not mesothelium: MSLN 14 (glandular 27), UPK3B 2, ESR1 529 / PGR 587
+-> mesothelium comparisons in GSE266265 (v050) are not interpretable.
+O4 joint MAGMA (UPN): KOLLER eF3 7e-05; given Prv-MYH11 3e-04, VSMC 1e-04, Prv-CCL19 1e-04,
+Prv-STEAP4 1e-04, mesothelial 1e-04 -> H-STROMA-SEP SUPPORTED; the reverse also holds (perivascular
+sets keep p 8e-04 to 0.013 given eF3): two separable signals. GCST: eF3 1e-04 to 3e-04 given each;
+Prv-MYH11 and Prv-STEAP4 lose significance given eF3 (0.077, 0.104). dS3 survives every set in all
+three GWAS (KOLLER 6e-04 to 0.002; GCST 0.009-0.014; ENDO_ALL 0.007-0.013).
+F8 written. I1: 48 raw sample folders (lesion 23, eutopic 9, endometrioma 6, unaffected peritoneum 4,
+6 not in the cell cache); MSLN+ UPK3B+ barcodes 0-29 per lesion sample checked -> peritoneal
+mesothelium exists but is sparse; a strict multi-marker selection over all samples is needed (v052).
+
+## 2026-11-08 · run p9_v052_mesothelium_20261108T212421Z · real peritoneal mesothelium; eF3 robustness
+
+M3: GSE266265 UPN, base -> conditioned on Average + Breadth + LOEUF: KOLLER eF3 6.7e-05 -> 2.5e-03,
+dS3 1.0e-03 -> 9.0e-03, Prv-MYH11 3.2e-04 -> 3.5e-03, VSMC 1.1e-03 -> 4.8e-03; GCST eF3 1.9e-04 ->
+2.3e-03; ENDO_ALL eF3 8.4e-03 -> 0.068 -> H-EF3-ROBUST SUPPORTED.
+M1: 42 raw GSE213216 samples (eutopic 9, peritoneal lesion 23, endometrioma 6, unaffected peritoneum
+4; 4 ovary and 2 unknown skipped); 321,244 QC cells; 1,069 mesothelial cells by the strict rule in 12
+samples (identity confirmed: MSLN 549, UPK3B 416, ITLN1 2,048, KRT19 2,304, EPCAM 0, PTPRC 0 CPM).
+Unaffected peritoneal fibroblasts express HOXA10 47, PGR 70 CPM (similar to lesion stroma).
+M2 (coarse groups; nothing reaches q < 0.10 for any endometriosis GWAS): KOLLER UPN lesion stroma
+first p 0.05 (q 0.39), eutopic stroma 2nd 0.10, mesothelium 3rd 0.13, peritoneal fibroblasts 6th;
+UP lesion stroma and mesothelium both p 0.05; SPEC eutopic stroma first p 0.02 (q 0.19).
+-> H-MESO SUPPORTED by its rank rule, with nominal signals only. Trait contrast (lesion stroma, UPN):
+KOLLER > T2D p 0.053, > HTN p 0.066, > leiomyoma p 0.48. Controls: hypertension perivascular / smooth
+muscle first with UP (1e-05), UPN (2e-04), SPEC (3e-05) and endothelium second; leiomyoma
+perivascular / smooth muscle first with UP, UPN, SPEC (p 0.02-0.03).
+Reading: real peritoneal mesothelium does not carry more endometriosis risk-gene signal than
+endometrial-type stroma; at the coarse group level of the lesion dataset the endometriosis signal is
+weak overall (absence of evidence for mesothelium, not evidence against it), while the hypertension
+control is strong. The stromal signal of GSE266265 survives generic gene-property conditioning.
+
+## 2026-11-08 · run p9_v053_collect_20261108T212958Z · manuscript figure set
+
+F1-F6, S1 (v048), F7 (v049) and F8 (v051) collected with combined legends in
+results/paper_figures/final_v053_20261108T212958Z. No analyses.
+
+## 2026-11-08 · run p9_v054_audit_20261108T225103Z · statistical audit after review #3
+
+D: family-wise false-positive rate under 300 genome rotations 0.3-1.7% for all seven families; every
+Clopper-Pearson upper bound < 0.05 (ABS 3/300, 0.002-0.029; SPEC 5/300, 0.005-0.038). Exact top-1
+recovery (Wilson 95% CI), specificity truths: dStromal_mid ABS 0.03 (0.00-0.13), UP 0.20 (0.10-0.35),
+UPN 0.15, SPEC 0.47 (0.33-0.63); Venous UP 0.65, SPEC 0.93; ePV_2 UP 0.50, SPEC 0.78. UP - ABS
++0.17 (0.05-0.33, McNemar p 0.039), +0.53, +0.38; UPN - ABSN significant only for ePV_2 (+0.33).
+A1: gene-z correlation KOLLER-GCST 0.51, KOLLER-ENDO_ALL 0.62, GCST-ENDO_ALL 0.18; with controls 0.07-0.22.
+C: HECA and GSE266265 locus classifications agree (82%, kappa 0.77); 7/9 HECA-stromal loci are stromal
+in GSE266265 (PARPBP, VPS13B broad); GSE266265-stromal loci removed from HECA UP dStromal_mid/ENDO:
+1.4e-04 -> 2.3e-03 (+1.22 log10; random median +0.18; perm p 0.005); HECA-stromal loci removed from
+GSE266265 UPN eF3: 8.0e-05 -> 7.6e-04 (+0.98; random +0.13; perm p 0.005) -> H-LOCUS-X SUPPORTED.
+A2: rotation SD of BETA_STD / MAGMA SE 0.79-0.95 (MAGMA slightly conservative under the rotation
+null); r between traits -0.01 to 0.14. HECA UPN dStromal_mid/ENDO KOLLER > T2D p_cov 0.026 (rotation
+0.006), > HTN 0.039 (0.015), > leiomyoma 0.081; GSE266265 UPN eF3 KOLLER > T2D 0.013 (0.006), > HTN
+0.029 (0.010), > leiomyoma 0.008 (0.005); GCST contrasts for eF3 0.015-0.048, for HECA n.s.
+-> H-COV-CONTRAST SUPPORTED for both (nominal one-sided; not corrected across the two atlases).
+B1: GSE266265 leave-one-donor-out (60): eF3 p <= 1.0e-03 and BETA_STD 0.026-0.035 in every run;
+stroma first KOLLER 48/60, GCST 60/60, ENDO_ALL 54/60; Prv-MYH11 first in 12 KOLLER runs (different
+donors; near-tie) -> H-LOO-GSE NOT SUPPORTED (80% < 90%).
+B2: dStromal_mid/ENDO cells 98% from one donor (FX1156), dStromal_early/ENDO 90% from FX9006 (v041
+cell sample). Leave-one-ENDO-donor-out (7): decidual first 6/7, stromal 7/7 (without FX1156 the
+state drops out and dStromal_early/ENDO is first; without FX9006 eStromal/ENDO) -> H-LOO-HECA SUPPORTED
+by the rule, but the status-split decidual states are donor-confounded.
+B3: HECA donor-paired pseudobulk (3-7 donors per state): KOLLER UPN first ePV_1b/ENDO p 0.02, best
+stromal rank 5; sets almost disjoint from the cell-level sets (Jaccard 0.05) -> H-HECA-PB NOT SUPPORTED.
+A3: failed (weights folder passed as reference LD scores; no .M files) -> re-run in v055.
+
+## 2026-11-08 · run p9_v055_donors_20261108T232222Z · HECA donor structure; LDSC rg
+
+E1: HECA status x label groups with >= 30 cells: variant P 45 groups, largest donor > 80% in 16 (36%),
+> 50% in 32 (71%), median effective donors 2.3; variant H (exact cohort) 49 groups, 19 / 33, median 2.0.
+dStromal_mid/ENDO 97% FX1156, dStromal_early/ENDO 92% FX9006, dStromal_early/CTL 89% ES345,
+eStromal/CTL 79% FX1146; eStromal/ENDO 32% (3.9 effective donors).
+E3 (pooled pseudobulk, >= 4 donors): KOLLER UPN dStromal_early 9e-04, dStromal_mid 3e-02; stromal first
+12/14 leave-one-donor-out (without FX1156 or FX9006: ePV_1b first) -> H-HECA-PB2 NOT SUPPORTED (13 required).
+GCST stromal 14/14, ENDO_ALL 11/14; hypertension ePV_1b 4e-05 (perivascular 14/14); leiomyoma dStromal_mid.
+E2 (pooled, <= 50 cells per donor and type): KOLLER UPN eStromal_MMPs 2e-05 (3 donors, 31 cells),
+eStromal 1e-04, dStromal_mid 2e-04; stromal first 14/14, decidual 2/14, perivascular never above stroma
+-> H-HECA-BAL SUPPORTED; KOLLER UP dStromal_mid 1e-04, decidual first 14/14. GCST UPN ePV_2 first (8e-03),
+ENDO_ALL dStromal_mid 4e-04 (stromal 10/14). Controls: hypertension Arterial / Venous first; leiomyoma UP
+ePV_1b first (UPN eStromal).
+A3: rg KOLLER-GCST 0.958 (intercept 0.525), KOLLER-ENDO_ALL 0.957 (0.690), GCST-ENDO_ALL 0.890 (0.051);
+KOLLER with leiomyoma 0.439 (0.141), hypertension 0.164 (0.021), T2D 0.107 (0.013); GCST with leiomyoma
+0.326, hypertension 0.170, T2D 0.133; ENDO_ALL with leiomyoma 0.495 (0.217), hypertension 0.163, T2D 0.090.
+Reading: the stromal compartment is robust to donor sampling; the specific stromal state is not.
+
+## 2026-11-08 · run p9_v056_figures_20261108T233825Z · audit figures and final figure set
+
+F9 (donor structure and donor stability), S2 (covariance-aware trait contrasts), S3 (cross-atlas locus test;
+0 of 200 random subsets reached the observed loss in either direction), S4 (benchmark intervals). Final set
+F1-F9, S1-S4 with combined legends in results/paper_figures/final_v056_20261108T233825Z. No analyses.
+
+## 2026-11-08 · run p9_v057_overleaf_20261108T235721Z · Overleaf package
+
+13 of 13 figures copied from final_v056_20261108T233825Z; zip results/overleaf/paper9_overleaf_20261108T235721Z.zip
+(0.6 MB); 8 open [TODO] items (resolved in v0.2.48).
+
+## 2026-11-08 · run p9_v060_lesion_loci_20261109T031905Z · locus genes inside lesions (GSE213216)
+
+Donor keys: eutopic 9, peritoneal lesions 12 (23 samples), endometriomas 6, unaffected peritoneum 2 (not evaluable).
+LES-L1 (own lineage vs rest of sample; 10,000 expression-matched random sets): stromal loci (WNT4, GREB1, PARPBP,
+TBX3, WT1, TSHZ3, HOXA9, VPS13B, SFRP1) eutopic +2.24 (null 95th +0.46) p 1e-04, top lineage 7/9; peritoneal lesions
++2.48 (+0.86) p 1e-04, top 5/9, gene p < 0.05 9/9; endometriomas +1.38 (+0.44) p 2e-04, top 4/9, gene p < 0.05 6/9
+-> H-LESION-LOC SUPPORTED. WNT4, GREB1, TSHZ3 stromal in all three tissues; peritoneal lesions: WT1 and PARPBP peak in
+mesothelium, TBX3 and HOXA9 in perivascular cells; endometriomas: PARPBP, TBX3 epithelium, HOXA9 endothelium, VPS13B,
+SFRP1 perivascular. Design controls in lesions: endothelial loci p 1e-04 (both), immune 1e-04 (both), epithelial
+3e-04 (peritoneal) and 0.073 (endometrioma), perivascular/SM (3 genes) 0.87 and 0.22.
+LES-L2 not evaluable (unaffected peritoneum 2 donors). Figure S5 written.
+
+## 2026-11-08 · run p9_v061_collect_20261109T033446Z · final figure set v2, Overleaf package v2
+
+final_v061_20261109T033446Z = final_v056 (39 files) + relabelled F2 / F9 + S5 (v060); 14 of 14 included figures;
+Desktop zip paper9_overleaf_v2_20261109T033446Z.zip.
+
+## 2026-11-08 · run p9_v062_control_panel_20261109T033447Z · known-source control panel (incomplete)
+
+Endpoints: AF I9_AF (67,783 cases), DUPUYTREN M13_DUPUTRYEN (6,972), PROSTATE_CA C3_PROSTATE_WIDE (21,482; name
+fallback), AIHYPO E4_HYTHY_AI_STRICT (56,098). AF and DUPUYTREN MAGMA gene analysis failed (subnormal p-values) -> v063.
+Evaluable traits 4 (expected rank ABS / UP / ABSN / UPN / SPEC): PROSTATE_CA 1 / 1 / 1 / 2 / 2 (UPN first = basal
+epithelial cell of prostatic duct, missed by the label rule); AIHYPO 2 / 2 / 2 / 1 / 1 (first under ABS, UP, ABSN =
+myeloid dendritic cell); LEIOMYOMA 7 / 1 / 4 / 1 / 1; HYPERTENSION 1 / 1 / 1 / 1 / 1. Depleted share of the expected
+label's |log2FC| set: 0.14, 0.62, 0.34, 0.37. Verdicts NOT EVALUABLE (4 traits; 5 required).
+
+## 2026-11-09 · run p9_v063_control_panel_20261109T152000Z · known-source control panel (complete)
+
+AF and DUPUYTREN gene analyses completed with the 1e-300 floor (28 and 25 min). Expected-group rank, corrected label
+rules (ABS / UP / DOWN / ABSN / UPN / DOWNN / SPEC): AF 1 / 3 / 44 / 2 / 2 / 44 / 1 (UP first = skeletal muscle fiber);
+DUPUYTREN 15 / 4 / 29 / 12 / 2 / 23 / 2 (expected q >= 0.10 under every rule); PROSTATE_CA 1 / 1 / 18 / 1 / 1 / 35 / 2;
+AIHYPO 2 / 2 / 22 / 2 / 1 / 25 / 1 (first under ABS, UP, ABSN = myeloid dendritic cell); LEIOMYOMA 7 / 1 / 16 / 4 / 1 / 8 / 1;
+HYPERTENSION 1 / 1 / 18 / 1 / 1 / 18 / 1. Hits: ABS 3, UP 3, ABSN 2, UPN 4, SPEC 4, DOWN / DOWNN 0.
+H-PANEL NOT SUPPORTED (UP 3 of 6, 4 required; ABS 3); H-PANEL-N SUPPORTED (UPN 4 vs ABSN 2; registered rules 3 vs 2).
+UP above ABS in 2 traits (Dupuytren, leiomyoma), below in 1 (AF). Depleted share of the expected |log2FC| set: hits 0.06-0.37,
+misses 0.28-0.34 -> does not separate hits from misses. S6 figure written.
+
+## 2026-11-09 · run p9_v065_tan_replication_20261109T173719Z · GSE179640 (partial: 31 of 55 samples) + Koller files
+
+Z: Koller Zenodo record has EAS, AFR and AMR endometriosis files (plus EUR, EUR without adenomyosis, adenomyosis EUR).
+T0: contexts correct (eutopic 16, peritoneal lesion 14, endometrioma 10, control 8, adjacent peritoneum 7, organoid 4
+excluded); RAW tar 795 MB; 24 samples (GSM6102567-90) unread -> v066. Read: 115,415 QC cells, 779 mesothelial cells;
+donor keys eutopic 9, control 3, peritoneal lesion 8, adjacent peritoneum 6, endometrioma 4.
+R1 (partial): stromal loci own-lineage log2 ratio eutopic +3.33, peritoneal lesions +2.66 (8 donors, p 1e-04), endometriomas
++1.60 (4 donors, p 1e-04), adjacent peritoneum +2.53 (p 1e-04) -> H-LESION-REP supported on the partial data.
+R2 (partial): lesion stroma vs adjacent-peritoneum stroma +0.01 log2 (paired, 6 donors, p 0.26) -> H-HOST not supported;
+eutopic stroma vs adjacent peritoneum +0.68 (p 5e-04).
+R3 (partial): KOLLER_EUR UPN mesothelium first (p 0.018, q 0.16), eutopic stroma 3rd (p 0.19) -> H-MESO-REP not supported;
+ENDO_ALL UPN mesothelium first (p 0.005, q 0.04); GCST UPN mesothelium first (p 0.09); SPEC: peritoneal-lesion stroma first
+for all three; hypertension UP / SPEC perivascular and endothelium first (q < 0.01); mesothelium last or near last for
+hypertension, leiomyoma and T2D UPN.
+
+## 2026-11-09 · run p9_v066_tan_full_20261109T175056Z · GSE179640 single-cell part complete (31 samples) + R4
+
+The 24 unread folders hold bulk featureCounts files -> single-cell data complete; R1-R3 identical to v065:
+H-LESION-REP SUPPORTED (peritoneal lesions +2.66, 8 donors, p 1e-04; endometriomas +1.60, 4 donors, p 1e-04);
+H-HOST NOT SUPPORTED (lesion vs adjacent-peritoneum stroma +0.01, paired 6 donors, p 0.26);
+H-MESO-REP NOT SUPPORTED. Summary by family (rank of mesothelium / best endometrial-type stroma):
+KOLLER_EUR UP 4 / 2 (endothelium first), UPN 1 (p 0.018) / 3, SPEC 6 / 1 (peritoneal-lesion stroma p 0.021);
+GCST90205183 UP 1 (p 0.068) / 3, UPN 1 (p 0.090) / 2, SPEC 2 / 1 (p 0.066);
+ENDO_ALL UP 3 / 1 (peritoneal-lesion stroma p 0.083), UPN 1 (p 0.0046, q 0.04) / 2, SPEC 4 / 1 (p 0.054).
+Controls: mesothelium UPN rank 9 of 9 (hypertension), 6 (leiomyoma), 7 (T2D); hypertension UP / SPEC perivascular first (q < 0.01).
+R4a (post hoc): mesothelium UPN given all stroma sets KOLLER 0.022, GCST 0.10, ENDO_ALL 0.0063; stroma sets unchanged given
+mesothelium (all p >= 0.06). R4b: mesothelium UPN set holds 4 of 57 KOLLER locus genes (WT1 rank 263, KDR 277, ARL14EP 304,
+VAPA 180). R4c: without the 52 locus genes, mesothelium UPN rank 1 for KOLLER (p 0.051) and ENDO_ALL (p 0.016), rank 2 for
+GCST (p 0.20).
+
+## 2026-11-09 · run p9_v067_non_european_20261109T175219Z · non-European files, no panel
+
+Koller EAS 112.8 MB, AFR 164.9 MB, AMR 73.8 MB downloaded; MAGMA EAS / AFR / AMR panels not obtained -> no analysis (v068).
+
+## 2026-11-09 · run p9_v068_non_european_20261109T180318Z · non-European replication (Koller EAS / AFR / AMR)
+
+MAGMA page not reachable (host not resolved) -> 1000 Genomes superpopulation panels from Zenodo 6614170 (1,836,406 variants,
+all rsIDs). SNPs used: EAS 1,142,067 (18,101 genes), AFR 1,044,861 (18,169), AMR 800,700 (18,156).
+GSE266265 UPN eF3: KOLLER_EUR p 7.5e-05 (rank 1 of 34; reference); KOLLER_EAS p 0.076 (rank 6); KOLLER_AFR p 0.74 (rank 25);
+KOLLER_AMR p 1.0 (rank 34). H-NE-EAS NOT SUPPORTED. H-NE-ORIGIN SUPPORTED (EAS UPN: eF1 first, p 0.01, q 0.40; perivascular
+VSMC 2nd, mesothelial-like 26th, epithelial 12th). AFR UPN first = mid-secretory epithelium (p 0.006); AMR UPN first = LEC
+(p 7e-04, q 0.02). EAS SPEC first = VSMC (p 9e-04, q 0.03). Stouffer of non-European eF3 UPN: z -1.45, p 0.93.
+
+## 2026-11-09 · run p9_v069_ancestry_n_20261109T190458Z · Koller ancestry sample sizes
+
+N = sum of study weights (effective sample size, sample-size weighted meta-analysis). Max per-SNP N: EUR (without 23andMe)
+198,158; EAS 8,654 (UKB, All of Us, Biobank Japan); AFR 9,452 (UKB, All of Us, MVP); AMR 6,691 (UKB, All of Us).
+MAGMA genes with P < 2.6e-6: EUR 72, EAS 2, AFR 0, AMR 0.
+
+## 2026-11-11 · run p9_v071_chromatin_scope_20261111T164151Z · chromatin-test scope (no analyses)
+
+Local S-LDSC resources present (1000G EUR plink, frq, weights, baseline v1.2, HapMap3 list; munged ADENOMYOSIS, ENDO_*,
+GCST90205183, HYPERTENSION, KOLLER_EUR, LEIOMYOMA, T2D). GSE104720: one xlsx (5 EnSC ATAC samples); GSE246585: peak count
+matrix, 4 EnSC donors x 10 time points (2 batches); GSE205473: bigWig only (hg38). LDSC-SEG chromatin LD scores: HTTP 404 /
+400. UCSC hg38ToHg19 chain reachable. No lift-over package installed (v072 uses its own chain reader).
+
+## 2026-11-11 · run p9_v072_scatac_audit_20261111T170841Z · GSE183771 audit (no GWAS)
+
+13 GSM = 12 biopsies (S19a_18189 Run1 + Run2 merged), ages 32-41, days 7-25 (2 proliferative). Download 0.76 GB (no
+fragments). Per-library peak sets 37,309-204,989 -> merged universe 293,258 peaks (median 549 bp, 99th percentile 8.8 kb,
+max 85 kb). Cells kept 36,073 (published 36,177). Lift-over to GRCh37: 99.81% of autosomal peaks (G2 PASS).
+Labels (LSI + k-means, no integration): k = 30 left ciliated without a cluster -> k = 60; 21% unassigned; stroma 38.9%,
+epithelium 32.4%, ciliated 0, endothelium 410, immune 2,363 -> G1 FAIL. Many clusters 90-100% one library; S19_17204 got
+1 stromal cell -> batch-driven clustering. G3 PASS (stroma 11 units, epithelium 10, endothelium 7, immune 11).
+Specificity: stroma and epithelium top-10% sets well separated (t >= 3.3; mean log2 difference 1.8-2.0; Jaccard 0.03);
+endothelium and immune weak (t >= 0.8 / 1.2; mean difference 0.8). GSE246585 matrix: 118,017 peaks x 40 samples with
+Peak.ID only (no coordinates) -> G4 not evaluable. No LD scores. Labels to be redone with Harmony (v073, rules v0.2.62).

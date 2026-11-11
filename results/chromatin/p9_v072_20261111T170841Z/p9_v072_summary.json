@@ -1,0 +1,72 @@
+{
+  "task": "PAPER9_V072_SCATAC_AUDIT",
+  "timestamp_utc": "20261111T170841Z",
+  "gates": {
+    "G2_LIFT": true,
+    "G1_COMPOSITION": false,
+    "G3_UNITS": true,
+    "G4_ENSC": false
+  },
+  "results": {
+    "series_title": "Epigenetic profiling of cycling endometrium at single-cell resolution",
+    "A": {
+      "n_gsm": 13,
+      "n_units": 12
+    },
+    "B": {
+      "mode": "per-library",
+      "n_libraries": 13,
+      "cells_kept": 36073,
+      "universe_peaks": 293258
+    },
+    "C": {
+      "autosomal": 285193,
+      "lifted": 284644,
+      "frac": 0.9980749878152689
+    },
+    "D": {
+      "labels": "label_marker",
+      "n_cells": 36073,
+      "composition": {
+        "stroma": 14024,
+        "epithelium": 11693,
+        "unassigned": 7583,
+        "immune": 2363,
+        "endothelium": 410
+      }
+    },
+    "E": {
+      "units": 12,
+      "units_per_lineage": {
+        "stroma": 11,
+        "epithelium": 10,
+        "endothelium": 7,
+        "immune": 11
+      },
+      "lineages_used": [
+        "stroma",
+        "epithelium",
+        "endothelium",
+        "immune"
+      ]
+    },
+    "F": {
+      "n_all": 249402,
+      "sets": [
+        "ALL",
+        "stroma_S5",
+        "stroma_S10",
+        "stroma_S20",
+        "epithelium_S5",
+        "epithelium_S10",
+        "epithelium_S20",
+        "endothelium_S5",
+        "endothelium_S10",
+        "endothelium_S20",
+        "immune_S5",
+        "immune_S10",
+        "immune_S20"
+      ]
+    }
+  }
+}

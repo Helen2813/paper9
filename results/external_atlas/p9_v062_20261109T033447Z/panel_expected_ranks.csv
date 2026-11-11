@@ -1,0 +1,29 @@
+trait,family,rank,label,p,q,n_labels,top_label,top_p,top_q
+PROSTATE_CA,ABS,1,epithelial cell of prostate,0.00012034,0.0054153000000000005,45,epithelial cell of prostate,0.00012034,0.0054153000000000005
+PROSTATE_CA,UP,1,epithelial cell of prostate,5.9846e-06,0.000269307,45,epithelial cell of prostate,5.9846e-06,0.000269307
+PROSTATE_CA,DOWN,18,luminal cell of prostate epithelium,0.23974,0.5860311111111112,44,smooth muscle cell,0.005644,0.248336
+PROSTATE_CA,ABSN,1,luminal cell of prostate epithelium,3.9053e-05,0.0017205075,45,luminal cell of prostate epithelium,3.9053e-05,0.0017205075
+PROSTATE_CA,UPN,2,luminal cell of prostate epithelium,2.7698e-05,0.000623205,45,basal epithelial cell of prostatic duct,1.1491e-05,0.0005170950000000001
+PROSTATE_CA,DOWNN,35,epithelial cell of prostate,0.52118,0.6476108108108107,45,cardiac muscle cell,0.0016041,0.0721845
+PROSTATE_CA,SPEC,2,epithelial cell of prostate,0.00030512,0.006390300000000001,45,basal epithelial cell of tracheobronchial tree,0.00016733,0.006390300000000001
+AIHYPO,ABS,2,mature NK T cell,7.2884e-07,1.63989e-05,45,myeloid dendritic cell,8.8582e-10,3.9861900000000004e-08
+AIHYPO,UP,2,mature NK T cell,1.9329e-08,4.349025e-07,45,myeloid dendritic cell,2.3712e-09,1.0670399999999999e-07
+AIHYPO,DOWN,15,mast cell,0.015421,0.04523493333333333,44,pulmonary alveolar epithelial cell,6.1079e-05,0.0014267000000000001
+AIHYPO,ABSN,2,mature NK T cell,1.233e-06,2.4928499999999997e-05,45,myeloid dendritic cell,5.4978e-09,2.47401e-07
+AIHYPO,UPN,1,T cell,4.4838e-15,2.01771e-13,45,T cell,4.4838e-15,2.01771e-13
+AIHYPO,DOWNN,7,mast cell,0.0006789,0.0040194,45,slow muscle cell,1.0292e-05,0.000310185
+AIHYPO,SPEC,1,T cell,9.2103e-19,4.144635e-17,45,T cell,9.2103e-19,4.144635e-17
+LEIOMYOMA,ABS,7,smooth muscle cell,0.00043105,0.002745,45,fibroblast of cardiac tissue,6.7315e-05,0.0020448
+LEIOMYOMA,UP,1,enteric smooth muscle cell,0.00023441,0.010548450000000001,45,enteric smooth muscle cell,0.00023441,0.010548450000000001
+LEIOMYOMA,DOWN,16,smooth muscle cell,0.0043868,0.0120637,44,squamous epithelial cell,3.253e-08,1.43132e-06
+LEIOMYOMA,ABSN,4,enteric smooth muscle cell,6.8861e-05,0.000673155,45,skeletal muscle satellite cell,1.064e-06,4.788e-05
+LEIOMYOMA,UPN,1,enteric smooth muscle cell,1.0202e-06,4.5909e-05,45,enteric smooth muscle cell,1.0202e-06,4.5909e-05
+LEIOMYOMA,DOWNN,8,smooth muscle cell,0.00054497,0.0030654562499999997,45,slow muscle cell,1.5906e-08,5.266800000000001e-07
+LEIOMYOMA,SPEC,1,enteric smooth muscle cell,0.0009603,0.0432135,45,enteric smooth muscle cell,0.0009603,0.0432135
+HYPERTENSION,ABS,1,contractile cell,1.5747e-07,7.08615e-06,45,contractile cell,1.5747e-07,7.08615e-06
+HYPERTENSION,UP,1,contractile cell,9.0459e-06,0.00020912850000000003,45,contractile cell,9.0459e-06,0.00020912850000000003
+HYPERTENSION,DOWN,18,smooth muscle cell,0.001372,0.0033537777777777776,44,squamous epithelial cell,7.1921e-07,2.4338599999999998e-05
+HYPERTENSION,ABSN,1,contractile cell,1.7781e-09,8.00145e-08,45,contractile cell,1.7781e-09,8.00145e-08
+HYPERTENSION,UPN,1,contractile cell,3.2018e-09,1.44081e-07,45,contractile cell,3.2018e-09,1.44081e-07
+HYPERTENSION,DOWNN,18,smooth muscle cell,0.00017811,0.00044527499999999997,45,squamous epithelial cell,7.9685e-09,3.585825e-07
+HYPERTENSION,SPEC,1,cardiac endothelial cell,0.00041443,0.01864935,45,cardiac endothelial cell,0.00041443,0.01864935
