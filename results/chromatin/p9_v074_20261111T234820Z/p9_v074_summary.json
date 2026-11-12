@@ -1,0 +1,153 @@
+{
+  "task": "PAPER9_V074_SCATAC_HIER",
+  "timestamp_utc": "20261111T234820Z",
+  "gates": {
+    "G2_LIFT": true,
+    "G1_COMPOSITION": true,
+    "G3_UNITS": true,
+    "G4_ENSC": true,
+    "LDSCORES": true
+  },
+  "results": {
+    "series_title": "Epigenetic profiling of cycling endometrium at single-cell resolution",
+    "A": {
+      "n_gsm": 13,
+      "n_units": 12
+    },
+    "C": {
+      "autosomal": 285193,
+      "lifted": 284644,
+      "frac": 0.9980749878152689
+    },
+    "D": {
+      "labels": "label_marker",
+      "n_cells": 36073,
+      "labels_count": {
+        "epithelium": 13175,
+        "stroma": 12895,
+        "mesenchymal_unresolved": 3959,
+        "epithelial_unresolved": 2246,
+        "immune": 2195,
+        "unassigned": 1145,
+        "endothelium": 458
+      },
+      "compartments": {
+        "mesenchymal": 16854,
+        "epithelial": 15421,
+        "immune": 2195,
+        "unassigned": 1145,
+        "endothelium": 458
+      }
+    },
+    "E": {
+      "units": 12,
+      "units_per_lineage": {
+        "stroma": 12,
+        "perivascular": 0,
+        "epithelium": 12,
+        "endothelium": 9,
+        "immune": 12,
+        "mesenchymal": 12
+      },
+      "lineages_used": [
+        "stroma",
+        "epithelium",
+        "endothelium",
+        "immune"
+      ]
+    },
+    "F": {
+      "n_all": 240290,
+      "sets": [
+        "ALL",
+        "stroma_S5",
+        "stroma_S10",
+        "stroma_S20",
+        "epithelium_S5",
+        "epithelium_S10",
+        "epithelium_S20",
+        "endothelium_S5",
+        "endothelium_S10",
+        "endothelium_S20",
+        "immune_S5",
+        "immune_S10",
+        "immune_S20",
+        "mesenchymal_S10"
+      ]
+    },
+    "G": {
+      "source": "GSE246585",
+      "build": "GRCh38",
+      "frac38": 0.747169947690334,
+      "frac37": 0.2126356302004752,
+      "or_stroma_vs_epi": 4.2901273331754055,
+      "p": 0.0,
+      "overlap": [
+        {
+          "lineage": "stroma",
+          "n": 24029,
+          "frac_culture": 0.6713138291231429,
+          "vs_all": 2.8146920258244634
+        },
+        {
+          "lineage": "epithelium",
+          "n": 24029,
+          "frac_culture": 0.3225269466061842,
+          "vs_all": 1.3522945384749607
+        },
+        {
+          "lineage": "endothelium",
+          "n": 24029,
+          "frac_culture": 0.435390569728245,
+          "vs_all": 1.8255103821322631
+        },
+        {
+          "lineage": "immune",
+          "n": 24029,
+          "frac_culture": 0.412876108036123,
+          "vs_all": 1.7311114988658176
+        },
+        {
+          "lineage": "mesenchymal",
+          "n": 24029,
+          "frac_culture": 0.6733946481335054,
+          "vs_all": 2.8234165067178503
+        }
+      ]
+    },
+    "H": {
+      "snps": {
+        "ALL": 822653,
+        "stroma_S5": 92184,
+        "stroma_S10": 159323,
+        "stroma_S20": 258936,
+        "epithelium_S5": 85146,
+        "epithelium_S10": 150323,
+        "epithelium_S20": 252638,
+        "endothelium_S5": 76544,
+        "endothelium_S10": 122232,
+        "endothelium_S20": 202602,
+        "immune_S5": 84088,
+        "immune_S10": 131234,
+        "immune_S20": 186645,
+        "mesenchymal_S10": 159732
+      },
+      "hm3": {
+        "ALL": 128994,
+        "stroma_S5": 14697,
+        "stroma_S10": 25388,
+        "stroma_S20": 41169,
+        "epithelium_S5": 13185,
+        "epithelium_S10": 23707,
+        "epithelium_S20": 39583,
+        "endothelium_S5": 11744,
+        "endothelium_S10": 18716,
+        "endothelium_S20": 31172,
+        "immune_S5": 12823,
+        "immune_S10": 20084,
+        "immune_S20": 28424,
+        "mesenchymal_S10": 25449
+      }
+    }
+  }
+}

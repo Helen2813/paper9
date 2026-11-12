@@ -1131,3 +1131,52 @@
     6. Non-finite values in LSI / Harmony embeddings are checked (stop if any). The v072 sklearn "divide by zero /
        overflow in matmul" warnings match the known spurious warnings of the macOS Accelerate BLAS; they are suppressed.
   - CH-1..CH-3 unchanged; final test rules (v0.2.63) after the v073 audit and before any GWAS file is read.
+- 2026-11-11 v0.2.63 (after the v073 log; before v074; no GWAS file read for the chromatin line):
+  - v073: Harmony removed the library structure (most clusters drew on 11-13 libraries), but G1 still FAILED: 20.4%
+    unassigned. All six unassigned clusters were close calls between related labels inside one compartment
+    (stroma vs perivascular: 4 clusters, 5,104 cells; epithelium vs ciliated: 2 clusters, 2,246 cells), because the
+    flat rule scored related labels against each other. G4 not evaluable: GSE246585 Peak.ID values are
+    chrom_start_end strings starting with GL contigs (only the first value was tested); GSE104720 Table S1 has its
+    header on row 3 ("Peak.Chromosome", hg19).
+  - Technical changes for v074 (G1-G3 thresholds unchanged):
+    1. Hierarchical labels: compartment first (mesenchymal = max(stroma, perivascular) score, epithelial =
+       max(epithelium, ciliated), endothelium, immune), assigned if the top compartment score >= 0.5 and its margin
+       >= 0.25; inside mesenchymal and epithelial the sub-type needs a margin >= 0.25, else "mesenchymal_unresolved" /
+       "epithelial_unresolved".
+    2. Analysis lineages: stroma = confident stroma only; perivascular = confident perivascular (comparator if >= 6
+       units); epithelium = all epithelial-compartment cells (incl. ciliated and unresolved); unresolved mesenchymal
+       cells are left out of stroma and out of the comparators.
+    3. Sensitivity annotation mesenchymal_S10: all mesenchymal-compartment cells vs epithelium, endothelium and immune.
+    4. G1 evaluated at compartment level: mesenchymal vs published stroma, epithelial vs published epithelium +
+       ciliated, immune and endothelium >= 100 cells, compartment-unassigned <= 10% (the publication did not split
+       mesenchymal cells). The share of confident stroma among mesenchymal cells is reported.
+    5. Peak tables: a coordinate column is accepted if >= 90% of its values parse as chrom[:_.-]start[-_.:]end; a header
+       row below title rows is located automatically (first row naming chrom and start).
+  - CH-1..CH-3 apply to the confident-stroma annotation (stroma_S10); mesenchymal_S10 is a pre-declared sensitivity.
+    Final S-LDSC rules (v0.2.64) after the v074 audit, before any GWAS file is read.
+- 2026-11-11 v0.2.64 (after the GWAS-free v074 audit; before v075, the first run that reads GWAS for the chromatin line):
+  - v074 audit: all gates PASS. G1: mesenchymal 46.7% (published stroma 46.6%), epithelial 42.7% (45.6%), immune 6.1%,
+    endothelium 1.3%, unassigned 3.2%; confident stroma = 76.5% of mesenchymal cells (3,959 mesenchymal cells
+    unresolved between stroma and perivascular; no confident perivascular cluster). G3: stroma, epithelium, immune 12
+    units; endothelium 9. G4 (GSE246585, GRCh38, 110,687 culture peaks): top-10% peaks overlapping culture peaks:
+    stroma 67.1%, mesenchymal 67.3%, endothelium 43.5%, immune 41.3%, epithelium 32.3% (ALL 23.9%); stroma vs
+    epithelium OR 4.29. Specificity strength (top-10% t threshold / mean log2 difference): stroma 2.91 / 1.44,
+    epithelium 3.23 / 1.55, endothelium 0.71 / 0.58, immune 0.94 / 0.73. Jaccard stroma_S10 vs mesenchymal_S10 0.96.
+    LD scores for 14 annotations (ALL 8.2% of reference SNPs; stroma_S10 1.6%).
+  - Final rules for v075 (S-LDSC h2-cts; baseline v1.2; weights hm3_no_MHC; every annotation fitted with ALL):
+    - CH-1: KOLLER_EUR, stroma_S10 coefficient > 0 (one-sided p < 0.05).
+    - CH-2: KOLLER_EUR, stroma_S10 coefficient > epithelium_S10 coefficient in one model. Implemented by
+      re-parameterisation: model with stroma_S10, (stroma_S10 + epithelium_S10) and ALL; the stroma_S10 coefficient
+      equals tau_stroma - tau_epithelium, with its block-jackknife SE (one-sided p < 0.05). The sum annotation's LD
+      scores and M values are the sums of the two annotations'.
+    - CH-3: KOLLER_EUR, stroma_S10 has the largest coefficient z among stroma, epithelium, endothelium, immune (S10).
+      Endothelium and immune annotations are weakly specific; a rank above them is the weaker part of CH-3.
+    - Replication (non-independent of KOLLER_EUR): GCST90205183, ENDO_ALL, stroma_S10 reported with the same test.
+    - Controls: HYPERTENSION and T2D; the result is called trait-specific only if stroma_S10 has p >= 0.05 for both.
+      LEIOMYOMA descriptive (lineage ranking).
+    - Sensitivity (descriptive): stroma_S5, stroma_S20, mesenchymal_S10 (almost the same peaks as stroma_S10, not an
+      independent check); conditional fits stroma | epithelium and epithelium | stroma.
+    - Stopping rule: if CH-1 is not supported, the chromatin line ends and is reported as a negative result.
+    - Interpretation: a positive result means that endometriosis heritability concentrates in accessible chromatin
+      specific to endometrial stromal cells (vs epithelium); it cannot separate stroma from perivascular cells (24% of
+      mesenchymal cells unresolved) and does not identify a causal cell or the origin of lesions.

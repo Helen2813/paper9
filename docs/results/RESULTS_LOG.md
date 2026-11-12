@@ -1190,3 +1190,26 @@ epithelium 32.4%, ciliated 0, endothelium 410, immune 2,363 -> G1 FAIL. Many clu
 Specificity: stroma and epithelium top-10% sets well separated (t >= 3.3; mean log2 difference 1.8-2.0; Jaccard 0.03);
 endothelium and immune weak (t >= 0.8 / 1.2; mean difference 0.8). GSE246585 matrix: 118,017 peaks x 40 samples with
 Peak.ID only (no coordinates) -> G4 not evaluable. No LD scores. Labels to be redone with Harmony (v073, rules v0.2.62).
+
+## 2026-11-11 · run p9_v073_scatac_labels_20261111T172039Z · GSE183771 labels with Harmony (no GWAS)
+
+Harmony by library: clusters now mix libraries (most 11-13 of 13; largest library share mostly < 30%). Flat labels:
+stroma 35.7%, epithelium 36.5%, endothelium 458, immune 2,195, perivascular 0, ciliated 0, unassigned 20.4% -> G1 FAIL.
+Unassigned clusters were within-compartment close calls: stroma vs perivascular (clusters 3, 14, 21, 27; e.g. 27:
+perivascular 2.02 vs stroma 1.86) and epithelium vs ciliated (13, 19). Units: stroma 12, epithelium 12, endothelium 9,
+immune 12 (G3 PASS); S19_17204 now 388 stromal cells (v072: 1). Specificity (width <= 5 kb; ALL 240,290 peaks,
+229.8 Mb; 9,112 wider merged intervals, 81.3 Mb, excluded): stroma t >= 2.91 (mean log2 difference 1.43), epithelium
+3.26 (1.55), endothelium 0.71 (0.58), immune 0.94 (0.73). GSE246585 Peak.ID = chrom_start_end (first rows GL contigs);
+GSE104720 Table S1 header on row 3 -> neither parsed -> G4 not evaluable. No LD scores.
+
+## 2026-11-11 · run p9_v074_scatac_hier_20261111T234820Z · GSE183771 hierarchical labels, annotations, LD scores (no GWAS)
+
+Gates: G1 PASS (mesenchymal 46.7% vs published stroma 46.6%; epithelial 42.7% vs 45.6%; immune 6.1%; endothelium
+1.3%; unassigned 3.2%), G2 PASS (99.81% lifted), G3 PASS (stroma / epithelium / immune 12 units, endothelium 9),
+G4 PASS (GSE246585 Peak.ID parsed, GRCh38 by overlap 74.7% vs 21.3%; culture-peak overlap of top-10% peaks:
+stroma 67.1%, endothelium 43.5%, immune 41.3%, epithelium 32.3%, ALL 23.9%; stroma vs epithelium OR 4.29).
+Labels: stroma 12,895; mesenchymal unresolved 3,959 (stroma vs perivascular close calls; confident stroma 76.5% of
+mesenchymal); epithelium 13,175 + 2,246 unresolved epithelial; immune 2,195; endothelium 458; unassigned 1,145.
+Annotations: ALL 240,290 peaks (229.8 Mb, 822,653 reference SNPs); stroma_S10 159,323 SNPs; epithelium_S10 150,323;
+endothelium_S10 122,232; immune_S10 131,234; mesenchymal_S10 159,732 (Jaccard with stroma_S10 0.96). LD scores for
+14 annotations, 22 chromosomes, full-annotation mode, 17 min.
